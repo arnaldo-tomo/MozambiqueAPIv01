@@ -1,132 +1,694 @@
 <!DOCTYPE html>
-<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
-    <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
+<html lang="en">
+<!-- Mirrored from protocol.tailwindui.com/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 19 Jan 2023 12:39:36 GMT -->
+<!-- Added by HTTrack -->
+<meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
 
-        <title>Laravel</title>
+<head>
+    <meta charSet="utf-8" />
+    <meta name="viewport" content="width=device-width" />
+    <title>Protocol API Reference</title>
+    <meta name="description"
+        content="Learn everything there is to know about the Protocol API and integrate Protocol into your product." />
+    <meta name="next-head-count" content="4" />
+    <script>
+        let darkModeMediaQuery = window.matchMedia('(prefers-color-scheme: dark)')
 
-        <!-- Fonts -->
-        <link href="https://fonts.bunny.net/css2?family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+        updateMode()
+        darkModeMediaQuery.addEventListener('change', updateModeWithoutTransitions)
+        window.addEventListener('storage', updateModeWithoutTransitions)
 
-        <!-- Styles -->
-        <style>
-            /*! normalize.css v8.0.1 | MIT License | github.com/necolas/normalize.css */html{line-height:1.15;-webkit-text-size-adjust:100%}body{margin:0}a{background-color:transparent}[hidden]{display:none}html{font-family:system-ui,-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Helvetica Neue,Arial,Noto Sans,sans-serif,Apple Color Emoji,Segoe UI Emoji,Segoe UI Symbol,Noto Color Emoji;line-height:1.5}*,:after,:before{box-sizing:border-box;border:0 solid #e2e8f0}a{color:inherit;text-decoration:inherit}svg,video{display:block;vertical-align:middle}video{max-width:100%;height:auto}.bg-white{--tw-bg-opacity: 1;background-color:rgb(255 255 255 / var(--tw-bg-opacity))}.bg-gray-100{--tw-bg-opacity: 1;background-color:rgb(243 244 246 / var(--tw-bg-opacity))}.border-gray-200{--tw-border-opacity: 1;border-color:rgb(229 231 235 / var(--tw-border-opacity))}.border-t{border-top-width:1px}.flex{display:flex}.grid{display:grid}.hidden{display:none}.items-center{align-items:center}.justify-center{justify-content:center}.font-semibold{font-weight:600}.h-5{height:1.25rem}.h-8{height:2rem}.h-16{height:4rem}.text-sm{font-size:.875rem}.text-lg{font-size:1.125rem}.leading-7{line-height:1.75rem}.mx-auto{margin-left:auto;margin-right:auto}.ml-1{margin-left:.25rem}.mt-2{margin-top:.5rem}.mr-2{margin-right:.5rem}.ml-2{margin-left:.5rem}.mt-4{margin-top:1rem}.ml-4{margin-left:1rem}.mt-8{margin-top:2rem}.ml-12{margin-left:3rem}.-mt-px{margin-top:-1px}.max-w-6xl{max-width:72rem}.min-h-screen{min-height:100vh}.overflow-hidden{overflow:hidden}.p-6{padding:1.5rem}.py-4{padding-top:1rem;padding-bottom:1rem}.px-6{padding-left:1.5rem;padding-right:1.5rem}.pt-8{padding-top:2rem}.fixed{position:fixed}.relative{position:relative}.top-0{top:0}.right-0{right:0}.shadow{--tw-shadow: 0 1px 3px 0 rgb(0 0 0 / .1), 0 1px 2px -1px rgb(0 0 0 / .1);--tw-shadow-colored: 0 1px 3px 0 var(--tw-shadow-color), 0 1px 2px -1px var(--tw-shadow-color);box-shadow:var(--tw-ring-offset-shadow, 0 0 #0000),var(--tw-ring-shadow, 0 0 #0000),var(--tw-shadow)}.text-center{text-align:center}.text-gray-200{--tw-text-opacity: 1;color:rgb(229 231 235 / var(--tw-text-opacity))}.text-gray-300{--tw-text-opacity: 1;color:rgb(209 213 219 / var(--tw-text-opacity))}.text-gray-400{--tw-text-opacity: 1;color:rgb(156 163 175 / var(--tw-text-opacity))}.text-gray-500{--tw-text-opacity: 1;color:rgb(107 114 128 / var(--tw-text-opacity))}.text-gray-600{--tw-text-opacity: 1;color:rgb(75 85 99 / var(--tw-text-opacity))}.text-gray-700{--tw-text-opacity: 1;color:rgb(55 65 81 / var(--tw-text-opacity))}.text-gray-900{--tw-text-opacity: 1;color:rgb(17 24 39 / var(--tw-text-opacity))}.underline{text-decoration:underline}.antialiased{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale}.w-5{width:1.25rem}.w-8{width:2rem}.w-auto{width:auto}.grid-cols-1{grid-template-columns:repeat(1,minmax(0,1fr))}@media (min-width:640px){.sm\:rounded-lg{border-radius:.5rem}.sm\:block{display:block}.sm\:items-center{align-items:center}.sm\:justify-start{justify-content:flex-start}.sm\:justify-between{justify-content:space-between}.sm\:h-20{height:5rem}.sm\:ml-0{margin-left:0}.sm\:px-6{padding-left:1.5rem;padding-right:1.5rem}.sm\:pt-0{padding-top:0}.sm\:text-left{text-align:left}.sm\:text-right{text-align:right}}@media (min-width:768px){.md\:border-t-0{border-top-width:0}.md\:border-l{border-left-width:1px}.md\:grid-cols-2{grid-template-columns:repeat(2,minmax(0,1fr))}}@media (min-width:1024px){.lg\:px-8{padding-left:2rem;padding-right:2rem}}@media (prefers-color-scheme:dark){.dark\:bg-gray-800{--tw-bg-opacity: 1;background-color:rgb(31 41 55 / var(--tw-bg-opacity))}.dark\:bg-gray-900{--tw-bg-opacity: 1;background-color:rgb(17 24 39 / var(--tw-bg-opacity))}.dark\:border-gray-700{--tw-border-opacity: 1;border-color:rgb(55 65 81 / var(--tw-border-opacity))}.dark\:text-white{--tw-text-opacity: 1;color:rgb(255 255 255 / var(--tw-text-opacity))}.dark\:text-gray-400{--tw-text-opacity: 1;color:rgb(156 163 175 / var(--tw-text-opacity))}.dark\:text-gray-500{--tw-text-opacity: 1;color:rgb(107 114 128 / var(--tw-text-opacity))}}
-        </style>
+        function updateMode() {
+            let isSystemDarkMode = darkModeMediaQuery.matches
+            let isDarkMode = window.localStorage.isDarkMode === 'true' || (!('isDarkMode' in window.localStorage) &&
+                isSystemDarkMode)
 
-        <style>
-            body {
-                font-family: 'Nunito', sans-serif;
+            if (isDarkMode) {
+                document.documentElement.classList.add('dark')
+            } else {
+                document.documentElement.classList.remove('dark')
             }
-        </style>
-    </head>
-    <body class="antialiased">
-        <div class="relative flex items-top justify-center min-h-screen bg-gray-100 dark:bg-gray-900 sm:items-center py-4 sm:pt-0">
-            @if (Route::has('login'))
-                <div class="hidden fixed top-0 right-0 px-6 py-4 sm:block">
-                    @auth
-                        <a href="{{ url('/home') }}" class="text-sm text-gray-700 dark:text-gray-500 underline">Home</a>
-                    @else
-                        <a href="{{ route('login') }}" class="text-sm text-gray-700 dark:text-gray-500 underline">Log in</a>
 
-                        @if (Route::has('register'))
-                            <a href="{{ route('register') }}" class="ml-4 text-sm text-gray-700 dark:text-gray-500 underline">Register</a>
-                        @endif
-                    @endauth
-                </div>
-            @endif
+            if (isDarkMode === isSystemDarkMode) {
+                delete window.localStorage.isDarkMode
+            }
+        }
 
-            <div class="max-w-6xl mx-auto sm:px-6 lg:px-8">
-                <div class="flex justify-center pt-8 sm:justify-start sm:pt-0">
-                    <svg viewBox="0 0 651 192" fill="none" xmlns="http://www.w3.org/2000/svg" class="h-16 w-auto text-gray-700 sm:h-20">
-                        <g clip-path="url(#clip0)" fill="#EF3B2D">
-                            <path d="M248.032 44.676h-16.466v100.23h47.394v-14.748h-30.928V44.676zM337.091 87.202c-2.101-3.341-5.083-5.965-8.949-7.875-3.865-1.909-7.756-2.864-11.669-2.864-5.062 0-9.69.931-13.89 2.792-4.201 1.861-7.804 4.417-10.811 7.661-3.007 3.246-5.347 6.993-7.016 11.239-1.672 4.249-2.506 8.713-2.506 13.389 0 4.774.834 9.26 2.506 13.459 1.669 4.202 4.009 7.925 7.016 11.169 3.007 3.246 6.609 5.799 10.811 7.66 4.199 1.861 8.828 2.792 13.89 2.792 3.913 0 7.804-.955 11.669-2.863 3.866-1.908 6.849-4.533 8.949-7.875v9.021h15.607V78.182h-15.607v9.02zm-1.431 32.503c-.955 2.578-2.291 4.821-4.009 6.73-1.719 1.91-3.795 3.437-6.229 4.582-2.435 1.146-5.133 1.718-8.091 1.718-2.96 0-5.633-.572-8.019-1.718-2.387-1.146-4.438-2.672-6.156-4.582-1.719-1.909-3.032-4.152-3.938-6.73-.909-2.577-1.36-5.298-1.36-8.161 0-2.864.451-5.585 1.36-8.162.905-2.577 2.219-4.819 3.938-6.729 1.718-1.908 3.77-3.437 6.156-4.582 2.386-1.146 5.059-1.718 8.019-1.718 2.958 0 5.656.572 8.091 1.718 2.434 1.146 4.51 2.674 6.229 4.582 1.718 1.91 3.054 4.152 4.009 6.729.953 2.577 1.432 5.298 1.432 8.162-.001 2.863-.479 5.584-1.432 8.161zM463.954 87.202c-2.101-3.341-5.083-5.965-8.949-7.875-3.865-1.909-7.756-2.864-11.669-2.864-5.062 0-9.69.931-13.89 2.792-4.201 1.861-7.804 4.417-10.811 7.661-3.007 3.246-5.347 6.993-7.016 11.239-1.672 4.249-2.506 8.713-2.506 13.389 0 4.774.834 9.26 2.506 13.459 1.669 4.202 4.009 7.925 7.016 11.169 3.007 3.246 6.609 5.799 10.811 7.66 4.199 1.861 8.828 2.792 13.89 2.792 3.913 0 7.804-.955 11.669-2.863 3.866-1.908 6.849-4.533 8.949-7.875v9.021h15.607V78.182h-15.607v9.02zm-1.432 32.503c-.955 2.578-2.291 4.821-4.009 6.73-1.719 1.91-3.795 3.437-6.229 4.582-2.435 1.146-5.133 1.718-8.091 1.718-2.96 0-5.633-.572-8.019-1.718-2.387-1.146-4.438-2.672-6.156-4.582-1.719-1.909-3.032-4.152-3.938-6.73-.909-2.577-1.36-5.298-1.36-8.161 0-2.864.451-5.585 1.36-8.162.905-2.577 2.219-4.819 3.938-6.729 1.718-1.908 3.77-3.437 6.156-4.582 2.386-1.146 5.059-1.718 8.019-1.718 2.958 0 5.656.572 8.091 1.718 2.434 1.146 4.51 2.674 6.229 4.582 1.718 1.91 3.054 4.152 4.009 6.729.953 2.577 1.432 5.298 1.432 8.162 0 2.863-.479 5.584-1.432 8.161zM650.772 44.676h-15.606v100.23h15.606V44.676zM365.013 144.906h15.607V93.538h26.776V78.182h-42.383v66.724zM542.133 78.182l-19.616 51.096-19.616-51.096h-15.808l25.617 66.724h19.614l25.617-66.724h-15.808zM591.98 76.466c-19.112 0-34.239 15.706-34.239 35.079 0 21.416 14.641 35.079 36.239 35.079 12.088 0 19.806-4.622 29.234-14.688l-10.544-8.158c-.006.008-7.958 10.449-19.832 10.449-13.802 0-19.612-11.127-19.612-16.884h51.777c2.72-22.043-11.772-40.877-33.023-40.877zm-18.713 29.28c.12-1.284 1.917-16.884 18.589-16.884 16.671 0 18.697 15.598 18.813 16.884h-37.402zM184.068 43.892c-.024-.088-.073-.165-.104-.25-.058-.157-.108-.316-.191-.46-.056-.097-.137-.176-.203-.265-.087-.117-.161-.242-.265-.345-.085-.086-.194-.148-.29-.223-.109-.085-.206-.182-.327-.252l-.002-.001-.002-.002-35.648-20.524a2.971 2.971 0 00-2.964 0l-35.647 20.522-.002.002-.002.001c-.121.07-.219.167-.327.252-.096.075-.205.138-.29.223-.103.103-.178.228-.265.345-.066.089-.147.169-.203.265-.083.144-.133.304-.191.46-.031.085-.08.162-.104.25-.067.249-.103.51-.103.776v38.979l-29.706 17.103V24.493a3 3 0 00-.103-.776c-.024-.088-.073-.165-.104-.25-.058-.157-.108-.316-.191-.46-.056-.097-.137-.176-.203-.265-.087-.117-.161-.242-.265-.345-.085-.086-.194-.148-.29-.223-.109-.085-.206-.182-.327-.252l-.002-.001-.002-.002L40.098 1.396a2.971 2.971 0 00-2.964 0L1.487 21.919l-.002.002-.002.001c-.121.07-.219.167-.327.252-.096.075-.205.138-.29.223-.103.103-.178.228-.265.345-.066.089-.147.169-.203.265-.083.144-.133.304-.191.46-.031.085-.08.162-.104.25-.067.249-.103.51-.103.776v122.09c0 1.063.568 2.044 1.489 2.575l71.293 41.045c.156.089.324.143.49.202.078.028.15.074.23.095a2.98 2.98 0 001.524 0c.069-.018.132-.059.2-.083.176-.061.354-.119.519-.214l71.293-41.045a2.971 2.971 0 001.489-2.575v-38.979l34.158-19.666a2.971 2.971 0 001.489-2.575V44.666a3.075 3.075 0 00-.106-.774zM74.255 143.167l-29.648-16.779 31.136-17.926.001-.001 34.164-19.669 29.674 17.084-21.772 12.428-43.555 24.863zm68.329-76.259v33.841l-12.475-7.182-17.231-9.92V49.806l12.475 7.182 17.231 9.92zm2.97-39.335l29.693 17.095-29.693 17.095-29.693-17.095 29.693-17.095zM54.06 114.089l-12.475 7.182V46.733l17.231-9.92 12.475-7.182v74.537l-17.231 9.921zM38.614 7.398l29.693 17.095-29.693 17.095L8.921 24.493 38.614 7.398zM5.938 29.632l12.475 7.182 17.231 9.92v79.676l.001.005-.001.006c0 .114.032.221.045.333.017.146.021.294.059.434l.002.007c.032.117.094.222.14.334.051.124.088.255.156.371a.036.036 0 00.004.009c.061.105.149.191.222.288.081.105.149.22.244.314l.008.01c.084.083.19.142.284.215.106.083.202.178.32.247l.013.005.011.008 34.139 19.321v34.175L5.939 144.867V29.632h-.001zm136.646 115.235l-65.352 37.625V148.31l48.399-27.628 16.953-9.677v33.862zm35.646-61.22l-29.706 17.102V66.908l17.231-9.92 12.475-7.182v33.841z"/>
-                        </g>
-                    </svg>
-                </div>
+        function disableTransitionsTemporarily() {
+            document.documentElement.classList.add('[&_*]:!transition-none')
+            window.setTimeout(() => {
+                document.documentElement.classList.remove('[&_*]:!transition-none')
+            }, 0)
+        }
 
-                <div class="mt-8 bg-white dark:bg-gray-800 overflow-hidden shadow sm:rounded-lg">
-                    <div class="grid grid-cols-1 md:grid-cols-2">
-                        <div class="p-6">
-                            <div class="flex items-center">
-                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 h-8 text-gray-500"><path stroke-linecap="round" stroke-linejoin="round" d="M12 6.042A8.967 8.967 0 006 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 016 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 016-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0018 18a8.967 8.967 0 00-6 2.292m0-14.25v14.25" /></svg>
-                                <div class="ml-4 text-lg leading-7 font-semibold"><a href="https://laravel.com/docs" class="underline text-gray-900 dark:text-white">Documentation</a></div>
-                            </div>
+        function updateModeWithoutTransitions() {
+            disableTransitionsTemporarily()
+            updateMode()
+        }
 
-                            <div class="ml-12">
-                                <div class="mt-2 text-gray-600 dark:text-gray-400 text-sm">
-                                    Laravel has wonderful, thorough documentation covering every aspect of the framework. Whether you are new to the framework or have previous experience with Laravel, we recommend reading all of the documentation from beginning to end.
-                                </div>
-                            </div>
+    </script>
+    <link rel="preload" href="_next/static/css/5973ac107865555a.css" as="style" />
+    <link rel="stylesheet" href="_next/static/css/5973ac107865555a.css" data-n-g="" /><noscript
+        data-n-css=""></noscript>
+    <script defer="" nomodule="" src="_next/static/chunks/polyfills-c67a75d1b6f99dc8.js"></script>
+    <script src="_next/static/chunks/webpack-59c5c889f52620d6.js" defer=""></script>
+    <script src="_next/static/chunks/framework-3b5a00d5d7e8d93b.js" defer=""></script>
+    <script src="_next/static/chunks/main-1f2538228a1f74e7.js" defer=""></script>
+    <script src="_next/static/chunks/pages/_app-8345f5f9c4ee5ac7.js" defer=""></script>
+    <script src="_next/static/chunks/pages/index-42a012a1b8a01edb.js" defer=""></script>
+    <script src="_next/static/WA_UIYXxpLGp_ZNykk82c/_buildManifest.js" defer=""></script>
+    <script src="_next/static/WA_UIYXxpLGp_ZNykk82c/_ssgManifest.js" defer=""></script>
+</head>
+
+<body class="bg-white antialiased dark:bg-zinc-900">
+    <div id="__next">
+        <div class="lg:ml-72 xl:ml-80">
+            <header class="contents lg:pointer-events-none lg:fixed lg:inset-0 lg:z-40 lg:flex">
+                <div
+                    class="contents lg:pointer-events-auto lg:block lg:w-72 lg:overflow-y-auto lg:border-r lg:border-zinc-900/10 lg:px-6 lg:pt-4 lg:pb-8 lg:dark:border-white/10 xl:w-80">
+                    <div class="hidden lg:flex"><a aria-label="Home" href="index.html"><svg viewBox="0 0 99 24"
+                                aria-hidden="true" class="h-6">
+                                <path class="fill-emerald-400"
+                                    d="M16 8a5 5 0 0 0-5-5H5a5 5 0 0 0-5 5v13.927a1 1 0 0 0 1.623.782l3.684-2.93a4 4 0 0 1 2.49-.87H11a5 5 0 0 0 5-5V8Z">
+                                </path>
+                                <path class="fill-zinc-900 dark:fill-white"
+                                    d="M26.538 18h2.654v-3.999h2.576c2.672 0 4.456-1.723 4.456-4.333V9.65c0-2.61-1.784-4.333-4.456-4.333h-5.23V18Zm4.58-10.582c1.52 0 2.416.8 2.416 2.241v.018c0 1.441-.896 2.25-2.417 2.25h-1.925V7.418h1.925ZM38.051 18h2.566v-5.414c0-1.371.923-2.206 2.382-2.206.396 0 .791.061 1.178.15V8.287a3.843 3.843 0 0 0-.958-.123c-1.257 0-2.136.615-2.443 1.661h-.159V8.323h-2.566V18Zm11.55.202c2.979 0 4.772-1.88 4.772-5.036v-.018c0-3.128-1.82-5.036-4.773-5.036-2.953 0-4.772 1.916-4.772 5.036v.018c0 3.146 1.793 5.036 4.772 5.036Zm0-2.013c-1.372 0-2.145-1.116-2.145-3.023v-.018c0-1.89.782-3.023 2.144-3.023 1.354 0 2.145 1.134 2.145 3.023v.018c0 1.907-.782 3.023-2.145 3.023Zm10.52 1.846c.492 0 .967-.053 1.283-.114v-1.907a6.057 6.057 0 0 1-.755.044c-.87 0-1.24-.387-1.24-1.257v-4.544h1.995V8.323H59.41V6.012h-2.592v2.311h-1.495v1.934h1.495v5.133c0 1.88.949 2.645 3.304 2.645Zm7.287.167c2.98 0 4.772-1.88 4.772-5.036v-.018c0-3.128-1.82-5.036-4.772-5.036-2.954 0-4.773 1.916-4.773 5.036v.018c0 3.146 1.793 5.036 4.773 5.036Zm0-2.013c-1.372 0-2.145-1.116-2.145-3.023v-.018c0-1.89.782-3.023 2.145-3.023 1.353 0 2.144 1.134 2.144 3.023v.018c0 1.907-.782 3.023-2.144 3.023Zm10.767 2.013c2.522 0 4.034-1.353 4.297-3.463l.01-.053h-2.374l-.017.036c-.229.966-.853 1.467-1.908 1.467-1.37 0-2.135-1.08-2.135-3.04v-.018c0-1.934.755-3.006 2.135-3.006 1.099 0 1.74.615 1.908 1.556l.008.017h2.391v-.026c-.228-2.162-1.749-3.56-4.315-3.56-3.033 0-4.738 1.837-4.738 5.019v.017c0 3.217 1.714 5.054 4.738 5.054Zm10.257 0c2.98 0 4.772-1.88 4.772-5.036v-.018c0-3.128-1.82-5.036-4.772-5.036-2.953 0-4.773 1.916-4.773 5.036v.018c0 3.146 1.793 5.036 4.773 5.036Zm0-2.013c-1.371 0-2.145-1.116-2.145-3.023v-.018c0-1.89.782-3.023 2.145-3.023 1.353 0 2.144 1.134 2.144 3.023v.018c0 1.907-.782 3.023-2.144 3.023ZM95.025 18h2.566V4.623h-2.566V18Z">
+                                </path>
+                            </svg></a></div>
+                    <div class="fixed inset-x-0 top-0 z-50 flex h-14 items-center justify-between gap-12 px-4 transition sm:px-6 lg:left-72 lg:z-30 lg:px-8 xl:left-80 backdrop-blur-sm dark:backdrop-blur lg:left-72 xl:left-80 bg-white/[var(--bg-opacity-light)] dark:bg-zinc-900/[var(--bg-opacity-dark)]"
+                        style="--bg-opacity-light:0.5;--bg-opacity-dark:0.2">
+                        <div class="absolute inset-x-0 top-full h-px transition bg-zinc-900/7.5 dark:bg-white/7.5">
                         </div>
-
-                        <div class="p-6 border-t border-gray-200 dark:border-gray-700 md:border-t-0 md:border-l">
-                            <div class="flex items-center">
-                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 h-8 text-gray-500"><path stroke-linecap="round" d="M15.75 10.5l4.72-4.72a.75.75 0 011.28.53v11.38a.75.75 0 01-1.28.53l-4.72-4.72M4.5 18.75h9a2.25 2.25 0 002.25-2.25v-9a2.25 2.25 0 00-2.25-2.25h-9A2.25 2.25 0 002.25 7.5v9a2.25 2.25 0 002.25 2.25z" /></svg>
-                                <div class="ml-4 text-lg leading-7 font-semibold"><a href="https://laracasts.com" class="underline text-gray-900 dark:text-white">Laracasts</a></div>
+                        <div class="hidden lg:block lg:max-w-md lg:flex-auto"><button type="button"
+                                class="hidden h-8 w-full items-center gap-2 rounded-full bg-white pl-2 pr-3 text-sm text-zinc-500 ring-1 ring-zinc-900/10 transition hover:ring-zinc-900/20 dark:bg-white/5 dark:text-zinc-400 dark:ring-inset dark:ring-white/10 dark:hover:ring-white/20 lg:flex focus:[&amp;:not(:focus-visible)]:outline-none"><svg
+                                    viewBox="0 0 20 20" fill="none" aria-hidden="true" class="h-5 w-5 stroke-current">
+                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                        d="M12.01 12a4.25 4.25 0 1 0-6.02-6 4.25 4.25 0 0 0 6.02 6Zm0 0 3.24 3.25">
+                                    </path>
+                                </svg>Find something...<kbd
+                                    class="ml-auto text-2xs text-zinc-400 dark:text-zinc-500"><kbd
+                                        class="font-sans"></kbd><kbd class="font-sans">K</kbd></kbd></button></div>
+                        <div class="flex items-center gap-5 lg:hidden"><button type="button"
+                                class="flex h-6 w-6 items-center justify-center rounded-md transition hover:bg-zinc-900/5 dark:hover:bg-white/5"
+                                aria-label="Toggle navigation"><svg viewBox="0 0 10 9" fill="none"
+                                    stroke-linecap="round" aria-hidden="true"
+                                    class="w-2.5 stroke-zinc-900 dark:stroke-white">
+                                    <path d="M.5 1h9M.5 8h9M.5 4.5h9"></path>
+                                </svg></button><a aria-label="Home" href="index.html"><svg viewBox="0 0 99 24"
+                                    aria-hidden="true" class="h-6">
+                                    <path class="fill-emerald-400"
+                                        d="M16 8a5 5 0 0 0-5-5H5a5 5 0 0 0-5 5v13.927a1 1 0 0 0 1.623.782l3.684-2.93a4 4 0 0 1 2.49-.87H11a5 5 0 0 0 5-5V8Z">
+                                    </path>
+                                    <path class="fill-zinc-900 dark:fill-white"
+                                        d="M26.538 18h2.654v-3.999h2.576c2.672 0 4.456-1.723 4.456-4.333V9.65c0-2.61-1.784-4.333-4.456-4.333h-5.23V18Zm4.58-10.582c1.52 0 2.416.8 2.416 2.241v.018c0 1.441-.896 2.25-2.417 2.25h-1.925V7.418h1.925ZM38.051 18h2.566v-5.414c0-1.371.923-2.206 2.382-2.206.396 0 .791.061 1.178.15V8.287a3.843 3.843 0 0 0-.958-.123c-1.257 0-2.136.615-2.443 1.661h-.159V8.323h-2.566V18Zm11.55.202c2.979 0 4.772-1.88 4.772-5.036v-.018c0-3.128-1.82-5.036-4.773-5.036-2.953 0-4.772 1.916-4.772 5.036v.018c0 3.146 1.793 5.036 4.772 5.036Zm0-2.013c-1.372 0-2.145-1.116-2.145-3.023v-.018c0-1.89.782-3.023 2.144-3.023 1.354 0 2.145 1.134 2.145 3.023v.018c0 1.907-.782 3.023-2.145 3.023Zm10.52 1.846c.492 0 .967-.053 1.283-.114v-1.907a6.057 6.057 0 0 1-.755.044c-.87 0-1.24-.387-1.24-1.257v-4.544h1.995V8.323H59.41V6.012h-2.592v2.311h-1.495v1.934h1.495v5.133c0 1.88.949 2.645 3.304 2.645Zm7.287.167c2.98 0 4.772-1.88 4.772-5.036v-.018c0-3.128-1.82-5.036-4.772-5.036-2.954 0-4.773 1.916-4.773 5.036v.018c0 3.146 1.793 5.036 4.773 5.036Zm0-2.013c-1.372 0-2.145-1.116-2.145-3.023v-.018c0-1.89.782-3.023 2.145-3.023 1.353 0 2.144 1.134 2.144 3.023v.018c0 1.907-.782 3.023-2.144 3.023Zm10.767 2.013c2.522 0 4.034-1.353 4.297-3.463l.01-.053h-2.374l-.017.036c-.229.966-.853 1.467-1.908 1.467-1.37 0-2.135-1.08-2.135-3.04v-.018c0-1.934.755-3.006 2.135-3.006 1.099 0 1.74.615 1.908 1.556l.008.017h2.391v-.026c-.228-2.162-1.749-3.56-4.315-3.56-3.033 0-4.738 1.837-4.738 5.019v.017c0 3.217 1.714 5.054 4.738 5.054Zm10.257 0c2.98 0 4.772-1.88 4.772-5.036v-.018c0-3.128-1.82-5.036-4.772-5.036-2.953 0-4.773 1.916-4.773 5.036v.018c0 3.146 1.793 5.036 4.773 5.036Zm0-2.013c-1.371 0-2.145-1.116-2.145-3.023v-.018c0-1.89.782-3.023 2.145-3.023 1.353 0 2.144 1.134 2.144 3.023v.018c0 1.907-.782 3.023-2.144 3.023ZM95.025 18h2.566V4.623h-2.566V18Z">
+                                    </path>
+                                </svg></a></div>
+                        <div class="flex items-center gap-5">
+                            <nav class="hidden md:block">
+                                <ul role="list" class="flex items-center gap-8">
+                                    <li><a class="text-sm leading-5 text-zinc-600 transition hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-white"
+                                            href="index.html">API</a></li>
+                                    <li><a class="text-sm leading-5 text-zinc-600 transition hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-white"
+                                            href="index.html#">Documentation</a></li>
+                                    <li><a class="text-sm leading-5 text-zinc-600 transition hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-white"
+                                            href="index.html#">Support</a></li>
+                                </ul>
+                            </nav>
+                            <div class="hidden md:block md:h-5 md:w-px md:bg-zinc-900/10 md:dark:bg-white/15"></div>
+                            <div class="flex gap-4">
+                                <div class="contents lg:hidden"><button type="button"
+                                        class="flex h-6 w-6 items-center justify-center rounded-md transition hover:bg-zinc-900/5 dark:hover:bg-white/5 lg:hidden focus:[&amp;:not(:focus-visible)]:outline-none"
+                                        aria-label="Find something..."><svg viewBox="0 0 20 20" fill="none"
+                                            aria-hidden="true" class="h-5 w-5 stroke-zinc-900 dark:stroke-white">
+                                            <path stroke-linecap="round" stroke-linejoin="round"
+                                                d="M12.01 12a4.25 4.25 0 1 0-6.02-6 4.25 4.25 0 0 0 6.02 6Zm0 0 3.24 3.25">
+                                            </path>
+                                        </svg></button></div><button type="button"
+                                    class="flex h-6 w-6 items-center justify-center rounded-md transition hover:bg-zinc-900/5 dark:hover:bg-white/5"
+                                    aria-label="Toggle dark mode"><svg viewBox="0 0 20 20" fill="none"
+                                        aria-hidden="true" class="h-5 w-5 stroke-zinc-900 dark:hidden">
+                                        <path d="M12.5 10a2.5 2.5 0 1 1-5 0 2.5 2.5 0 0 1 5 0Z"></path>
+                                        <path stroke-linecap="round"
+                                            d="M10 5.5v-1M13.182 6.818l.707-.707M14.5 10h1M13.182 13.182l.707.707M10 15.5v-1M6.11 13.889l.708-.707M4.5 10h1M6.11 6.111l.708.707">
+                                        </path>
+                                    </svg><svg viewBox="0 0 20 20" fill="none" aria-hidden="true"
+                                        class="hidden h-5 w-5 stroke-white dark:block">
+                                        <path d="M15.224 11.724a5.5 5.5 0 0 1-6.949-6.949 5.5 5.5 0 1 0 6.949 6.949Z">
+                                        </path>
+                                    </svg></button>
                             </div>
-
-                            <div class="ml-12">
-                                <div class="mt-2 text-gray-600 dark:text-gray-400 text-sm">
-                                    Laracasts offers thousands of video tutorials on Laravel, PHP, and JavaScript development. Check them out, see for yourself, and massively level up your development skills in the process.
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="p-6 border-t border-gray-200 dark:border-gray-700">
-                            <div class="flex items-center">
-                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 h-8 text-gray-500"><path stroke-linecap="round" stroke-linejoin="round" d="M7.5 8.25h9m-9 3H12m-9.75 1.51c0 1.6 1.123 2.994 2.707 3.227 1.129.166 2.27.293 3.423.379.35.026.67.21.865.501L12 21l2.755-4.133a1.14 1.14 0 01.865-.501 48.172 48.172 0 003.423-.379c1.584-.233 2.707-1.626 2.707-3.228V6.741c0-1.602-1.123-2.995-2.707-3.228A48.394 48.394 0 0012 3c-2.392 0-4.744.175-7.043.513C3.373 3.746 2.25 5.14 2.25 6.741v6.018z" /></svg>
-                                <div class="ml-4 text-lg leading-7 font-semibold"><a href="https://laravel-news.com/" class="underline text-gray-900 dark:text-white">Laravel News</a></div>
-                            </div>
-
-                            <div class="ml-12">
-                                <div class="mt-2 text-gray-600 dark:text-gray-400 text-sm">
-                                    Laravel News is a community driven portal and newsletter aggregating all of the latest and most important news in the Laravel ecosystem, including new package releases and tutorials.
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="p-6 border-t border-gray-200 dark:border-gray-700 md:border-l">
-                            <div class="flex items-center">
-                                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-8 h-8 text-gray-500"><path stroke-linecap="round" stroke-linejoin="round" d="M6.115 5.19l.319 1.913A6 6 0 008.11 10.36L9.75 12l-.387.775c-.217.433-.132.956.21 1.298l1.348 1.348c.21.21.329.497.329.795v1.089c0 .426.24.815.622 1.006l.153.076c.433.217.956.132 1.298-.21l.723-.723a8.7 8.7 0 002.288-4.042 1.087 1.087 0 00-.358-1.099l-1.33-1.108c-.251-.21-.582-.299-.905-.245l-1.17.195a1.125 1.125 0 01-.98-.314l-.295-.295a1.125 1.125 0 010-1.591l.13-.132a1.125 1.125 0 011.3-.21l.603.302a.809.809 0 001.086-1.086L14.25 7.5l1.256-.837a4.5 4.5 0 001.528-1.732l.146-.292M6.115 5.19A9 9 0 1017.18 4.64M6.115 5.19A8.965 8.965 0 0112 3c1.929 0 3.716.607 5.18 1.64" /></svg>
-                                <div class="ml-4 text-lg leading-7 font-semibold text-gray-900 dark:text-white">Vibrant Ecosystem</div>
-                            </div>
-
-                            <div class="ml-12">
-                                <div class="mt-2 text-gray-600 dark:text-gray-400 text-sm">
-                                    Laravel's robust library of first-party tools and libraries, such as <a href="https://forge.laravel.com" class="underline">Forge</a>, <a href="https://vapor.laravel.com" class="underline">Vapor</a>, <a href="https://nova.laravel.com" class="underline">Nova</a>, and <a href="https://envoyer.io" class="underline">Envoyer</a> help you take your projects to the next level. Pair them with powerful open source libraries like <a href="https://laravel.com/docs/billing" class="underline">Cashier</a>, <a href="https://laravel.com/docs/dusk" class="underline">Dusk</a>, <a href="https://laravel.com/docs/broadcasting" class="underline">Echo</a>, <a href="https://laravel.com/docs/horizon" class="underline">Horizon</a>, <a href="https://laravel.com/docs/sanctum" class="underline">Sanctum</a>, <a href="https://laravel.com/docs/telescope" class="underline">Telescope</a>, and more.
-                                </div>
-                            </div>
+                            <div class="hidden min-[416px]:contents"><a
+                                    class="inline-flex gap-0.5 justify-center overflow-hidden text-sm font-medium transition rounded-full bg-zinc-900 py-1 px-3 text-white hover:bg-zinc-700 dark:bg-emerald-400/10 dark:text-emerald-400 dark:ring-1 dark:ring-inset dark:ring-emerald-400/20 dark:hover:bg-emerald-400/10 dark:hover:text-emerald-300 dark:hover:ring-emerald-300"
+                                    href="index.html#">Sign in</a></div>
                         </div>
                     </div>
+                    <nav class="hidden lg:mt-10 lg:block">
+                        <ul role="list">
+                            <li class="md:hidden"><a
+                                    class="block py-1 text-sm text-zinc-600 transition hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-white"
+                                    href="index.html">API</a></li>
+                            <li class="md:hidden"><a
+                                    class="block py-1 text-sm text-zinc-600 transition hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-white"
+                                    href="index.html#">Documentation</a></li>
+                            <li class="md:hidden"><a
+                                    class="block py-1 text-sm text-zinc-600 transition hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-white"
+                                    href="index.html#">Support</a></li>
+                            <li class="relative mt-6 md:mt-0">
+                                <h2 class="text-xs font-semibold text-zinc-900 dark:text-white">Guides</h2>
+                                <div class="relative mt-3 pl-2">
+                                    <div class="absolute inset-x-0 top-0 bg-zinc-800/2.5 will-change-transform dark:bg-white/2.5"
+                                        style="border-radius:8px;height:32px;top:0;opacity:0"></div>
+                                    <div class="absolute inset-y-0 left-2 w-px bg-zinc-900/10 dark:bg-white/5"></div>
+                                    <div class="absolute left-2 h-6 w-px bg-emerald-500" style="top:4px;opacity:1">
+                                    </div>
+                                    <ul role="list" class="border-l border-transparent">
+                                        <li class="relative"><a aria-current="page"
+                                                class="flex justify-between gap-2 py-1 pr-3 text-sm transition pl-4 text-zinc-900 dark:text-white"
+                                                href="index.html"><span class="truncate">Introduction</span></a>
+                                            <ul role="list" style="opacity:1">
+                                                <li><a class="flex justify-between gap-2 py-1 pr-3 text-sm transition pl-7 text-zinc-600 hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-white"
+                                                        href="index.html#guides"><span
+                                                            class="truncate">Guides</span></a></li>
+                                                <li><a class="flex justify-between gap-2 py-1 pr-3 text-sm transition pl-7 text-zinc-600 hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-white"
+                                                        href="index.html#resources"><span
+                                                            class="truncate">Resources</span></a></li>
+                                            </ul>
+                                        </li>
+                                        <li class="relative"><a
+                                                class="flex justify-between gap-2 py-1 pr-3 text-sm transition pl-4 text-zinc-600 hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-white"
+                                                href="quickstart.html"><span class="truncate">Quickstart</span></a></li>
+                                        <li class="relative"><a
+                                                class="flex justify-between gap-2 py-1 pr-3 text-sm transition pl-4 text-zinc-600 hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-white"
+                                                href="sdks"><span class="truncate">SDKs</span></a></li>
+                                        <li class="relative"><a
+                                                class="flex justify-between gap-2 py-1 pr-3 text-sm transition pl-4 text-zinc-600 hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-white"
+                                                href="authentication"><span class="truncate">Authentication</span></a>
+                                        </li>
+                                        <li class="relative"><a
+                                                class="flex justify-between gap-2 py-1 pr-3 text-sm transition pl-4 text-zinc-600 hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-white"
+                                                href="pagination"><span class="truncate">Pagination</span></a></li>
+                                        <li class="relative"><a
+                                                class="flex justify-between gap-2 py-1 pr-3 text-sm transition pl-4 text-zinc-600 hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-white"
+                                                href="errors"><span class="truncate">Errors</span></a></li>
+                                        <li class="relative"><a
+                                                class="flex justify-between gap-2 py-1 pr-3 text-sm transition pl-4 text-zinc-600 hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-white"
+                                                href="webhooks"><span class="truncate">Webhooks</span></a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="relative mt-6">
+                                <h2 class="text-xs font-semibold text-zinc-900 dark:text-white">Resources</h2>
+                                <div class="relative mt-3 pl-2">
+                                    <div class="absolute inset-y-0 left-2 w-px bg-zinc-900/10 dark:bg-white/5"></div>
+                                    <ul role="list" class="border-l border-transparent">
+                                        <li class="relative"><a
+                                                class="flex justify-between gap-2 py-1 pr-3 text-sm transition pl-4 text-zinc-600 hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-white"
+                                                href="contacts"><span class="truncate">Contacts</span></a></li>
+                                        <li class="relative"><a
+                                                class="flex justify-between gap-2 py-1 pr-3 text-sm transition pl-4 text-zinc-600 hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-white"
+                                                href="conversations"><span class="truncate">Conversations</span></a>
+                                        </li>
+                                        <li class="relative"><a
+                                                class="flex justify-between gap-2 py-1 pr-3 text-sm transition pl-4 text-zinc-600 hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-white"
+                                                href="messages"><span class="truncate">Messages</span></a></li>
+                                        <li class="relative"><a
+                                                class="flex justify-between gap-2 py-1 pr-3 text-sm transition pl-4 text-zinc-600 hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-white"
+                                                href="groups"><span class="truncate">Groups</span></a></li>
+                                        <li class="relative"><a
+                                                class="flex justify-between gap-2 py-1 pr-3 text-sm transition pl-4 text-zinc-600 hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-white"
+                                                href="attachments"><span class="truncate">Attachments</span></a></li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <li class="sticky bottom-0 z-10 mt-6 min-[416px]:hidden"><a
+                                    class="inline-flex gap-0.5 justify-center overflow-hidden text-sm font-medium transition rounded-full bg-zinc-900 py-1 px-3 text-white hover:bg-zinc-700 dark:bg-emerald-500 dark:text-white dark:hover:bg-emerald-400 w-full"
+                                    href="index.html#">Sign in</a></li>
+                        </ul>
+                    </nav>
                 </div>
-
-                <div class="flex justify-center mt-4 sm:items-center sm:justify-between">
-                    <div class="text-center text-sm text-gray-500 sm:text-left">
-                        <div class="flex items-center">
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="-mt-px w-5 h-5 text-gray-400">
-                                <path stroke-linecap="round" stroke-linejoin="round" d="M2.25 3h1.386c.51 0 .955.343 1.087.835l.383 1.437M7.5 14.25a3 3 0 00-3 3h15.75m-12.75-3h11.218c1.121-2.3 2.1-4.684 2.924-7.138a60.114 60.114 0 00-16.536-1.84M7.5 14.25L5.106 5.272M6 20.25a.75.75 0 11-1.5 0 .75.75 0 011.5 0zm12.75 0a.75.75 0 11-1.5 0 .75.75 0 011.5 0z" />
-                            </svg>
-
-                            <a href="https://laravel.bigcartel.com" class="ml-1 underline">
-                                Shop
-                            </a>
-
-                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="ml-4 -mt-px w-5 h-5 text-gray-400">
-                                <path stroke-linecap="round" stroke-linejoin="round" d="M21 8.25c0-2.485-2.099-4.5-4.688-4.5-1.935 0-3.597 1.126-4.312 2.733-.715-1.607-2.377-2.733-4.313-2.733C5.1 3.75 3 5.765 3 8.25c0 7.22 9 12 9 12s9-4.78 9-12z" />
-                            </svg>
-
-                            <a href="https://github.com/sponsors/taylorotwell" class="ml-1 underline">
-                                Sponsor
-                            </a>
+            </header>
+            <div class="relative px-4 pt-14 sm:px-6 lg:px-8">
+                <main class="py-16">
+                    <article class="prose dark:prose-invert">
+                        <div class="absolute inset-0 -z-10 mx-0 max-w-none overflow-hidden">
+                            <div
+                                class="absolute left-1/2 top-0 ml-[-38rem] h-[25rem] w-[81.25rem] dark:[mask-image:linear-gradient(white,transparent)]">
+                                <div
+                                    class="absolute inset-0 bg-gradient-to-r from-[#36b49f] to-[#DBFF75] opacity-40 [mask-image:radial-gradient(farthest-side_at_top,white,transparent)] dark:from-[#36b49f]/30 dark:to-[#DBFF75]/30 dark:opacity-100">
+                                    <svg aria-hidden="true"
+                                        class="absolute inset-x-0 inset-y-[-50%] h-[200%] w-full skew-y-[-18deg] fill-black/40 stroke-black/50 mix-blend-overlay dark:fill-white/2.5 dark:stroke-white/5">
+                                        <defs>
+                                            <pattern id=":R11d6:" width="72" height="56" patternUnits="userSpaceOnUse"
+                                                x="-12" y="4">
+                                                <path d="M.5 56V.5H72" fill="none"></path>
+                                            </pattern>
+                                        </defs>
+                                        <rect width="100%" height="100%" stroke-width="0" fill="url(#:R11d6:)"></rect>
+                                        <svg x="-12" y="4" class="overflow-visible">
+                                            <rect stroke-width="0" width="73" height="57" x="288" y="168"></rect>
+                                            <rect stroke-width="0" width="73" height="57" x="144" y="56"></rect>
+                                            <rect stroke-width="0" width="73" height="57" x="504" y="168"></rect>
+                                            <rect stroke-width="0" width="73" height="57" x="720" y="336"></rect>
+                                        </svg>
+                                    </svg></div><svg viewBox="0 0 1113 440" aria-hidden="true"
+                                    class="absolute top-0 left-1/2 ml-[-19rem] w-[69.5625rem] fill-white blur-[26px] dark:hidden">
+                                    <path d="M.016 439.5s-9.5-300 434-300S882.516 20 882.516 20V0h230.004v439.5H.016Z">
+                                    </path>
+                                </svg>
+                            </div>
                         </div>
+                        <h1>API Documentation</h1>
+                        <p class="lead">Use the Protocol API to access contacts, conversations, group messages, and more
+                            and seamlessly integrate your product into the workflows of dozens of devoted Protocol
+                            users.</p>
+                        <div class="not-prose mb-16 mt-6 flex gap-3"><a
+                                class="inline-flex gap-0.5 justify-center overflow-hidden text-sm font-medium transition rounded-full bg-zinc-900 py-1 px-3 text-white hover:bg-zinc-700 dark:bg-emerald-400/10 dark:text-emerald-400 dark:ring-1 dark:ring-inset dark:ring-emerald-400/20 dark:hover:bg-emerald-400/10 dark:hover:text-emerald-300 dark:hover:ring-emerald-300"
+                                href="quickstart">Quickstart<svg viewBox="0 0 20 20" fill="none" aria-hidden="true"
+                                    class="mt-0.5 h-5 w-5 -mr-1">
+                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                        d="m11.5 6.5 3 3.5m0 0-3 3.5m3-3.5h-9"></path>
+                                </svg></a><a
+                                class="inline-flex gap-0.5 justify-center overflow-hidden text-sm font-medium transition rounded-full py-1 px-3 text-zinc-700 ring-1 ring-inset ring-zinc-900/10 hover:bg-zinc-900/2.5 hover:text-zinc-900 dark:text-zinc-400 dark:ring-white/10 dark:hover:bg-white/5 dark:hover:text-white"
+                                href="sdks">Explore SDKs</a></div>
+                        <h2 class="scroll-mt-24">Getting started</h2>
+                        <p class="lead">To get started, create a new application in your <a href="index.html#">developer
+                                settings</a>, then read about how to make requests for the resources you need to access
+                            using our HTTP APIs or dedicated client SDKs. When your integration is ready to go live,
+                            publish it to our <a href="index.html#">integrations directory</a> to reach the Protocol
+                            community.</p>
+                        <div class="not-prose"><a
+                                class="inline-flex gap-0.5 justify-center overflow-hidden text-sm font-medium transition text-emerald-500 hover:text-emerald-600 dark:text-emerald-400 dark:hover:text-emerald-500"
+                                href="sdks">Get your API key<svg viewBox="0 0 20 20" fill="none" aria-hidden="true"
+                                    class="mt-0.5 h-5 w-5 relative top-px -mr-1">
+                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                        d="m11.5 6.5 3 3.5m0 0-3 3.5m3-3.5h-9"></path>
+                                </svg></a></div>
+                        <div class="my-16 xl:max-w-none">
+                            <h2 id="guides" class="scroll-mt-24"><a
+                                    class="group text-inherit no-underline hover:text-inherit"
+                                    href="index.html#guides">Guides</a></h2>
+                            <div
+                                class="not-prose mt-4 grid grid-cols-1 gap-8 border-t border-zinc-900/5 pt-10 dark:border-white/5 sm:grid-cols-2 xl:grid-cols-4">
+                                <div>
+                                    <h3 class="text-sm font-semibold text-zinc-900 dark:text-white">Authentication</h3>
+                                    <p class="mt-1 text-sm text-zinc-600 dark:text-zinc-400">Learn how to authenticate
+                                        your API requests.</p>
+                                    <p class="mt-4"><a
+                                            class="inline-flex gap-0.5 justify-center overflow-hidden text-sm font-medium transition text-emerald-500 hover:text-emerald-600 dark:text-emerald-400 dark:hover:text-emerald-500"
+                                            href="authentication">Read more<svg viewBox="0 0 20 20" fill="none"
+                                                aria-hidden="true" class="mt-0.5 h-5 w-5 relative top-px -mr-1">
+                                                <path stroke="currentColor" stroke-linecap="round"
+                                                    stroke-linejoin="round" d="m11.5 6.5 3 3.5m0 0-3 3.5m3-3.5h-9">
+                                                </path>
+                                            </svg></a></p>
+                                </div>
+                                <div>
+                                    <h3 class="text-sm font-semibold text-zinc-900 dark:text-white">Pagination</h3>
+                                    <p class="mt-1 text-sm text-zinc-600 dark:text-zinc-400">Understand how to work with
+                                        paginated responses.</p>
+                                    <p class="mt-4"><a
+                                            class="inline-flex gap-0.5 justify-center overflow-hidden text-sm font-medium transition text-emerald-500 hover:text-emerald-600 dark:text-emerald-400 dark:hover:text-emerald-500"
+                                            href="pagination">Read more<svg viewBox="0 0 20 20" fill="none"
+                                                aria-hidden="true" class="mt-0.5 h-5 w-5 relative top-px -mr-1">
+                                                <path stroke="currentColor" stroke-linecap="round"
+                                                    stroke-linejoin="round" d="m11.5 6.5 3 3.5m0 0-3 3.5m3-3.5h-9">
+                                                </path>
+                                            </svg></a></p>
+                                </div>
+                                <div>
+                                    <h3 class="text-sm font-semibold text-zinc-900 dark:text-white">Errors</h3>
+                                    <p class="mt-1 text-sm text-zinc-600 dark:text-zinc-400">Read about the different
+                                        types of errors returned by the API.</p>
+                                    <p class="mt-4"><a
+                                            class="inline-flex gap-0.5 justify-center overflow-hidden text-sm font-medium transition text-emerald-500 hover:text-emerald-600 dark:text-emerald-400 dark:hover:text-emerald-500"
+                                            href="errors">Read more<svg viewBox="0 0 20 20" fill="none"
+                                                aria-hidden="true" class="mt-0.5 h-5 w-5 relative top-px -mr-1">
+                                                <path stroke="currentColor" stroke-linecap="round"
+                                                    stroke-linejoin="round" d="m11.5 6.5 3 3.5m0 0-3 3.5m3-3.5h-9">
+                                                </path>
+                                            </svg></a></p>
+                                </div>
+                                <div>
+                                    <h3 class="text-sm font-semibold text-zinc-900 dark:text-white">Webhooks</h3>
+                                    <p class="mt-1 text-sm text-zinc-600 dark:text-zinc-400">Learn how to
+                                        programmatically configure webhooks for your app.</p>
+                                    <p class="mt-4"><a
+                                            class="inline-flex gap-0.5 justify-center overflow-hidden text-sm font-medium transition text-emerald-500 hover:text-emerald-600 dark:text-emerald-400 dark:hover:text-emerald-500"
+                                            href="webhooks">Read more<svg viewBox="0 0 20 20" fill="none"
+                                                aria-hidden="true" class="mt-0.5 h-5 w-5 relative top-px -mr-1">
+                                                <path stroke="currentColor" stroke-linecap="round"
+                                                    stroke-linejoin="round" d="m11.5 6.5 3 3.5m0 0-3 3.5m3-3.5h-9">
+                                                </path>
+                                            </svg></a></p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="my-16 xl:max-w-none">
+                            <h2 id="resources" class="scroll-mt-24"><a
+                                    class="group text-inherit no-underline hover:text-inherit"
+                                    href="index.html#resources">Resources</a></h2>
+                            <div
+                                class="not-prose mt-4 grid grid-cols-1 gap-8 border-t border-zinc-900/5 pt-10 dark:border-white/5 sm:grid-cols-2 xl:grid-cols-4">
+                                <div
+                                    class="group relative flex rounded-2xl bg-zinc-50 transition-shadow hover:shadow-md hover:shadow-zinc-900/5 dark:bg-white/2.5 dark:hover:shadow-black/5">
+                                    <div class="pointer-events-none">
+                                        <div
+                                            class="absolute inset-0 rounded-2xl transition duration-300 [mask-image:linear-gradient(white,transparent)] group-hover:opacity-50">
+                                            <svg aria-hidden="true"
+                                                class="absolute inset-x-0 inset-y-[-30%] h-[160%] w-full skew-y-[-18deg] fill-black/[0.02] stroke-black/5 dark:fill-white/1 dark:stroke-white/2.5">
+                                                <defs>
+                                                    <pattern id=":R56hd6:" width="72" height="56"
+                                                        patternUnits="userSpaceOnUse" x="50%" y="16">
+                                                        <path d="M.5 56V.5H72" fill="none"></path>
+                                                    </pattern>
+                                                </defs>
+                                                <rect width="100%" height="100%" stroke-width="0" fill="url(#:R56hd6:)">
+                                                </rect><svg x="50%" y="16" class="overflow-visible">
+                                                    <rect stroke-width="0" width="73" height="57" x="0" y="56"></rect>
+                                                    <rect stroke-width="0" width="73" height="57" x="72" y="168"></rect>
+                                                </svg>
+                                            </svg></div>
+                                        <div class="absolute inset-0 rounded-2xl bg-gradient-to-r from-[#D7EDEA] to-[#F4FBDF] opacity-0 transition duration-300 group-hover:opacity-100 dark:from-[#202D2E] dark:to-[#303428]"
+                                            style="mask-image:radial-gradient(180px at 0px 0px, white, transparent);-webkit-mask-image:radial-gradient(180px at 0px 0px, white, transparent)">
+                                        </div>
+                                        <div class="absolute inset-0 rounded-2xl opacity-0 mix-blend-overlay transition duration-300 group-hover:opacity-100"
+                                            style="mask-image:radial-gradient(180px at 0px 0px, white, transparent);-webkit-mask-image:radial-gradient(180px at 0px 0px, white, transparent)">
+                                            <svg aria-hidden="true"
+                                                class="absolute inset-x-0 inset-y-[-30%] h-[160%] w-full skew-y-[-18deg] fill-black/50 stroke-black/70 dark:fill-white/2.5 dark:stroke-white/10">
+                                                <defs>
+                                                    <pattern id=":R1d6hd6:" width="72" height="56"
+                                                        patternUnits="userSpaceOnUse" x="50%" y="16">
+                                                        <path d="M.5 56V.5H72" fill="none"></path>
+                                                    </pattern>
+                                                </defs>
+                                                <rect width="100%" height="100%" stroke-width="0"
+                                                    fill="url(#:R1d6hd6:)"></rect><svg x="50%" y="16"
+                                                    class="overflow-visible">
+                                                    <rect stroke-width="0" width="73" height="57" x="0" y="56"></rect>
+                                                    <rect stroke-width="0" width="73" height="57" x="72" y="168"></rect>
+                                                </svg>
+                                            </svg></div>
+                                    </div>
+                                    <div
+                                        class="absolute inset-0 rounded-2xl ring-1 ring-inset ring-zinc-900/7.5 group-hover:ring-zinc-900/10 dark:ring-white/10 dark:group-hover:ring-white/20">
+                                    </div>
+                                    <div class="relative rounded-2xl px-4 pt-16 pb-4">
+                                        <div
+                                            class="flex h-7 w-7 items-center justify-center rounded-full bg-zinc-900/5 ring-1 ring-zinc-900/25 backdrop-blur-[2px] transition duration-300 group-hover:bg-white/50 group-hover:ring-zinc-900/25 dark:bg-white/7.5 dark:ring-white/15 dark:group-hover:bg-emerald-300/10 dark:group-hover:ring-emerald-400">
+                                            <svg viewBox="0 0 20 20" aria-hidden="true"
+                                                class="h-5 w-5 fill-zinc-700/10 stroke-zinc-700 transition-colors duration-300 group-hover:stroke-zinc-900 dark:fill-white/10 dark:stroke-zinc-400 dark:group-hover:fill-emerald-300/10 dark:group-hover:stroke-emerald-400">
+                                                <path stroke-width="0" fill-rule="evenodd" clip-rule="evenodd"
+                                                    d="M10 .5a9.5 9.5 0 0 1 5.598 17.177C14.466 15.177 12.383 13.5 10 13.5s-4.466 1.677-5.598 4.177A9.5 9.5 0 0 1 10 .5ZM12.5 8a2.5 2.5 0 1 0-5 0 2.5 2.5 0 0 0 5 0Z">
+                                                </path>
+                                                <path fill="none" stroke-linecap="round" stroke-linejoin="round"
+                                                    d="M10 .5a9.5 9.5 0 0 1 5.598 17.177A9.458 9.458 0 0 1 10 19.5a9.458 9.458 0 0 1-5.598-1.823A9.5 9.5 0 0 1 10 .5Z">
+                                                </path>
+                                                <path fill="none" stroke-linecap="round" stroke-linejoin="round"
+                                                    d="M4.402 17.677C5.534 15.177 7.617 13.5 10 13.5s4.466 1.677 5.598 4.177M10 5.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z">
+                                                </path>
+                                            </svg></div>
+                                        <h3 class="mt-4 text-sm font-semibold leading-7 text-zinc-900 dark:text-white">
+                                            <a href="contacts"><span
+                                                    class="absolute inset-0 rounded-2xl"></span>Contacts</a></h3>
+                                        <p class="mt-1 text-sm text-zinc-600 dark:text-zinc-400">Learn about the contact
+                                            model and how to create, retrieve, update, delete, and list contacts.</p>
+                                    </div>
+                                </div>
+                                <div
+                                    class="group relative flex rounded-2xl bg-zinc-50 transition-shadow hover:shadow-md hover:shadow-zinc-900/5 dark:bg-white/2.5 dark:hover:shadow-black/5">
+                                    <div class="pointer-events-none">
+                                        <div
+                                            class="absolute inset-0 rounded-2xl transition duration-300 [mask-image:linear-gradient(white,transparent)] group-hover:opacity-50">
+                                            <svg aria-hidden="true"
+                                                class="absolute inset-x-0 inset-y-[-30%] h-[160%] w-full skew-y-[-18deg] fill-black/[0.02] stroke-black/5 dark:fill-white/1 dark:stroke-white/2.5">
+                                                <defs>
+                                                    <pattern id=":R5ahd6:" width="72" height="56"
+                                                        patternUnits="userSpaceOnUse" x="50%" y="-6">
+                                                        <path d="M.5 56V.5H72" fill="none"></path>
+                                                    </pattern>
+                                                </defs>
+                                                <rect width="100%" height="100%" stroke-width="0" fill="url(#:R5ahd6:)">
+                                                </rect><svg x="50%" y="-6" class="overflow-visible">
+                                                    <rect stroke-width="0" width="73" height="57" x="-72" y="112">
+                                                    </rect>
+                                                    <rect stroke-width="0" width="73" height="57" x="72" y="168"></rect>
+                                                </svg>
+                                            </svg></div>
+                                        <div class="absolute inset-0 rounded-2xl bg-gradient-to-r from-[#D7EDEA] to-[#F4FBDF] opacity-0 transition duration-300 group-hover:opacity-100 dark:from-[#202D2E] dark:to-[#303428]"
+                                            style="mask-image:radial-gradient(180px at 0px 0px, white, transparent);-webkit-mask-image:radial-gradient(180px at 0px 0px, white, transparent)">
+                                        </div>
+                                        <div class="absolute inset-0 rounded-2xl opacity-0 mix-blend-overlay transition duration-300 group-hover:opacity-100"
+                                            style="mask-image:radial-gradient(180px at 0px 0px, white, transparent);-webkit-mask-image:radial-gradient(180px at 0px 0px, white, transparent)">
+                                            <svg aria-hidden="true"
+                                                class="absolute inset-x-0 inset-y-[-30%] h-[160%] w-full skew-y-[-18deg] fill-black/50 stroke-black/70 dark:fill-white/2.5 dark:stroke-white/10">
+                                                <defs>
+                                                    <pattern id=":R1dahd6:" width="72" height="56"
+                                                        patternUnits="userSpaceOnUse" x="50%" y="-6">
+                                                        <path d="M.5 56V.5H72" fill="none"></path>
+                                                    </pattern>
+                                                </defs>
+                                                <rect width="100%" height="100%" stroke-width="0"
+                                                    fill="url(#:R1dahd6:)"></rect><svg x="50%" y="-6"
+                                                    class="overflow-visible">
+                                                    <rect stroke-width="0" width="73" height="57" x="-72" y="112">
+                                                    </rect>
+                                                    <rect stroke-width="0" width="73" height="57" x="72" y="168"></rect>
+                                                </svg>
+                                            </svg></div>
+                                    </div>
+                                    <div
+                                        class="absolute inset-0 rounded-2xl ring-1 ring-inset ring-zinc-900/7.5 group-hover:ring-zinc-900/10 dark:ring-white/10 dark:group-hover:ring-white/20">
+                                    </div>
+                                    <div class="relative rounded-2xl px-4 pt-16 pb-4">
+                                        <div
+                                            class="flex h-7 w-7 items-center justify-center rounded-full bg-zinc-900/5 ring-1 ring-zinc-900/25 backdrop-blur-[2px] transition duration-300 group-hover:bg-white/50 group-hover:ring-zinc-900/25 dark:bg-white/7.5 dark:ring-white/15 dark:group-hover:bg-emerald-300/10 dark:group-hover:ring-emerald-400">
+                                            <svg viewBox="0 0 20 20" aria-hidden="true"
+                                                class="h-5 w-5 fill-zinc-700/10 stroke-zinc-700 transition-colors duration-300 group-hover:stroke-zinc-900 dark:fill-white/10 dark:stroke-zinc-400 dark:group-hover:fill-emerald-300/10 dark:group-hover:stroke-emerald-400">
+                                                <path stroke-linecap="round" stroke-linejoin="round"
+                                                    d="M10 16.5c4.142 0 7.5-3.134 7.5-7s-3.358-7-7.5-7c-4.142 0-7.5 3.134-7.5 7 0 1.941.846 3.698 2.214 4.966L3.5 17.5c2.231 0 3.633-.553 4.513-1.248A8.014 8.014 0 0 0 10 16.5Z">
+                                                </path>
+                                                <path fill="none" stroke-linecap="round" stroke-linejoin="round"
+                                                    d="M7.5 8.5h5M8.5 11.5h3"></path>
+                                            </svg></div>
+                                        <h3 class="mt-4 text-sm font-semibold leading-7 text-zinc-900 dark:text-white">
+                                            <a href="conversations"><span
+                                                    class="absolute inset-0 rounded-2xl"></span>Conversations</a></h3>
+                                        <p class="mt-1 text-sm text-zinc-600 dark:text-zinc-400">Learn about the
+                                            conversation model and how to create, retrieve, update, delete, and list
+                                            conversations.</p>
+                                    </div>
+                                </div>
+                                <div
+                                    class="group relative flex rounded-2xl bg-zinc-50 transition-shadow hover:shadow-md hover:shadow-zinc-900/5 dark:bg-white/2.5 dark:hover:shadow-black/5">
+                                    <div class="pointer-events-none">
+                                        <div
+                                            class="absolute inset-0 rounded-2xl transition duration-300 [mask-image:linear-gradient(white,transparent)] group-hover:opacity-50">
+                                            <svg aria-hidden="true"
+                                                class="absolute inset-x-0 inset-y-[-30%] h-[160%] w-full skew-y-[-18deg] fill-black/[0.02] stroke-black/5 dark:fill-white/1 dark:stroke-white/2.5">
+                                                <defs>
+                                                    <pattern id=":R5ehd6:" width="72" height="56"
+                                                        patternUnits="userSpaceOnUse" x="50%" y="32">
+                                                        <path d="M.5 56V.5H72" fill="none"></path>
+                                                    </pattern>
+                                                </defs>
+                                                <rect width="100%" height="100%" stroke-width="0" fill="url(#:R5ehd6:)">
+                                                </rect><svg x="50%" y="32" class="overflow-visible">
+                                                    <rect stroke-width="0" width="73" height="57" x="0" y="112"></rect>
+                                                    <rect stroke-width="0" width="73" height="57" x="72" y="224"></rect>
+                                                </svg>
+                                            </svg></div>
+                                        <div class="absolute inset-0 rounded-2xl bg-gradient-to-r from-[#D7EDEA] to-[#F4FBDF] opacity-0 transition duration-300 group-hover:opacity-100 dark:from-[#202D2E] dark:to-[#303428]"
+                                            style="mask-image:radial-gradient(180px at 0px 0px, white, transparent);-webkit-mask-image:radial-gradient(180px at 0px 0px, white, transparent)">
+                                        </div>
+                                        <div class="absolute inset-0 rounded-2xl opacity-0 mix-blend-overlay transition duration-300 group-hover:opacity-100"
+                                            style="mask-image:radial-gradient(180px at 0px 0px, white, transparent);-webkit-mask-image:radial-gradient(180px at 0px 0px, white, transparent)">
+                                            <svg aria-hidden="true"
+                                                class="absolute inset-x-0 inset-y-[-30%] h-[160%] w-full skew-y-[-18deg] fill-black/50 stroke-black/70 dark:fill-white/2.5 dark:stroke-white/10">
+                                                <defs>
+                                                    <pattern id=":R1dehd6:" width="72" height="56"
+                                                        patternUnits="userSpaceOnUse" x="50%" y="32">
+                                                        <path d="M.5 56V.5H72" fill="none"></path>
+                                                    </pattern>
+                                                </defs>
+                                                <rect width="100%" height="100%" stroke-width="0"
+                                                    fill="url(#:R1dehd6:)"></rect><svg x="50%" y="32"
+                                                    class="overflow-visible">
+                                                    <rect stroke-width="0" width="73" height="57" x="0" y="112"></rect>
+                                                    <rect stroke-width="0" width="73" height="57" x="72" y="224"></rect>
+                                                </svg>
+                                            </svg></div>
+                                    </div>
+                                    <div
+                                        class="absolute inset-0 rounded-2xl ring-1 ring-inset ring-zinc-900/7.5 group-hover:ring-zinc-900/10 dark:ring-white/10 dark:group-hover:ring-white/20">
+                                    </div>
+                                    <div class="relative rounded-2xl px-4 pt-16 pb-4">
+                                        <div
+                                            class="flex h-7 w-7 items-center justify-center rounded-full bg-zinc-900/5 ring-1 ring-zinc-900/25 backdrop-blur-[2px] transition duration-300 group-hover:bg-white/50 group-hover:ring-zinc-900/25 dark:bg-white/7.5 dark:ring-white/15 dark:group-hover:bg-emerald-300/10 dark:group-hover:ring-emerald-400">
+                                            <svg viewBox="0 0 20 20" aria-hidden="true"
+                                                class="h-5 w-5 fill-zinc-700/10 stroke-zinc-700 transition-colors duration-300 group-hover:stroke-zinc-900 dark:fill-white/10 dark:stroke-zinc-400 dark:group-hover:fill-emerald-300/10 dark:group-hover:stroke-emerald-400">
+                                                <path fill="none" stroke-linecap="round" stroke-linejoin="round"
+                                                    d="M2.5 5.5a2 2 0 0 1 2-2h11a2 2 0 0 1 2 2v8a3 3 0 0 1-3 3h-9a3 3 0 0 1-3-3v-8Z">
+                                                </path>
+                                                <path stroke-linecap="round" stroke-linejoin="round"
+                                                    d="M10 10 4.526 5.256c-.7-.607-.271-1.756.655-1.756h9.638c.926 0 1.355 1.15.655 1.756L10 10Z">
+                                                </path>
+                                            </svg></div>
+                                        <h3 class="mt-4 text-sm font-semibold leading-7 text-zinc-900 dark:text-white">
+                                            <a href="messages"><span
+                                                    class="absolute inset-0 rounded-2xl"></span>Messages</a></h3>
+                                        <p class="mt-1 text-sm text-zinc-600 dark:text-zinc-400">Learn about the message
+                                            model and how to create, retrieve, update, delete, and list messages.</p>
+                                    </div>
+                                </div>
+                                <div
+                                    class="group relative flex rounded-2xl bg-zinc-50 transition-shadow hover:shadow-md hover:shadow-zinc-900/5 dark:bg-white/2.5 dark:hover:shadow-black/5">
+                                    <div class="pointer-events-none">
+                                        <div
+                                            class="absolute inset-0 rounded-2xl transition duration-300 [mask-image:linear-gradient(white,transparent)] group-hover:opacity-50">
+                                            <svg aria-hidden="true"
+                                                class="absolute inset-x-0 inset-y-[-30%] h-[160%] w-full skew-y-[-18deg] fill-black/[0.02] stroke-black/5 dark:fill-white/1 dark:stroke-white/2.5">
+                                                <defs>
+                                                    <pattern id=":R5ihd6:" width="72" height="56"
+                                                        patternUnits="userSpaceOnUse" x="50%" y="22">
+                                                        <path d="M.5 56V.5H72" fill="none"></path>
+                                                    </pattern>
+                                                </defs>
+                                                <rect width="100%" height="100%" stroke-width="0" fill="url(#:R5ihd6:)">
+                                                </rect><svg x="50%" y="22" class="overflow-visible">
+                                                    <rect stroke-width="0" width="73" height="57" x="0" y="56"></rect>
+                                                </svg>
+                                            </svg></div>
+                                        <div class="absolute inset-0 rounded-2xl bg-gradient-to-r from-[#D7EDEA] to-[#F4FBDF] opacity-0 transition duration-300 group-hover:opacity-100 dark:from-[#202D2E] dark:to-[#303428]"
+                                            style="mask-image:radial-gradient(180px at 0px 0px, white, transparent);-webkit-mask-image:radial-gradient(180px at 0px 0px, white, transparent)">
+                                        </div>
+                                        <div class="absolute inset-0 rounded-2xl opacity-0 mix-blend-overlay transition duration-300 group-hover:opacity-100"
+                                            style="mask-image:radial-gradient(180px at 0px 0px, white, transparent);-webkit-mask-image:radial-gradient(180px at 0px 0px, white, transparent)">
+                                            <svg aria-hidden="true"
+                                                class="absolute inset-x-0 inset-y-[-30%] h-[160%] w-full skew-y-[-18deg] fill-black/50 stroke-black/70 dark:fill-white/2.5 dark:stroke-white/10">
+                                                <defs>
+                                                    <pattern id=":R1dihd6:" width="72" height="56"
+                                                        patternUnits="userSpaceOnUse" x="50%" y="22">
+                                                        <path d="M.5 56V.5H72" fill="none"></path>
+                                                    </pattern>
+                                                </defs>
+                                                <rect width="100%" height="100%" stroke-width="0"
+                                                    fill="url(#:R1dihd6:)"></rect><svg x="50%" y="22"
+                                                    class="overflow-visible">
+                                                    <rect stroke-width="0" width="73" height="57" x="0" y="56"></rect>
+                                                </svg>
+                                            </svg></div>
+                                    </div>
+                                    <div
+                                        class="absolute inset-0 rounded-2xl ring-1 ring-inset ring-zinc-900/7.5 group-hover:ring-zinc-900/10 dark:ring-white/10 dark:group-hover:ring-white/20">
+                                    </div>
+                                    <div class="relative rounded-2xl px-4 pt-16 pb-4">
+                                        <div
+                                            class="flex h-7 w-7 items-center justify-center rounded-full bg-zinc-900/5 ring-1 ring-zinc-900/25 backdrop-blur-[2px] transition duration-300 group-hover:bg-white/50 group-hover:ring-zinc-900/25 dark:bg-white/7.5 dark:ring-white/15 dark:group-hover:bg-emerald-300/10 dark:group-hover:ring-emerald-400">
+                                            <svg viewBox="0 0 20 20" aria-hidden="true"
+                                                class="h-5 w-5 fill-zinc-700/10 stroke-zinc-700 transition-colors duration-300 group-hover:stroke-zinc-900 dark:fill-white/10 dark:stroke-zinc-400 dark:group-hover:fill-emerald-300/10 dark:group-hover:stroke-emerald-400">
+                                                <path fill="none" stroke-linecap="round" stroke-linejoin="round"
+                                                    d="M10.046 16H1.955a.458.458 0 0 1-.455-.459C1.5 13.056 3.515 11 6 11h.5">
+                                                </path>
+                                                <path stroke-linecap="round" stroke-linejoin="round"
+                                                    d="M7.5 15.454C7.5 12.442 9.988 10 13 10s5.5 2.442 5.5 5.454a.545.545 0 0 1-.546.546H8.045a.545.545 0 0 1-.545-.546Z">
+                                                </path>
+                                                <path fill="none" stroke-linecap="round" stroke-linejoin="round"
+                                                    d="M6.5 4a2 2 0 1 1 0 4 2 2 0 0 1 0-4Z"></path>
+                                                <path stroke-linecap="round" stroke-linejoin="round"
+                                                    d="M13 2a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5Z"></path>
+                                            </svg></div>
+                                        <h3 class="mt-4 text-sm font-semibold leading-7 text-zinc-900 dark:text-white">
+                                            <a href="groups"><span
+                                                    class="absolute inset-0 rounded-2xl"></span>Groups</a></h3>
+                                        <p class="mt-1 text-sm text-zinc-600 dark:text-zinc-400">Learn about the group
+                                            model and how to create, retrieve, update, delete, and list groups.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </article>
+                </main>
+                <footer class="mx-auto max-w-2xl space-y-10 pb-16 lg:max-w-5xl">
+                    <div class="relative h-8">
+                        <form class="absolute inset-0 flex items-center justify-center gap-6 md:justify-start">
+                            <p class="text-sm text-zinc-600 dark:text-zinc-400">Was this page helpful?</p>
+                            <div
+                                class="group grid h-8 grid-cols-[1fr,1px,1fr] overflow-hidden rounded-full border border-zinc-900/10 dark:border-white/10">
+                                <button type="submit"
+                                    class="px-3 text-sm font-medium text-zinc-600 transition hover:bg-zinc-900/2.5 hover:text-zinc-900 dark:text-zinc-400 dark:hover:bg-white/5 dark:hover:text-white"
+                                    data-response="yes">Yes</button>
+                                <div class="bg-zinc-900/10 dark:bg-white/10"></div><button type="submit"
+                                    class="px-3 text-sm font-medium text-zinc-600 transition hover:bg-zinc-900/2.5 hover:text-zinc-900 dark:text-zinc-400 dark:hover:bg-white/5 dark:hover:text-white"
+                                    data-response="no">No</button>
+                            </div>
+                        </form>
                     </div>
-
-                    <div class="ml-4 text-center text-sm text-gray-500 sm:text-right sm:ml-0">
-                        Laravel v{{ Illuminate\Foundation\Application::VERSION }} (PHP v{{ PHP_VERSION }})
+                    <div class="flex">
+                        <div class="ml-auto flex flex-col items-end gap-3"><a
+                                class="inline-flex gap-0.5 justify-center overflow-hidden text-sm font-medium transition rounded-full bg-zinc-100 py-1 px-3 text-zinc-900 hover:bg-zinc-200 dark:bg-zinc-800/40 dark:text-zinc-400 dark:ring-1 dark:ring-inset dark:ring-zinc-800 dark:hover:bg-zinc-800 dark:hover:text-zinc-300"
+                                aria-label="Next: Quickstart" href="quickstart">Next<svg viewBox="0 0 20 20" fill="none"
+                                    aria-hidden="true" class="mt-0.5 h-5 w-5 -mr-1">
+                                    <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
+                                        d="m11.5 6.5 3 3.5m0 0-3 3.5m3-3.5h-9"></path>
+                                </svg></a><a tabindex="-1" aria-hidden="true"
+                                class="text-base font-semibold text-zinc-900 transition hover:text-zinc-600 dark:text-white dark:hover:text-zinc-300"
+                                href="quickstart">Quickstart</a></div>
                     </div>
-                </div>
+                    <div
+                        class="flex flex-col items-center justify-between gap-5 border-t border-zinc-900/5 pt-8 dark:border-white/5 sm:flex-row">
+                        <p class="text-xs text-zinc-600 dark:text-zinc-400">© Copyright
+                            <!-- -->2023
+                            <!-- -->. All rights reserved.</p>
+                        <div class="flex gap-4"><a class="group" href="index.html#"><span class="sr-only">Follow us on
+                                    Twitter</span><svg viewBox="0 0 20 20" aria-hidden="true"
+                                    class="h-5 w-5 fill-zinc-700 transition group-hover:fill-zinc-900 dark:group-hover:fill-zinc-500">
+                                    <path
+                                        d="M16.712 6.652c.01.146.01.29.01.436 0 4.449-3.267 9.579-9.242 9.579v-.003a8.963 8.963 0 0 1-4.98-1.509 6.379 6.379 0 0 0 4.807-1.396c-1.39-.027-2.608-.966-3.035-2.337.487.097.99.077 1.467-.059-1.514-.316-2.606-1.696-2.606-3.3v-.041c.45.26.956.404 1.475.42C3.18 7.454 2.74 5.486 3.602 3.947c1.65 2.104 4.083 3.382 6.695 3.517a3.446 3.446 0 0 1 .94-3.217 3.172 3.172 0 0 1 4.596.148 6.38 6.38 0 0 0 2.063-.817 3.357 3.357 0 0 1-1.428 1.861 6.283 6.283 0 0 0 1.865-.53 6.735 6.735 0 0 1-1.62 1.744Z">
+                                    </path>
+                                </svg></a><a class="group" href="index.html#"><span class="sr-only">Follow us on
+                                    GitHub</span><svg viewBox="0 0 20 20" aria-hidden="true"
+                                    class="h-5 w-5 fill-zinc-700 transition group-hover:fill-zinc-900 dark:group-hover:fill-zinc-500">
+                                    <path fill-rule="evenodd" clip-rule="evenodd"
+                                        d="M10 1.667c-4.605 0-8.334 3.823-8.334 8.544 0 3.78 2.385 6.974 5.698 8.106.417.075.573-.182.573-.406 0-.203-.011-.875-.011-1.592-2.093.397-2.635-.522-2.802-1.002-.094-.246-.5-1.005-.854-1.207-.291-.16-.708-.556-.01-.567.656-.01 1.124.62 1.281.876.75 1.292 1.948.93 2.427.705.073-.555.291-.93.531-1.143-1.854-.213-3.791-.95-3.791-4.218 0-.929.322-1.698.854-2.296-.083-.214-.375-1.09.083-2.265 0 0 .698-.224 2.292.876a7.576 7.576 0 0 1 2.083-.288c.709 0 1.417.096 2.084.288 1.593-1.11 2.291-.875 2.291-.875.459 1.174.167 2.05.084 2.263.53.599.854 1.357.854 2.297 0 3.278-1.948 4.005-3.802 4.219.302.266.563.78.563 1.58 0 1.143-.011 2.061-.011 2.35 0 .224.156.491.573.405a8.365 8.365 0 0 0 4.11-3.116 8.707 8.707 0 0 0 1.567-4.99c0-4.721-3.73-8.545-8.334-8.545Z">
+                                    </path>
+                                </svg></a><a class="group" href="index.html#"><span class="sr-only">Join our Discord
+                                    server</span><svg viewBox="0 0 20 20" aria-hidden="true"
+                                    class="h-5 w-5 fill-zinc-700 transition group-hover:fill-zinc-900 dark:group-hover:fill-zinc-500">
+                                    <path
+                                        d="M16.238 4.515a14.842 14.842 0 0 0-3.664-1.136.055.055 0 0 0-.059.027 10.35 10.35 0 0 0-.456.938 13.702 13.702 0 0 0-4.115 0 9.479 9.479 0 0 0-.464-.938.058.058 0 0 0-.058-.027c-1.266.218-2.497.6-3.664 1.136a.052.052 0 0 0-.024.02C1.4 8.023.76 11.424 1.074 14.782a.062.062 0 0 0 .024.042 14.923 14.923 0 0 0 4.494 2.272.058.058 0 0 0 .064-.02c.346-.473.654-.972.92-1.496a.057.057 0 0 0-.032-.08 9.83 9.83 0 0 1-1.404-.669.058.058 0 0 1-.029-.046.058.058 0 0 1 .023-.05c.094-.07.189-.144.279-.218a.056.056 0 0 1 .058-.008c2.946 1.345 6.135 1.345 9.046 0a.056.056 0 0 1 .059.007c.09.074.184.149.28.22a.058.058 0 0 1 .023.049.059.059 0 0 1-.028.046 9.224 9.224 0 0 1-1.405.669.058.058 0 0 0-.033.033.056.056 0 0 0 .002.047c.27.523.58 1.022.92 1.495a.056.056 0 0 0 .062.021 14.878 14.878 0 0 0 4.502-2.272.055.055 0 0 0 .016-.018.056.056 0 0 0 .008-.023c.375-3.883-.63-7.256-2.662-10.246a.046.046 0 0 0-.023-.021Zm-9.223 8.221c-.887 0-1.618-.814-1.618-1.814s.717-1.814 1.618-1.814c.908 0 1.632.821 1.618 1.814 0 1-.717 1.814-1.618 1.814Zm5.981 0c-.887 0-1.618-.814-1.618-1.814s.717-1.814 1.618-1.814c.908 0 1.632.821 1.618 1.814 0 1-.71 1.814-1.618 1.814Z">
+                                    </path>
+                                </svg></a></div>
+                    </div>
+                </footer>
             </div>
         </div>
-    </body>
+    </div>
+    <script id="__NEXT_DATA__" type="application/json">
+        {
+            "props": {
+                "pageProps": {
+                    "description": "Learn everything there is to know about the Protocol API and integrate Protocol into your product.",
+                    "sections": [{
+                        "title": "Guides",
+                        "id": "guides"
+                    }, {
+                        "title": "Resources",
+                        "id": "resources"
+                    }],
+                    "title": "API Documentation"
+                },
+                "__N_SSG": true
+            },
+            "page": "/",
+            "query": {},
+            "buildId": "WA_UIYXxpLGp_ZNykk82c",
+            "isFallback": false,
+            "gsp": true,
+            "scriptLoader": []
+        }
+
+    </script>
+</body>
+<!-- Mirrored from protocol.tailwindui.com/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 19 Jan 2023 12:39:45 GMT -->
+
 </html>
