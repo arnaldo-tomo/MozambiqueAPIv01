@@ -84,7 +84,7 @@
                                     <path stroke-linecap="round" stroke-linejoin="round"
                                         d="M12.01 12a4.25 4.25 0 1 0-6.02-6 4.25 4.25 0 0 0 6.02 6Zm0 0 3.24 3.25">
                                     </path>
-                                </svg>Find something...<kbd
+                                </svg>Encontrar algo...<kbd
                                     class="ml-auto text-2xs text-zinc-400 dark:text-zinc-500"><kbd
                                         class="font-sans"></kbd><kbd class="font-sans">K</kbd></kbd></button></div>
                         <div class="flex items-center gap-5 lg:hidden"><button type="button"
@@ -93,7 +93,7 @@
                                     stroke-linecap="round" aria-hidden="true"
                                     class="w-2.5 stroke-zinc-900 dark:stroke-white">
                                     <path d="M.5 1h9M.5 8h9M.5 4.5h9"></path>
-                                </svg></button><a aria-label="Home" href="index.html"><svg viewBox="0 0 99 24"
+                                </svg></button><a aria-label="Home" href=";"><svg viewBox="0 0 99 24"
                                     aria-hidden="true" class="h-6">
                                     <path class="fill-emerald-400"
                                         d="M16 8a5 5 0 0 0-5-5H5a5 5 0 0 0-5 5v13.927a1 1 0 0 0 1.623.782l3.684-2.93a4 4 0 0 1 2.49-.87H11a5 5 0 0 0 5-5V8Z">
@@ -106,11 +106,11 @@
                             <nav class="hidden md:block">
                                 <ul role="list" class="flex items-center gap-8">
                                     <li><a class="text-sm leading-5 text-zinc-600 transition hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-white"
-                                            href="index.html">API</a></li>
+                                            href="/">API</a></li>
                                     <li><a class="text-sm leading-5 text-zinc-600 transition hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-white"
-                                            href="index.html#">Documentation</a></li>
+                                            href="/#">Documentação</a></li>
                                     <li><a class="text-sm leading-5 text-zinc-600 transition hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-white"
-                                            href="index.html#">Support</a></li>
+                                            href="/#">Suporte</a></li>
                                 </ul>
                             </nav>
                             <div class="hidden md:block md:h-5 md:w-px md:bg-zinc-900/10 md:dark:bg-white/15"></div>
@@ -153,7 +153,7 @@
                                     class="block py-1 text-sm text-zinc-600 transition hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-white"
                                     href="index.html#">Support</a></li>
                             <li class="relative mt-6 md:mt-0">
-                                <h2 class="text-xs font-semibold text-zinc-900 dark:text-white">Guides</h2>
+                                <h2 class="text-xs font-semibold text-zinc-900 dark:text-white">Começando</h2>
                                 <div class="relative mt-3 pl-2">
                                     <div class="absolute inset-x-0 top-0 bg-zinc-800/2.5 will-change-transform dark:bg-white/2.5"
                                         style="border-radius:8px;height:32px;top:0;opacity:0"></div>
