@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-pt">
 <!-- Added by HTTrack -->
 <meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
 
 <head>
     <meta charSet="utf-8" />
     <meta name="viewport" content="width=device-width" />
-    <title>Protocol API Reference</title>
+    <title>{{ config('app.name') }}</title>
     <meta name="description"
         content="Learn everything there is to know about the Protocol API and integrate Protocol into your product." />
     <meta name="next-head-count" content="4" />
@@ -138,20 +138,20 @@
                             </div>
                             <div class="hidden min-[416px]:contents"><a
                                     class="inline-flex gap-0.5 justify-center overflow-hidden text-sm font-medium transition rounded-full bg-zinc-900 py-1 px-3 text-white hover:bg-zinc-700 dark:bg-emerald-400/10 dark:text-emerald-400 dark:ring-1 dark:ring-inset dark:ring-emerald-400/20 dark:hover:bg-emerald-400/10 dark:hover:text-emerald-300 dark:hover:ring-emerald-300"
-                                    href="index.html#">Sign in</a></div>
+                                    href="/#">Login</a></div>
                         </div>
                     </div>
                     <nav class="hidden lg:mt-10 lg:block">
                         <ul role="list">
                             <li class="md:hidden"><a
                                     class="block py-1 text-sm text-zinc-600 transition hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-white"
-                                    href="index.html">API</a></li>
+                                    href="/">API</a></li>
                             <li class="md:hidden"><a
                                     class="block py-1 text-sm text-zinc-600 transition hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-white"
-                                    href="index.html#">Documentation</a></li>
+                                    href="/#">Documentação</a></li>
                             <li class="md:hidden"><a
                                     class="block py-1 text-sm text-zinc-600 transition hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-white"
-                                    href="index.html#">Support</a></li>
+                                    href="/#">Suporte</a></li>
                             <li class="relative mt-6 md:mt-0">
                                 <h2 class="text-xs font-semibold text-zinc-900 dark:text-white">Começando</h2>
                                 <div class="relative mt-3 pl-2">
@@ -163,11 +163,11 @@
                                     <ul role="list" class="border-l border-transparent">
                                         <li class="relative"><a aria-current="page"
                                                 class="flex justify-between gap-2 py-1 pr-3 text-sm transition pl-4 text-zinc-900 dark:text-white"
-                                                href="index.html"><span class="truncate">Introduction</span></a>
+                                                href="index.html"><span class="truncate">Introdução</span></a>
                                             <ul role="list" style="opacity:1">
                                                 <li><a class="flex justify-between gap-2 py-1 pr-3 text-sm transition pl-7 text-zinc-600 hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-white"
                                                         href="index.html#guides"><span
-                                                            class="truncate">Guides</span></a></li>
+                                                            class="truncate">Guias</span></a></li>
                                                 <li><a class="flex justify-between gap-2 py-1 pr-3 text-sm transition pl-7 text-zinc-600 hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-white"
                                                         href="index.html#resources"><span
                                                             class="truncate">Resources</span></a></li>
