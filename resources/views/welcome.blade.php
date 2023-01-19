@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="en">
-<!-- Mirrored from protocol.tailwindui.com/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 19 Jan 2023 12:39:36 GMT -->
 <!-- Added by HTTrack -->
 <meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
 
@@ -176,7 +175,7 @@
                                         </li>
                                         <li class="relative"><a
                                                 class="flex justify-between gap-2 py-1 pr-3 text-sm transition pl-4 text-zinc-600 hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-white"
-                                                href="quickstart.html"><span class="truncate">Quickstart</span></a></li>
+                                                href="quickstart.html"><span class="truncate">Próximo</span></a></li>
                                         <li class="relative"><a
                                                 class="flex justify-between gap-2 py-1 pr-3 text-sm transition pl-4 text-zinc-600 hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-white"
                                                 href="sdks"><span class="truncate">SDKs</span></a></li>
@@ -689,6 +688,5 @@
 
     </script>
 </body>
-<!-- Mirrored from protocol.tailwindui.com/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 19 Jan 2023 12:39:45 GMT -->
 
 </html>
