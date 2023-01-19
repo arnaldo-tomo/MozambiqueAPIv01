@@ -1,12 +1,13 @@
 <!DOCTYPE html>
-<html lang="pt-pt">
+<html lang="en">
+<!-- Mirrored from protocol.tailwindui.com/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 19 Jan 2023 12:39:36 GMT -->
 <!-- Added by HTTrack -->
 <meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
 
 <head>
     <meta charSet="utf-8" />
     <meta name="viewport" content="width=device-width" />
-    <title>{{ config('app.name') }}</title>
+    <title>Protocol API Reference</title>
     <meta name="description"
         content="Learn everything there is to know about the Protocol API and integrate Protocol into your product." />
     <meta name="next-head-count" content="4" />
@@ -84,7 +85,7 @@
                                     <path stroke-linecap="round" stroke-linejoin="round"
                                         d="M12.01 12a4.25 4.25 0 1 0-6.02-6 4.25 4.25 0 0 0 6.02 6Zm0 0 3.24 3.25">
                                     </path>
-                                </svg>Encontrar algo...<kbd
+                                </svg>Find something...<kbd
                                     class="ml-auto text-2xs text-zinc-400 dark:text-zinc-500"><kbd
                                         class="font-sans"></kbd><kbd class="font-sans">K</kbd></kbd></button></div>
                         <div class="flex items-center gap-5 lg:hidden"><button type="button"
@@ -93,7 +94,7 @@
                                     stroke-linecap="round" aria-hidden="true"
                                     class="w-2.5 stroke-zinc-900 dark:stroke-white">
                                     <path d="M.5 1h9M.5 8h9M.5 4.5h9"></path>
-                                </svg></button><a aria-label="Home" href=";"><svg viewBox="0 0 99 24"
+                                </svg></button><a aria-label="Home" href="index.html"><svg viewBox="0 0 99 24"
                                     aria-hidden="true" class="h-6">
                                     <path class="fill-emerald-400"
                                         d="M16 8a5 5 0 0 0-5-5H5a5 5 0 0 0-5 5v13.927a1 1 0 0 0 1.623.782l3.684-2.93a4 4 0 0 1 2.49-.87H11a5 5 0 0 0 5-5V8Z">
@@ -106,11 +107,11 @@
                             <nav class="hidden md:block">
                                 <ul role="list" class="flex items-center gap-8">
                                     <li><a class="text-sm leading-5 text-zinc-600 transition hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-white"
-                                            href="/">API</a></li>
+                                            href="index.html">API</a></li>
                                     <li><a class="text-sm leading-5 text-zinc-600 transition hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-white"
-                                            href="/#">Documentação</a></li>
+                                            href="index.html#">Documentation</a></li>
                                     <li><a class="text-sm leading-5 text-zinc-600 transition hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-white"
-                                            href="/#">Suporte</a></li>
+                                            href="index.html#">Support</a></li>
                                 </ul>
                             </nav>
                             <div class="hidden md:block md:h-5 md:w-px md:bg-zinc-900/10 md:dark:bg-white/15"></div>
@@ -138,22 +139,22 @@
                             </div>
                             <div class="hidden min-[416px]:contents"><a
                                     class="inline-flex gap-0.5 justify-center overflow-hidden text-sm font-medium transition rounded-full bg-zinc-900 py-1 px-3 text-white hover:bg-zinc-700 dark:bg-emerald-400/10 dark:text-emerald-400 dark:ring-1 dark:ring-inset dark:ring-emerald-400/20 dark:hover:bg-emerald-400/10 dark:hover:text-emerald-300 dark:hover:ring-emerald-300"
-                                    href="/#">Login</a></div>
+                                    href="index.html#">Sign in</a></div>
                         </div>
                     </div>
                     <nav class="hidden lg:mt-10 lg:block">
                         <ul role="list">
                             <li class="md:hidden"><a
                                     class="block py-1 text-sm text-zinc-600 transition hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-white"
-                                    href="/">API</a></li>
+                                    href="index.html">API</a></li>
                             <li class="md:hidden"><a
                                     class="block py-1 text-sm text-zinc-600 transition hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-white"
-                                    href="/#">Documentação</a></li>
+                                    href="index.html#">Documentation</a></li>
                             <li class="md:hidden"><a
                                     class="block py-1 text-sm text-zinc-600 transition hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-white"
-                                    href="/#">Suporte</a></li>
+                                    href="index.html#">Support</a></li>
                             <li class="relative mt-6 md:mt-0">
-                                <h2 class="text-xs font-semibold text-zinc-900 dark:text-white">Começando</h2>
+                                <h2 class="text-xs font-semibold text-zinc-900 dark:text-white">Guides</h2>
                                 <div class="relative mt-3 pl-2">
                                     <div class="absolute inset-x-0 top-0 bg-zinc-800/2.5 will-change-transform dark:bg-white/2.5"
                                         style="border-radius:8px;height:32px;top:0;opacity:0"></div>
@@ -163,11 +164,11 @@
                                     <ul role="list" class="border-l border-transparent">
                                         <li class="relative"><a aria-current="page"
                                                 class="flex justify-between gap-2 py-1 pr-3 text-sm transition pl-4 text-zinc-900 dark:text-white"
-                                                href="index.html"><span class="truncate">Introdução</span></a>
+                                                href="index.html"><span class="truncate">Introduction</span></a>
                                             <ul role="list" style="opacity:1">
                                                 <li><a class="flex justify-between gap-2 py-1 pr-3 text-sm transition pl-7 text-zinc-600 hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-white"
                                                         href="index.html#guides"><span
-                                                            class="truncate">Guias</span></a></li>
+                                                            class="truncate">Guides</span></a></li>
                                                 <li><a class="flex justify-between gap-2 py-1 pr-3 text-sm transition pl-7 text-zinc-600 hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-white"
                                                         href="index.html#resources"><span
                                                             class="truncate">Resources</span></a></li>
@@ -175,7 +176,7 @@
                                         </li>
                                         <li class="relative"><a
                                                 class="flex justify-between gap-2 py-1 pr-3 text-sm transition pl-4 text-zinc-600 hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-white"
-                                                href="quickstart.html"><span class="truncate">Próximo</span></a></li>
+                                                href="quickstart.html"><span class="truncate">Quickstart</span></a></li>
                                         <li class="relative"><a
                                                 class="flex justify-between gap-2 py-1 pr-3 text-sm transition pl-4 text-zinc-600 hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-white"
                                                 href="sdks"><span class="truncate">SDKs</span></a></li>
