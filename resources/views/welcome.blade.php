@@ -1,15 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
-<!-- Mirrored from protocol.tailwindui.com/ by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 19 Jan 2023 12:39:36 GMT -->
 <!-- Added by HTTrack -->
 <meta http-equiv="content-type" content="text/html;charset=utf-8" /><!-- /Added by HTTrack -->
 
 <head>
     <meta charSet="utf-8" />
     <meta name="viewport" content="width=device-width" />
-    <title>Protocol API Reference</title>
+<title>{{ Config('app.name') }}</title>
     <meta name="description"
-        content="Learn everything there is to know about the Protocol API and integrate Protocol into your product." />
+content="" />
     <meta name="next-head-count" content="4" />
     <script>
         let darkModeMediaQuery = window.matchMedia('(prefers-color-scheme: dark)')
@@ -47,7 +46,23 @@
         }
 
     </script>
+<style>
+    .section::-webkit-scrollbar {
+        width: 16px;
+    }
+
+    .section::-webkit-scrollbar-track {
+        background-color: #e4e4e4;
+        border-radius: 100px;
+    }
+
+    .section::-webkit-scrollbar-thumb {
+        background-color: #d4aa70;
+        border-radius: 100px;
+    }
+</style>
     <link rel="preload" href="_next/static/css/5973ac107865555a.css" as="style" />
+<link rel="preload" href="tailwind.css" as="style" />
     <link rel="stylesheet" href="_next/static/css/5973ac107865555a.css" data-n-g="" /><noscript
         data-n-css=""></noscript>
     <script defer="" nomodule="" src="_next/static/chunks/polyfills-c67a75d1b6f99dc8.js"></script>
@@ -55,7 +70,7 @@
     <script src="_next/static/chunks/framework-3b5a00d5d7e8d93b.js" defer=""></script>
     <script src="_next/static/chunks/main-1f2538228a1f74e7.js" defer=""></script>
     <script src="_next/static/chunks/pages/_app-8345f5f9c4ee5ac7.js" defer=""></script>
-    <script src="_next/static/chunks/pages/index-42a012a1b8a01edb.js" defer=""></script>
+<script src="_next/static/chunks/pages/authentication-d8ce16ccc4e5bace.js" defer=""></script>
     <script src="_next/static/WA_UIYXxpLGp_ZNykk82c/_buildManifest.js" defer=""></script>
     <script src="_next/static/WA_UIYXxpLGp_ZNykk82c/_ssgManifest.js" defer=""></script>
 </head>
@@ -105,13 +120,13 @@
                                 </svg></a></div>
                         <div class="flex items-center gap-5">
                             <nav class="hidden md:block">
-                                <ul role="list" class="flex items-center gap-8">
+<ul class="flex items-center gap-8">
                                     <li><a class="text-sm leading-5 text-zinc-600 transition hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-white"
                                             href="index.html">API</a></li>
                                     <li><a class="text-sm leading-5 text-zinc-600 transition hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-white"
-                                            href="index.html#">Documentation</a></li>
+href="index.html#">Documentacao </a></li>
                                     <li><a class="text-sm leading-5 text-zinc-600 transition hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-white"
-                                            href="index.html#">Support</a></li>
+href="index.html#">Suporte</a></li>
                                 </ul>
                             </nav>
                             <div class="hidden md:block md:h-5 md:w-px md:bg-zinc-900/10 md:dark:bg-white/15"></div>
@@ -143,80 +158,77 @@
                         </div>
                     </div>
                     <nav class="hidden lg:mt-10 lg:block">
-                        <ul role="list">
+<ul>
                             <li class="md:hidden"><a
                                     class="block py-1 text-sm text-zinc-600 transition hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-white"
                                     href="index.html">API</a></li>
                             <li class="md:hidden"><a
                                     class="block py-1 text-sm text-zinc-600 transition hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-white"
-                                    href="index.html#">Documentation</a></li>
+href="index.html#">Domentacao</a></li>
                             <li class="md:hidden"><a
                                     class="block py-1 text-sm text-zinc-600 transition hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-white"
-                                    href="index.html#">Support</a></li>
+href="index.html#">Suporte</a></li>
                             <li class="relative mt-6 md:mt-0">
-                                <h2 class="text-xs font-semibold text-zinc-900 dark:text-white">Guides</h2>
+<h2 class="text-xs font-semibold text-zinc-900 dark:text-white">Guia</h2>
                                 <div class="relative mt-3 pl-2">
                                     <div class="absolute inset-x-0 top-0 bg-zinc-800/2.5 will-change-transform dark:bg-white/2.5"
                                         style="border-radius:8px;height:32px;top:0;opacity:0"></div>
                                     <div class="absolute inset-y-0 left-2 w-px bg-zinc-900/10 dark:bg-white/5"></div>
                                     <div class="absolute left-2 h-6 w-px bg-emerald-500" style="top:4px;opacity:1">
                                     </div>
-                                    <ul role="list" class="border-l border-transparent">
+<ul class="border-l border-transparent">
                                         <li class="relative"><a aria-current="page"
                                                 class="flex justify-between gap-2 py-1 pr-3 text-sm transition pl-4 text-zinc-900 dark:text-white"
-                                                href="index.html"><span class="truncate">Introduction</span></a>
-                                            <ul role="list" style="opacity:1">
-                                                <li><a class="flex justify-between gap-2 py-1 pr-3 text-sm transition pl-7 text-zinc-600 hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-white"
-                                                        href="index.html#guides"><span
-                                                            class="truncate">Guides</span></a></li>
-                                                <li><a class="flex justify-between gap-2 py-1 pr-3 text-sm transition pl-7 text-zinc-600 hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-white"
-                                                        href="index.html#resources"><span
-                                                            class="truncate">Resources</span></a></li>
+href="/"><span class="truncate">Entrodução</span></a>
+                                            <ul  style="opacity:1">
+                                                <li>
+                                                    <a class="flex justify-between gap-2 py-1 pr-3 text-sm transition pl-7 text-zinc-600 hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-white"
+                                                        href="/#guides"><span
+                                                            class="truncate">Guia</span></a></li>
+                                                <li>
+                                                    <a class="flex justify-between gap-2 py-1 pr-3 text-sm transition pl-7 text-zinc-600 hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-white"
+                                                        href="/#resources"><span
+                                                            class="truncate">Recursos</span></a></li>
                                             </ul>
                                         </li>
+</ul>
+</div>
+</li>
+<li class="relative mt-6">
+    <h2 class="text-xs font-semibold text-zinc-900 dark:text-white">Resources</h2>
+    <div class="relative mt-3 pl-2">
+        <div class="absolute inset-y-0 left-2 w-px bg-zinc-900/10 dark:bg-white/5"></div>
+        <ul class="border-l border-transparent">
                                         <li class="relative"><a
                                                 class="flex justify-between gap-2 py-1 pr-3 text-sm transition pl-4 text-zinc-600 hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-white"
-                                                href="quickstart.html"><span class="truncate">Quickstart</span></a></li>
+href="messages"><span class="truncate">Cidade</span></a></li>
                                         <li class="relative"><a
                                                 class="flex justify-between gap-2 py-1 pr-3 text-sm transition pl-4 text-zinc-600 hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-white"
-                                                href="sdks"><span class="truncate">SDKs</span></a></li>
+href="groups"><span class="truncate">Bancos</span></a></li>
                                         <li class="relative"><a
                                                 class="flex justify-between gap-2 py-1 pr-3 text-sm transition pl-4 text-zinc-600 hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-white"
-                                                href="authentication"><span class="truncate">Authentication</span></a>
-                                        </li>
+href="attachments"><span class="truncate">Regiao</span></a></li>
                                         <li class="relative"><a
                                                 class="flex justify-between gap-2 py-1 pr-3 text-sm transition pl-4 text-zinc-600 hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-white"
-                                                href="pagination"><span class="truncate">Pagination</span></a></li>
+href="attachments"><span class="truncate">Regiao</span></a></li>
                                         <li class="relative"><a
                                                 class="flex justify-between gap-2 py-1 pr-3 text-sm transition pl-4 text-zinc-600 hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-white"
-                                                href="errors"><span class="truncate">Errors</span></a></li>
+href="attachments"><span class="truncate">Regiao</span></a></li>
                                         <li class="relative"><a
                                                 class="flex justify-between gap-2 py-1 pr-3 text-sm transition pl-4 text-zinc-600 hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-white"
-                                                href="webhooks"><span class="truncate">Webhooks</span></a></li>
-                                    </ul>
-                                </div>
-                            </li>
-                            <li class="relative mt-6">
-                                <h2 class="text-xs font-semibold text-zinc-900 dark:text-white">Resources</h2>
-                                <div class="relative mt-3 pl-2">
-                                    <div class="absolute inset-y-0 left-2 w-px bg-zinc-900/10 dark:bg-white/5"></div>
-                                    <ul role="list" class="border-l border-transparent">
+href="attachments"><span class="truncate">Regiao</span></a></li>
                                         <li class="relative"><a
                                                 class="flex justify-between gap-2 py-1 pr-3 text-sm transition pl-4 text-zinc-600 hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-white"
-                                                href="contacts"><span class="truncate">Contacts</span></a></li>
+href="attachments"><span class="truncate">Regiao</span></a></li>
                                         <li class="relative"><a
                                                 class="flex justify-between gap-2 py-1 pr-3 text-sm transition pl-4 text-zinc-600 hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-white"
-                                                href="conversations"><span class="truncate">Conversations</span></a>
-                                        </li>
+href="attachments"><span class="truncate">Regiao</span></a></li>
                                         <li class="relative"><a
                                                 class="flex justify-between gap-2 py-1 pr-3 text-sm transition pl-4 text-zinc-600 hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-white"
-                                                href="messages"><span class="truncate">Messages</span></a></li>
+href="attachments"><span class="truncate">Regiao</span></a></li>
                                         <li class="relative"><a
                                                 class="flex justify-between gap-2 py-1 pr-3 text-sm transition pl-4 text-zinc-600 hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-white"
-                                                href="groups"><span class="truncate">Groups</span></a></li>
-                                        <li class="relative"><a
-                                                class="flex justify-between gap-2 py-1 pr-3 text-sm transition pl-4 text-zinc-600 hover:text-zinc-900 dark:text-zinc-400 dark:hover:text-white"
-                                                href="attachments"><span class="truncate">Attachments</span></a></li>
+href="attachments"><span class="truncate">Regiao</span></a></li>
                                     </ul>
                                 </div>
                             </li>
@@ -346,7 +358,7 @@
                         <div class="my-16 xl:max-w-none">
                             <h2 id="resources" class="scroll-mt-24"><a
                                     class="group text-inherit no-underline hover:text-inherit"
-                                    href="index.html#resources">Resources</a></h2>
+href="index.html#resources">Recursos</a></h2>
                             <div
                                 class="not-prose mt-4 grid grid-cols-1 gap-8 border-t border-zinc-900/5 pt-10 dark:border-white/5 sm:grid-cols-2 xl:grid-cols-4">
                                 <div
@@ -626,7 +638,7 @@
                     <div class="flex">
                         <div class="ml-auto flex flex-col items-end gap-3"><a
                                 class="inline-flex gap-0.5 justify-center overflow-hidden text-sm font-medium transition rounded-full bg-zinc-100 py-1 px-3 text-zinc-900 hover:bg-zinc-200 dark:bg-zinc-800/40 dark:text-zinc-400 dark:ring-1 dark:ring-inset dark:ring-zinc-800 dark:hover:bg-zinc-800 dark:hover:text-zinc-300"
-                                aria-label="Next: Quickstart" href="quickstart">Next<svg viewBox="0 0 20 20" fill="none"
+aria-label="Next: Quickstart" href="/recursos">Next<svg viewBox="0 0 20 20" fill="none"
                                     aria-hidden="true" class="mt-0.5 h-5 w-5 -mr-1">
                                     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"
                                         d="m11.5 6.5 3 3.5m0 0-3 3.5m3-3.5h-9"></path>
@@ -662,32 +674,8 @@
                 </footer>
             </div>
         </div>
-    </div>
-    <script id="__NEXT_DATA__" type="application/json">
-        {
-            "props": {
-                "pageProps": {
-                    "description": "Learn everything there is to know about the Protocol API and integrate Protocol into your product.",
-                    "sections": [{
-                        "title": "Guides",
-                        "id": "guides"
-                    }, {
-                        "title": "Resources",
-                        "id": "resources"
-                    }],
-                    "title": "API Documentation"
-                },
-                "__N_SSG": true
-            },
-            "page": "/",
-            "query": {},
-            "buildId": "WA_UIYXxpLGp_ZNykk82c",
-            "isFallback": false,
-            "gsp": true,
-            "scriptLoader": []
-        }
+</div>
 
-    </script>
 </body>
 
 </html>
