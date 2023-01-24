@@ -28,6 +28,7 @@
 
 		<!-- Theme CSS -->
 		<link id="theme-style" rel="stylesheet" href="assets/css/theme.css">
+		<link id="theme-style" rel="stylesheet" href="assets/css/estilo.css">
 
 	</head>
 
