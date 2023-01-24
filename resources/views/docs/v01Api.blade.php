@@ -81,7 +81,7 @@
 						<li class="nav-item section-title"><a class="nav-link scrollto active"
 								href="#section-1"><span class="theme-icon-holder me-2"><i class="fas
 										fa-map-signs"></i></span>Introdução</a></li>
-						<li class="nav-item"><a class="nav-link scrollto" href="#item-1-1">Bancos</a></li>
+						<li class="nav-item"><a class="nav-link scrollto" href="#item-1-1"> <code class="bg-success text-white">GET</code> Bancos</a></li>
 						<li class="nav-item"><a class="nav-link scrollto" href="#item-1-2">Taxaas</a></li>
 						<li class="nav-item"><a class="nav-link scrollto" href="#item-1-3">Impostos</a></li>
 						<li class="nav-item"><a class="nav-link scrollto" href="#item-1-4">feriados Nacionais</a></li>
