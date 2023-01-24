@@ -4,13 +4,13 @@
 
 	<meta http-equiv="content-type" content="text/html;charset=UTF-8"/>
 	<head>
-		<title>MoçambiqueAPI</title>
+		<title>Moçambique API</title>
 
 		<!-- Meta -->
 		<meta charset="utf-8">
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link rel="shortcut icon" href="icon.png">
+		<link rel="shortcut icon" href="assets/icon.png">
 
 		<!-- Google Font -->
 		<link
@@ -44,8 +44,8 @@
 							<span></span>
 						</button>
 						<div class="site-logo"><a class="navbar-brand" href="docs.html"><img
-									class="logo-icon me-2" src="assets/images/site-logo.svg" alt="logo"><span
-									class="logo-text">Coder<span class="text-alt">Docs</span></span></a></div>
+									class="logo-icon me-2" src="assets/icon.png" alt="logo"><span
+									class="logo-text">Moçambique<span class="text-alt"> API</span></span></a></div>
 					</div><!--//docs-logo-wrapper-->
 					<div class="docs-top-utilities d-flex justify-content-end
 						align-items-center">
@@ -60,13 +60,13 @@
 							<li class="list-inline-item"><a href="#"><i class="fab fa-github fa-fw"></i></a></li>
 							<li class="list-inline-item"><a href="#"><i class="fab fa-twitter fa-fw"></i></a></li>
 						</ul><!--//social-list-->
-						<a href="signup.html" class="btn btn-primary d-none d-lg-flex">Suporte</a>
+						<a href="" class="btn btn-primary d-none d-lg-flex">Suporte</a>
 					</div><!--//docs-top-utilities-->
 				</div><!--//container-->
 			</div><!--//branding-->
 		</header><!--//header-->
 
-		<div class="docs-wrapper">
+		<div class="docs-wrapper container">
 			<div id="docs-sidebar" class="docs-sidebar">
 				<div class="top-search-box d-lg-none p-3">
 					<form class="search-form">
@@ -80,45 +80,31 @@
 					<ul class="section-items list-unstyled nav flex-column pb-3">
 						<li class="nav-item section-title"><a class="nav-link scrollto active"
 								href="#section-1"><span class="theme-icon-holder me-2"><i class="fas
-										fa-map-signs"></i></span>Introduction</a></li>
-						<li class="nav-item"><a class="nav-link scrollto" href="#item-1-1">Cidades</a></li>
-						<li class="nav-item"><a class="nav-link scrollto" href="#item-1-2">Section
-								Item 1.2</a></li>
-						<li class="nav-item"><a class="nav-link scrollto" href="#item-1-3">Section
-								Item 1.3</a></li>
-						<li class="nav-item"><a class="nav-link scrollto" href="#item-1-4">Section
-								Item 1.4</a></li>
-						<li class="nav-item"><a class="nav-link scrollto" href="#item-1-5">Section
-								Item 1.5</a></li>
-						<li class="nav-item"><a class="nav-link scrollto" href="#item-1-6">Section
-								Item 1.6</a></li>
+										fa-map-signs"></i></span>Introdução</a></li>
+						<li class="nav-item"><a class="nav-link scrollto" href="#item-1-1">Bancos</a></li>
+						<li class="nav-item"><a class="nav-link scrollto" href="#item-1-2">Taxaas</a></li>
+						<li class="nav-item"><a class="nav-link scrollto" href="#item-1-3">Impostos</a></li>
+						<li class="nav-item"><a class="nav-link scrollto" href="#item-1-4">feriados Nacionais</a></li>
+						<li class="nav-item"><a class="nav-link scrollto" href="#item-1-5">Taxa de câmbio do BNA</a></li>
+						<li class="nav-item"><a class="nav-link scrollto" href="#item-1-6">Taxa de inflação</a></li>
 						<li class="nav-item section-title mt-3"><a class="nav-link scrollto"
 								href="#section-2"><span class="theme-icon-holder me-2"><i class="fas
-										fa-arrow-down"></i></span>Installation</a></li>
-						<li class="nav-item"><a class="nav-link scrollto" href="#item-2-1">Section
-								Item 2.1</a></li>
-						<li class="nav-item"><a class="nav-link scrollto" href="#item-2-2">Section
-								Item 2.2</a></li>
-						<li class="nav-item"><a class="nav-link scrollto" href="#item-2-3">Section
-								Item 2.3</a></li>
+										fa-arrow-down"></i></span>Taxas bancárias</a></li>
+						<li class="nav-item"><a class="nav-link scrollto" href="#item-2-1">Taxa de Juros do BNA</a></li>
+						<li class="nav-item"><a class="nav-link scrollto" href="#item-2-2">Taxas de câmbio no BNA;</a></li>
+						<li class="nav-item"><a class="nav-link scrollto" href="#item-2-3">Taxas de câmbio nos bancos comerciais</a></li>
 						<li class="nav-item section-title mt-3"><a class="nav-link scrollto"
 								href="#section-3"><span class="theme-icon-holder me-2"><i class="fas
-										fa-box"></i></span>APIs</a></li>
-						<li class="nav-item"><a class="nav-link scrollto" href="#item-3-1">Section
-								Item 3.1</a></li>
-						<li class="nav-item"><a class="nav-link scrollto" href="#item-3-2">Section
-								Item 3.2</a></li>
-						<li class="nav-item"><a class="nav-link scrollto" href="#item-3-3">Section
-								Item 3.3</a></li>
+										fa-box"></i></span>Regiões</a></li>
+						<li class="nav-item"><a class="nav-link scrollto" href="#item-3-1">Províncias</a></li>
+						<li class="nav-item"><a class="nav-link scrollto" href="#item-3-2">Municípios</a></li>
+						<li class="nav-item"><a class="nav-link scrollto" href="#item-3-3">Cidades</a></li>
 						<li class="nav-item section-title mt-3"><a class="nav-link scrollto"
 								href="#section-4"><span class="theme-icon-holder me-2"><i class="fas
-										fa-cogs"></i></span>Integrations</a></li>
-						<li class="nav-item"><a class="nav-link scrollto" href="#item-4-1">Section
-								Item 4.1</a></li>
-						<li class="nav-item"><a class="nav-link scrollto" href="#item-4-2">Section
-								Item 4.2</a></li>
-						<li class="nav-item"><a class="nav-link scrollto" href="#item-4-3">Section
-								Item 4.3</a></li>
+										fa-cogs"></i></span>Validações</a></li>
+						<li class="nav-item"><a class="nav-link scrollto" href="#item-4-1">Bilhete de Identidade</a></li>
+						<li class="nav-item"><a class="nav-link scrollto" href="#item-4-2">Passaporte</a></li>
+						<li class="nav-item"><a class="nav-link scrollto" href="#item-4-3">Telefone</a></li>
 						<li class="nav-item section-title mt-3"><a class="nav-link scrollto"
 								href="#section-5"><span class="theme-icon-holder me-2"><i class="fas
 										fa-tools"></i></span>Utilities</a></li>
@@ -172,14 +158,10 @@
 				<div class="container">
 					<article class="docs-article" id="section-1">
 						<header class="docs-header">
-							<h1 class="docs-heading">Introduction <span class="docs-time">Last
+							<h1 class="docs-heading">Introdução <span class="docs-time">Last
 									updated: 2019-06-01</span></h1>
 							<section class="docs-intro">
-								<p>Section intro goes here. Lorem ipsum dolor sit amet, consectetur
-									adipiscing elit. Quisque finibus condimentum nisl id vulputate.
-									Praesent aliquet varius eros interdum suscipit. Donec eu purus sed nibh
-									convallis bibendum quis vitae turpis. Duis vestibulum diam lorem, vitae
-									dapibus nibh facilisis a. Fusce in malesuada odio.</p>
+								<p>Moçambique API é uma api que fornece informações bancárias de Banco Nacional de Moçambique, informações regionais,Taxas bancarias, validações nacionais,feriados Nacionais entre outras.</p>
 							</section><!--//docs-intro-->
 
 							<h5>Github Code Example: <code class="bg-success text-white">GET/docs/v01/cidades</code></h5>
@@ -352,7 +334,7 @@
 
 						<article class="docs-article" id="section-2">
 							<header class="docs-header">
-								<h1 class="docs-heading">Installation</h1>
+								<h1 class="docs-heading">Validações</h1>
 								<section class="docs-intro">
 									<p>Section intro goes here. Lorem ipsum dolor sit amet, consectetur
 										adipiscing elit. Quisque finibus condimentum nisl id vulputate.
