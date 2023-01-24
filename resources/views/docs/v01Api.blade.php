@@ -239,7 +239,7 @@
   <div class="accordion-item ">
     <h2 class="accordion-header" id="flush-headingOne">
 
-		<button  class="accordion-button bg-primary collapse-white text-white collapsed" type="button" data-bs-toggle="collapse"       data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+		<button  class="accordion-button bg-success collapse-white text-white collapsed" type="button" data-bs-toggle="collapse"       data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
         200 sucessos
       </button>
 
