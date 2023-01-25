@@ -169,8 +169,12 @@
 								<pre class="shadow-lg rounded"><code class="json hljs">[
   {
     <span class="hljs-attr">"Capital"</span>: <span class="hljs-string">"Maputo"</span>,
-    <span class="hljs-attr">"cidade mas populosa"</span>: [<span class="hljs-number">12000</span>, <span class="hljs-number">20000</span>],
-    <span class="hljs-attr">"description"</span>: {<span class="hljs-attr">"text"</span>: <span class="hljs-string">"..."</span>, <span class="hljs-attr">"sensitive"</span>: <span class="hljs-literal">false</span>}
+    <span class="hljs-attr">"CidadeMasPopulosa"</span>: <span class="hljs-string">"Maputo"</span>,
+    <span class="hljs-attr">"LinguaOfcial"</span>: <span class="hljs-string">"Portugual"</span>,
+    <span class="hljs-attr">"Governo"</span>: <span class="hljs-string">"Republica Unitaria semipresidencialista sob um sistema de parido dominante"</span>,
+    <span class="hljs-attr">"Presidente"</span>: <span class="hljs-string">"Filipe Nyusi"</span>,
+    <span class="hljs-attr">"Primeiro-ministro"</span>: <span class="hljs-string">"Adriano Maleiane"</span>,
+    <span class="hljs-attr">"Legislatura"</span>: <span class="hljs-string">"Assembleia da República"</span>,
   },
   {
     <span class="hljs-attr">"title"</span>: <span class="hljs-string">"oranges"</span>,
