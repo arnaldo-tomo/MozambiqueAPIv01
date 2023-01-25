@@ -208,7 +208,15 @@
 													<i class="fas fa-link"></i>
 												</span>
 												<code><code>https://mocambiqueApi/docs/v01/bancos</code> </code>
-												<!-- <code><code>&lt;GET&gt;</code> </code> -->
+												<!-- <code><code>&lt;GET&gt;</code> </code>
+													,
+  {
+    <span class="hljs-attr">"title"</span>: <span class="hljs-string">"oranges"</span>,
+    <span class="hljs-attr">"title"</span>: <span class="hljs-string">"oranges"</span>,
+    <span class="hljs-attr">"count"</span>: [<span class="hljs-number">17500</span>, <span class="hljs-literal">null</span>],
+    <span class="hljs-attr">"description"</span>: {<span class="hljs-attr">"text"</span>: <span class="hljs-string">"..."</span>, <span class="hljs-attr">"sensitive"</span>: <span class="hljs-literal">false</span>}
+  }
+												 -->
 											</h4>
 										</div>
 									</div>
@@ -244,12 +252,6 @@
     <span class="hljs-attr">"nome"</span>: <span class="hljs-string">"Nampula"</span>,
     <span class="hljs-attr">"provincia"</span>: <span class="hljs-string">Nampula</span>,
     <span class="hljs-attr">"populacao"</span>: [<span class="hljs-number">663,212</span>],
-  },
-  {
-    <span class="hljs-attr">"title"</span>: <span class="hljs-string">"oranges"</span>,
-    <span class="hljs-attr">"title"</span>: <span class="hljs-string">"oranges"</span>,
-    <span class="hljs-attr">"count"</span>: [<span class="hljs-number">17500</span>, <span class="hljs-literal">null</span>],
-    <span class="hljs-attr">"description"</span>: {<span class="hljs-attr">"text"</span>: <span class="hljs-string">"..."</span>, <span class="hljs-attr">"sensitive"</span>: <span class="hljs-literal">false</span>}
   }
 ]</code></pre>
 									</div>
