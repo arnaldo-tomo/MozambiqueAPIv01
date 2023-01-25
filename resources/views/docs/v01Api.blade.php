@@ -227,6 +227,7 @@
 								<div class="col">
 									<h5><code class="bg-success text-white">GET</code> <code>https://mocambiqueApi/docs/v01/bancos</code></h5>
 									<h6>Reponses samples</h6>
+									<h5><code class="bg-primary text-white">200</code></h5>
 									
 									<div class="docs-code-block">
 										<pre class="shadow-lg rounded"><code class="json hljs">[
@@ -257,7 +258,7 @@
 </code></pre>
 									</div>
 								</div>
-									<Strong class="me-1">Response</Strong>
+									<Strong class="me-1">Responses samples</Strong>
 									<div class="accordion accordion-flush" id="accordionFlushExample">
   <div class="accordion-item ">
     <h2 class="accordion-header" id="flush-headingOne">
