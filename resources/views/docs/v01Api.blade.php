@@ -174,6 +174,7 @@
     <span class="hljs-attr">"Lado de condução"</span>: <span class="hljs-string">"Esquerda"</span>,
     <span class="hljs-attr">"Código de chamada"</span>: [<span class="hljs-string">+258</span>],
     <span class="hljs-attr">"Código ISO 3166"</span>: <span class="hljs-string">MZ</span>,
+    <span class="hljs-attr">"Internet TLD"</span>: <span class="hljs-string">MZ</span>,
     <span class="hljs-attr">"Capital"</span>: <span class="hljs-string">"Maputo"</span>,
     <span class="hljs-attr">"CidadeMasPopulosa"</span>: <span class="hljs-string">"Maputo"</span>,
     <span class="hljs-attr">"LinguaOfcial"</span>: <span class="hljs-string">"Portugual"</span>,
