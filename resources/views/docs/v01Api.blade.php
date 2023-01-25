@@ -189,14 +189,14 @@
 						<section class="docs-section" id="item-1-1">
 							<div class="row">
 								<div class="col">
-									<h2 class="section-heading">Cidades</h2>
+									<h2 class="section-heading">Bancos</h2>
 									<div class="callout-block callout-block-info">
 										<div class="content">
 											<h4 class="callout-title">
 												<span class="callout-icon-holder me-1">
-													<i class="fas fa-info-circle"></i>
+													<i class="fas fa-link"></i>
 												</span>
-												<code><code>https::/mocambiqueApi/docs/v01/cicades</code> </code>
+												<code><code>https::/mocambiqueApi/docs/v01/bancos</code> </code>
 												<!-- <code><code>&lt;GET&gt;</code> </code> -->
 											</h4>
 										</div>
@@ -214,7 +214,7 @@
 								</div>
 
 								<div class="col">
-									<h5>Github Code Example: <code class="bg-success text-white">GET/docs/v01/cidades</code></h5>
+									<h5>Github Code Example: <code class="bg-success text-white">GET/docs/v01/bancos</code></h5>
 									<div class="docs-code-block">
 										<pre class="shadow-lg rounded"><code class="json hljs">[
   {
