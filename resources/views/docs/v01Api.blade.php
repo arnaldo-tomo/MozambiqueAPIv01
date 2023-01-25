@@ -185,8 +185,6 @@
     <span class="hljs-attr">"Densidade"</span>: <span class="hljs-string">"28,7/km2 (74,3/sq mi)"</span>,
   }
 ]
-
-
 </code></pre>
 							</div><!--//docs-code-block-->
 
