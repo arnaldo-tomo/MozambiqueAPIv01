@@ -319,14 +319,11 @@
   
         <span class="hljs-attr">nome</span>                                                 <span class="hljs-string">string</span>
 	<span class="text-danger">Required</span>
-        <span class="hljs-attr">nome</span>                                                 <span class="hljs-string">string</span>
+        <span class="hljs-attr">provincia</span>                                                 <span class="hljs-string">string</span>
 	<span class="text-danger">Required</span>
-        <span class="hljs-attr">nome</span>                                                 <span class="hljs-string">string</span>
+        <span class="hljs-attr">provincia</span>                                                 <span class="hljs-string">int(32)</span>
 	<span class="text-danger">Required</span>
-        <span class="hljs-attr">nome</span>                                                 <span class="hljs-string">string</span>
-	<span class="text-danger">Required</span>
-	
-    <span class="hljs-attr">"provincia"</span>: <span class="hljs-string">Maputo</span>,
+	    <span class="hljs-attr">"provincia"</span>: <span class="hljs-string">Maputo</span>,
 ]</code></pre>
 	  </div>
     </div>
