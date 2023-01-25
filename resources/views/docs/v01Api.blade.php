@@ -179,9 +179,9 @@
     <span class="hljs-attr">"Admitido nas Nações Unidas"</span>: <span class="hljs-string">"6 de Setembro de 1975"</span>,
     <span class="hljs-attr">"Guerra Civil Moçambicana"</span>: <span class="hljs-string">"1977–1992"</span>,
     <span class="hljs-attr">"Constituição atual"</span>: <span class="hljs-string">"21 de Dezembro de 2004"</span>,
-    <span class="hljs-attr">"Área Total"</span>: <span class="hljs-string">"801.590 km2 (309.500 sq mi) (35º)"</span>,
+    <span class="hljs-attr">"Área Total"</span>: <span class="hljs-string">"801.590 km2 (309.500 sq mi)"</span>,
     <span class="hljs-attr">"Água (%)"</span>: <span class="hljs-string">"2.2"</span>,
-    <span class="hljs-attr">"População Estimativa para 2022"</span>: <span class="hljs-string">"2.2"</span>,
+    <span class="hljs-attr">"População Estimativa para 2022"</span>: <span class="hljs-string">"31.693.239"</span>,
   }
 ]
 
