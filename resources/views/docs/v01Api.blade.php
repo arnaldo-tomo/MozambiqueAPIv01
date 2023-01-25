@@ -207,7 +207,7 @@
 												<span class="callout-icon-holder me-1">
 													<i class="fas fa-link"></i>
 												</span>
-												<code><code>https::/mocambiqueApi/docs/v01/bancos</code> </code>
+												<code><code>https://mocambiqueApi/docs/v01/bancos</code> </code>
 												<!-- <code><code>&lt;GET&gt;</code> </code> -->
 											</h4>
 										</div>
@@ -225,7 +225,7 @@
 								</div>
 
 								<div class="col">
-									<h5><code class="bg-success text-white">GET</code> <code>https::/mocambiqueApi/docs/v01/bancos</code></h5>
+									<h5><code class="bg-success text-white">GET</code> <code>https://mocambiqueApi/docs/v01/bancos</code></h5>
 									<div class="docs-code-block">
 										<pre class="shadow-lg rounded"><code class="json hljs">[
   {
