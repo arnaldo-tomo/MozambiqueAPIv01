@@ -175,12 +175,10 @@
     <span class="hljs-attr">"Presidente"</span>: <span class="hljs-string">"Filipe Nyusi"</span>,
     <span class="hljs-attr">"Primeiro-ministro"</span>: <span class="hljs-string">"Adriano Maleiane"</span>,
     <span class="hljs-attr">"Legislatura"</span>: <span class="hljs-string">"Assembleia da República"</span>,
-  },
-  {
-    <span class="hljs-attr">"title"</span>: <span class="hljs-string">"oranges"</span>,
-    <span class="hljs-attr">"title"</span>: <span class="hljs-string">"oranges"</span>,
-    <span class="hljs-attr">"count"</span>: [<span class="hljs-number">17500</span>, <span class="hljs-literal">null</span>],
-    <span class="hljs-attr">"description"</span>: {<span class="hljs-attr">"text"</span>: <span class="hljs-string">"..."</span>, <span class="hljs-attr">"sensitive"</span>: <span class="hljs-literal">false</span>}
+    <span class="hljs-attr">"Independência de Portugal"</span>: <span class="hljs-string">"25 de Junho de 1975"</span>,
+    <span class="hljs-attr">"Admitido nas Nações Unidas"</span>: <span class="hljs-string">"6 de Setembro de 1975"</span>,
+    <span class="hljs-attr">"Guerra Civil Moçambicana"</span>: <span class="hljs-string">"1977–1992"</span>,
+    <span class="hljs-attr">"Constituição atual"</span>: <span class="hljs-string">"21 de Dezembro de 2004"</span>,
   }
 ]
 
