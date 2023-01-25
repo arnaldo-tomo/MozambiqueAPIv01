@@ -303,6 +303,65 @@
       <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
     </div>
   </div>
+
+  				<div class="row">
+								<div class="col">
+									<h2 class="section-heading">Bancos</h2>
+									<div class="callout-block callout-block-info">
+										<div class="content">
+											<h4 class="callout-title">
+												<span class="callout-icon-holder me-1">
+													<i class="fas fa-link"></i>
+												</span>
+												<code><code>https://mocambiqueApi/docs/v01/bancos</code> </code>
+												<!-- <code><code>&lt;GET&gt;</code> </code>
+													,
+  {
+    <span class="hljs-attr">"title"</span>: <span class="hljs-string">"oranges"</span>,
+    <span class="hljs-attr">"title"</span>: <span class="hljs-string">"oranges"</span>,
+    <span class="hljs-attr">"count"</span>: [<span class="hljs-number">17500</span>, <span class="hljs-literal">null</span>],
+    <span class="hljs-attr">"description"</span>: {<span class="hljs-attr">"text"</span>: <span class="hljs-string">"..."</span>, <span class="hljs-attr">"sensitive"</span>: <span class="hljs-literal">false</span>}
+  }
+												 -->
+											</h4>
+										</div>
+									</div>
+									<p>Vivamus efficitur fringilla ullamcorper. Cras condimentum
+										condimentum mauris, vitae facilisis leo. Aliquam sagittis purus nisi,
+										at commodo augue convallis id. </p>
+									<p>Code Example: <code>npm install &lt;package&gt;</code></p>
+									<h5>Unordered List Examples:</h5>
+									<ul>
+										<li><strong class="me-1">HTML5:</strong> <code>&lt;div id="foo"&gt;</code></li>
+										<li><strong class="me-1">CSS:</strong> <code>#foo { color: red }</code></li>
+										<li><strong class="me-1">JavaScript:</strong> <code>console.log(&#x27;#foo\bar&#x27;);</code></li>
+									</ul>
+								</div>
+
+	<div class="col">
+	<h5><code class="bg-success text-white">GET</code> <code>https://mocambiqueApi/docs/v01/bancos</code></h5>
+	<h6>Reponses samples</h6>
+	<h5><code class="bg-primary text-white">200</code></h5>
+	<div class="docs-code-block">
+	<pre class="shadow-lg rounded"><code class="json hljs">[
+  {
+    <span class="hljs-attr">"nome"</span>: <span class="hljs-string">"Maputo"</span>,
+    <span class="hljs-attr">"provincia"</span>: <span class="hljs-string">Maputo</span>,
+    <span class="hljs-attr">"populacao"</span>: [<span class="hljs-number">1,080,277</span>],
+  },
+  {
+    <span class="hljs-attr">"nome"</span>: <span class="hljs-string">"Matola"</span>,
+    <span class="hljs-attr">"provincia"</span>: <span class="hljs-string">Maputo</span>,
+    <span class="hljs-attr">"populacao"</span>: [<span class="hljs-number">1,032,197</span>],
+  },
+  {
+    <span class="hljs-attr">"nome"</span>: <span class="hljs-string">"Nampula"</span>,
+    <span class="hljs-attr">"provincia"</span>: <span class="hljs-string">Nampula</span>,
+    <span class="hljs-attr">"populacao"</span>: [<span class="hljs-number">663,212</span>],
+  }
+]</code></pre>
+									</div>
+								</div>
 </div>
 									
 
