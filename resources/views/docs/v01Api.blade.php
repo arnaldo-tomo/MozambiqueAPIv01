@@ -172,6 +172,8 @@
     <span class="hljs-attr">"Fuso horário"</span>: <span class="hljs-string">"UTC+2 (CAT)"</span>,
     <span class="hljs-attr">"Formato de data"</span>: <span class="hljs-string">"dd/mm/aaaa"</span>,
     <span class="hljs-attr">"Lado de condução"</span>: <span class="hljs-string">"Esquerda"</span>,
+    <span class="hljs-attr">"Código de chamada"</span>: [<span class="hljs-string">+258</span>],
+    <span class="hljs-attr">"Código ISO 3166"</span>: <span class="hljs-string">MZ</span>,
     <span class="hljs-attr">"Capital"</span>: <span class="hljs-string">"Maputo"</span>,
     <span class="hljs-attr">"CidadeMasPopulosa"</span>: <span class="hljs-string">"Maputo"</span>,
     <span class="hljs-attr">"LinguaOfcial"</span>: <span class="hljs-string">"Portugual"</span>,
