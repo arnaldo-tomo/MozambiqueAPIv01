@@ -182,7 +182,7 @@
     <span class="hljs-attr">"Área Total"</span>: <span class="hljs-string">"801.590 km2 (309.500 sq mi)"</span>,
     <span class="hljs-attr">"Água (%)"</span>: <span class="hljs-string">"2.2"</span>,
     <span class="hljs-attr">"População Estimativa para 2022"</span>: <span class="hljs-string">"31.693.239"</span>,
-    <span class="hljs-attr">"Densidade"</span>: <span class="hljs-string">"31.693.239"</span>,
+    <span class="hljs-attr">"Densidade"</span>: <span class="hljs-string">"28,7/km2 (74,3/sq mi)"</span>,
   }
 ]
 
