@@ -229,9 +229,9 @@
 									<div class="docs-code-block">
 										<pre class="shadow-lg rounded"><code class="json hljs">[
   {
-    <span class="hljs-attr">"title"</span>: <span class="hljs-string">"apples"</span>,
-    <span class="hljs-attr">"count"</span>: [<span class="hljs-number">12000</span>, <span class="hljs-number">20000</span>],
-    <span class="hljs-attr">"description"</span>: {<span class="hljs-attr">"text"</span>: <span class="hljs-string">"..."</span>, <span class="hljs-attr">"sensitive"</span>: <span class="hljs-literal">false</span>}
+    <span class="hljs-attr">"nome"</span>: <span class="hljs-string">"apples"</span>,
+    <span class="hljs-attr">"provincia"</span>: [<span class="hljs-string">12000</span>, ],
+    <span class="hljs-attr">"populacao"</span>: [<span class="hljs-number">1,080,277</span>],
   },
   {
     <span class="hljs-attr">"title"</span>: <span class="hljs-string">"oranges"</span>,
