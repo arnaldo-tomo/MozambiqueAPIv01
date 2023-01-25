@@ -313,7 +313,16 @@
 
     </h2>
     <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-      <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.</div>
+      <div class="accordion-body">
+		RESPONSES SCHEMA: application/json
+		<pre><code > Array () [
+  
+        <span class="hljs-attr">nome</span>                                                 <span class="hljs-string">string</span>
+	<span class="text-danger">Required</span>
+	
+    <span class="hljs-attr">"provincia"</span>: <span class="hljs-string">Maputo</span>,
+]</code></pre>
+	  </div>
     </div>
   </div>
 
