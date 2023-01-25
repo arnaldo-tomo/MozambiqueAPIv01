@@ -168,8 +168,8 @@
 							<div class="docs-code-block">
 								<pre class="shadow-lg rounded"><code class="json hljs">[
   {
-    <span class="hljs-attr">"title"</span>: <span class="hljs-string">"apples"</span>,
-    <span class="hljs-attr">"count"</span>: [<span class="hljs-number">12000</span>, <span class="hljs-number">20000</span>],
+    <span class="hljs-attr">"Capital"</span>: <span class="hljs-string">"Maputo"</span>,
+    <span class="hljs-attr">"cidade mas populosa"</span>: [<span class="hljs-number">12000</span>, <span class="hljs-number">20000</span>],
     <span class="hljs-attr">"description"</span>: {<span class="hljs-attr">"text"</span>: <span class="hljs-string">"..."</span>, <span class="hljs-attr">"sensitive"</span>: <span class="hljs-literal">false</span>}
   },
   {
