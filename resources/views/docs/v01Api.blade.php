@@ -164,10 +164,14 @@
 								<p>Moçambique API é uma api que fornece informações bancárias de Banco Nacional de Moçambique, informações regionais,Taxas bancarias, validações nacionais,feriados Nacionais entre outras.</p>
 							</section><!--//docs-intro-->
 
-							<h5>Github Code Example: <code class="bg-success text-white">GET/docs/v01/cidades</code></h5>
+							<h5>Github Code Example: <code class="bg-success text-white">GET/docs/v01/mocambique</code></h5>
 							<div class="docs-code-block">
 								<pre class="shadow-lg rounded"><code class="json hljs">[
   {
+    <span class="hljs-attr">"Moeda"</span>: <span class="hljs-string">"Metical (MZN)"</span>,
+    <span class="hljs-attr">"Fuso horário"</span>: <span class="hljs-string">"UTC+2 (CAT)"</span>,
+    <span class="hljs-attr">"Formato de data"</span>: <span class="hljs-string">"dd/mm/aaaa"</span>,
+    <span class="hljs-attr">"Lado de condução"</span>: <span class="hljs-string">"Esquerda"</span>,
     <span class="hljs-attr">"Capital"</span>: <span class="hljs-string">"Maputo"</span>,
     <span class="hljs-attr">"CidadeMasPopulosa"</span>: <span class="hljs-string">"Maputo"</span>,
     <span class="hljs-attr">"LinguaOfcial"</span>: <span class="hljs-string">"Portugual"</span>,
