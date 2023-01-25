@@ -225,7 +225,7 @@
 								</div>
 
 								<div class="col">
-									<h5>Github Code Example: <code class="bg-success text-white">GET/docs/v01/bancos</code></h5>
+									<h5><code class="bg-success text-white">GET</code> <code>https::/mocambiqueApi/docs/v01/bancos</code></h5>
 									<div class="docs-code-block">
 										<pre class="shadow-lg rounded"><code class="json hljs">[
   {
