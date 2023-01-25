@@ -229,9 +229,19 @@
 									<div class="docs-code-block">
 										<pre class="shadow-lg rounded"><code class="json hljs">[
   {
-    <span class="hljs-attr">"nome"</span>: <span class="hljs-string">"apples"</span>,
-    <span class="hljs-attr">"provincia"</span>: [<span class="hljs-string">12000</span>, ],
+    <span class="hljs-attr">"nome"</span>: <span class="hljs-string">"Maputo"</span>,
+    <span class="hljs-attr">"provincia"</span>: <span class="hljs-string">Maputo</span>,
     <span class="hljs-attr">"populacao"</span>: [<span class="hljs-number">1,080,277</span>],
+  },
+  {
+    <span class="hljs-attr">"nome"</span>: <span class="hljs-string">"Matola"</span>,
+    <span class="hljs-attr">"provincia"</span>: <span class="hljs-string">Maputo</span>,
+    <span class="hljs-attr">"populacao"</span>: [<span class="hljs-number">1,032,197</span>],
+  },
+  {
+    <span class="hljs-attr">"nome"</span>: <span class="hljs-string">"Nampula"</span>,
+    <span class="hljs-attr">"provincia"</span>: <span class="hljs-string">Nampula</span>,
+    <span class="hljs-attr">"populacao"</span>: [<span class="hljs-number">663,212</span>],
   },
   {
     <span class="hljs-attr">"title"</span>: <span class="hljs-string">"oranges"</span>,
