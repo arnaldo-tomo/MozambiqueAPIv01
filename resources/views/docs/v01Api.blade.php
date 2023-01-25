@@ -226,6 +226,8 @@
 
 								<div class="col">
 									<h5><code class="bg-success text-white">GET</code> <code>https://mocambiqueApi/docs/v01/bancos</code></h5>
+									<h6>Reponses samples</h6>
+									
 									<div class="docs-code-block">
 										<pre class="shadow-lg rounded"><code class="json hljs">[
   {
