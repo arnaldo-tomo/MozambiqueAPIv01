@@ -224,13 +224,12 @@
 									</ul>
 								</div>
 
-								<div class="col">
-									<h5><code class="bg-success text-white">GET</code> <code>https://mocambiqueApi/docs/v01/bancos</code></h5>
-									<h6>Reponses samples</h6>
-									<h5><code class="bg-primary text-white">200</code></h5>
-									
-									<div class="docs-code-block">
-										<pre class="shadow-lg rounded"><code class="json hljs">[
+	<div class="col">
+	<h5><code class="bg-success text-white">GET</code> <code>https://mocambiqueApi/docs/v01/bancos</code></h5>
+	<h6>Reponses samples</h6>
+	<h5><code class="bg-primary text-white">200</code></h5>
+	<div class="docs-code-block">
+	<pre class="shadow-lg rounded"><code class="json hljs">[
   {
     <span class="hljs-attr">"nome"</span>: <span class="hljs-string">"Maputo"</span>,
     <span class="hljs-attr">"provincia"</span>: <span class="hljs-string">Maputo</span>,
@@ -252,10 +251,7 @@
     <span class="hljs-attr">"count"</span>: [<span class="hljs-number">17500</span>, <span class="hljs-literal">null</span>],
     <span class="hljs-attr">"description"</span>: {<span class="hljs-attr">"text"</span>: <span class="hljs-string">"..."</span>, <span class="hljs-attr">"sensitive"</span>: <span class="hljs-literal">false</span>}
   }
-]
-
-
-</code></pre>
+]</code></pre>
 									</div>
 								</div>
 									<Strong class="me-1">Responses samples</Strong>
