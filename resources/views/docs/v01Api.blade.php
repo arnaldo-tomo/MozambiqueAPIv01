@@ -316,13 +316,13 @@
       <div class="accordion-body">
 		RESPONSES SCHEMA: application/json
 		<pre><code > Array () [
-        <span class="hljs-attr">nome</span>                                                      <span class="hljs-string">string</span>
+        <span class="hljs-attr">nome</span>                                       <span class="hljs-string">string</span>
 	<span class="text-danger">Required</span>,
 
-        <span class="hljs-attr">provincia</span>,                                                 <span class="hljs-string">string</span>
+        <span class="hljs-attr">provincia</span>,                                  <span class="hljs-string">string</span>
 	<span class="text-danger">Required</span>
 
-        <span class="hljs-attr">populacao</span>,                                                 <span class="hljs-number">int(32)</span>
+        <span class="hljs-attr">populacao</span>,                                   <span class="hljs-number">integer &lt;int32&gt;</span>
 	<span class="text-danger">Required</span>
 ]</code></pre>
 	  </div>
