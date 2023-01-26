@@ -89,19 +89,19 @@
 						<li class="nav-item"><a class="nav-link scrollto" href="#item-1-6">Taxa de inflação</a></li>
 						<li class="nav-item section-title mt-3"><a class="nav-link scrollto"
 								href="#section-2"><span class="theme-icon-holder me-2"><i class="fas
-										fa-arrow-down"></i></span>Taxas bancárias</a></li>
+										fa-exchange"></i></span>Taxas bancárias</a></li>
 						<li class="nav-item"><a class="nav-link scrollto" href="#item-2-1">Taxa de Juros do BNA</a></li>
 						<li class="nav-item"><a class="nav-link scrollto" href="#item-2-2">Taxas de câmbio no BNA;</a></li>
 						<li class="nav-item"><a class="nav-link scrollto" href="#item-2-3">Taxas de câmbio nos bancos comerciais</a></li>
 						<li class="nav-item section-title mt-3"><a class="nav-link scrollto"
 								href="#section-3"><span class="theme-icon-holder me-2"><i class="fas
-										fa-box"></i></span>Regiões</a></li>
+										fa-globe"></i></span>Regiões</a></li>
 						<li class="nav-item"><a class="nav-link scrollto" href="#item-3-1">Províncias</a></li>
 						<li class="nav-item"><a class="nav-link scrollto" href="#item-3-2">Municípios</a></li>
 						<li class="nav-item"><a class="nav-link scrollto" href="#item-3-3">Cidades</a></li>
 						<li class="nav-item section-title mt-3"><a class="nav-link scrollto"
 								href="#section-4"><span class="theme-icon-holder me-2"><i class="fas
-										fa-cogs"></i></span>Validações</a></li>
+										fa-terminal"></i></span>Validações</a></li>
 						<li class="nav-item"><a class="nav-link scrollto" href="#item-4-1">Bilhete de Identidade</a></li>
 						<li class="nav-item"><a class="nav-link scrollto" href="#item-4-2">Passaporte</a></li>
 						<li class="nav-item"><a class="nav-link scrollto" href="#item-4-3">Telefone</a></li>
@@ -316,12 +316,9 @@
       <div class="">
 		RESPONSES SCHEMA: application/json
 		<pre><code > Array () [
-        <span class="hljs-attr">nome</span>                                       <span class="hljs-string">string</span>
-	<span class="text-danger">Required</span>,
-        <span class="hljs-attr">provincia</span>,                                 <span class="hljs-string">string</span>
-	<span class="text-danger">Required</span>
-        <span class="hljs-attr">populacao</span>,                                 <span class="hljs-number">integer &lt;int32&gt;</span>
-	<span class="text-danger">Required</span>
+        <span class="hljs-attr">nome</span>:                                       <span class="hljs-string">string</span>
+        <span class="hljs-attr">provincia</span>:                                 <span class="hljs-string">string</span>
+        <span class="hljs-attr">populacao</span>:                                 <span class="hljs-number">integer &lt;int32&gt;</span>
 ]</code></pre>
 	  </div>
     </div>
