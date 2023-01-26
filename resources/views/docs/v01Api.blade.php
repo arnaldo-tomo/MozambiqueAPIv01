@@ -220,7 +220,7 @@
 											</h4>
 										</div>
 									</div>
-									<p>Retona informacoes de todos os bancos de mocambique </p>
+									<p>Retona informações de todos os bancos de moçambique</p>
 									<p>Code Example: <code>npm install &lt;package&gt;</code></p>
 									<h5>Unordered List Examples:</h5>
 									<ul>
