@@ -220,9 +220,7 @@
 											</h4>
 										</div>
 									</div>
-									<p>Vivamus efficitur fringilla ullamcorper. Cras condimentum
-										condimentum mauris, vitae facilisis leo. Aliquam sagittis purus nisi,
-										at commodo augue convallis id. </p>
+									<p>Retona informacoes de todos os bancos de mocambique </p>
 									<p>Code Example: <code>npm install &lt;package&gt;</code></p>
 									<h5>Unordered List Examples:</h5>
 									<ul>
