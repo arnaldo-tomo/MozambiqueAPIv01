@@ -291,9 +291,9 @@
 	<div class="docs-code-block">
 	<pre class="shadow-lg rounded"><code class="json hljs">[
   {
-	<span class="hljs-attr">"code"</span>: [<span class="hljs-number">1</span>],
-    <span class="hljs-attr">"nome"</span>: <span class="hljs-string">"BIM"</span>,
-    <span class="hljs-attr">"FullName"</span>: <span class="hljs-string">Banco  Milllelium Bim</span>,
+    <span class="hljs-attr">"code"</span>: <span class="hljs-number">1</span>,
+    <span class="hljs-attr">"nome"</span>: <span class="hljs-string">"ABSA"</span>,
+    <span class="hljs-attr">"FullName"</span>: <span class="hljs-string">"Bank Mozambique SA"</span>,
   },
 ]</code></pre>
 </div>
