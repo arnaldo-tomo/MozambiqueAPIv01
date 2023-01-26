@@ -282,9 +282,7 @@
 			</h4>
 		</div>
 	</div>
-	<p>Vivamus efficitur fringilla ullamcorper. Cras condimentum
-		condimentum mauris, vitae facilisis leo. Aliquam sagittis purus nisi,
-		at commodo augue convallis id. </p>
+	<p>Busaca as informações de um banco a partir de um codigo.</p>
 </div>
 	<div class="col py-4">
 	<h5><code class="bg-success text-white">GET</code> <code>https://mocambiqueApi/docs/v01/bancos{1}</code></h5>
