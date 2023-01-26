@@ -313,7 +313,7 @@
 
     </h2>
     <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
-      <div class="accordion-body">
+      <div class="">
 		RESPONSES SCHEMA: application/json
 		<pre><code > Array () [
         <span class="hljs-attr">nome</span>                                       <span class="hljs-string">string</span>
