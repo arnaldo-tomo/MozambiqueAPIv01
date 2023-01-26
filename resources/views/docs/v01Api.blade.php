@@ -164,7 +164,7 @@
 								<p>Moçambique API é uma api que fornece informações bancárias de Banco Nacional de Moçambique, informações regionais,Taxas bancarias, validações nacionais,feriados Nacionais entre outras.</p>
 							</section><!--//docs-intro-->
 
-							<h5>Github Code Example: <code class="bg-success text-white">GET/docs/v01/mocambique</code></h5>
+							<h5> <code class="bg-success text-white">GET</code><code>https://mocambiqueApi/docs/v01/mocambique</code></h5>
 							<div class="docs-code-block">
 								<pre class="shadow-lg rounded"><code class="json hljs">[
   {
@@ -316,7 +316,7 @@
       <div class="">
 		RESPONSES SCHEMA: application/json
 		<pre><code > Array () [
-        <span class="hljs-attr">nome</span>:                                       <span class="hljs-string">string</span>
+        <span class="hljs-attr">nome</span>:                                      <span class="hljs-string">string</span>
         <span class="hljs-attr">provincia</span>:                                 <span class="hljs-string">string</span>
         <span class="hljs-attr">populacao</span>:                                 <span class="hljs-number">integer &lt;int32&gt;</span>
 ]</code></pre>
