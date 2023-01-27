@@ -2,10 +2,25 @@
  <!DOCTYPE html>
  <html lang="en">
  <head>
-    <link rel="stylesheet" href="assets/css/estilo.css">
-    <link rel="stylesheet" href="assets/js/js.js">
-    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" >
-    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+   <link rel="shortcut icon" href="assets/icon.png">
+
+   <!-- Google Font -->
+   <link
+      href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700&amp;display=swap"
+      rel="stylesheet">
+
+   <!-- FontAwesome JS-->
+   <script defer src="assets/fontawesome/js/all.min.js"></script>
+   <!-- Plugins CSS -->
+   <link rel="stylesheet"
+      href="assets/highlight.js/9.15.2/styles/atom-one-dark.min.css">
+   <link rel="stylesheet"
+      href="assets/plugins/simplelightbox/simple-lightbox.min.css">
+
+   <!-- Theme CSS -->
+   <link id="theme-style" rel="stylesheet" href="assets/css/theme.css">
+   <link id="theme-style" rel="stylesheet" href="assets/css/estilo.css">
+
     <title>{{ config('app.name') }}</title>
     @livewireStyles
  </head>
@@ -13,8 +28,16 @@
     {{ $slot }}
 
     @livewireScripts
-    <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
- </body>
+<!-- Javascript -->
+<script src="assets/plugins/popper.min.js"></script>
+<script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+<script src="assets/highlight.js/9.15.8/highlight.min.js"></script>
+<!-- Page Specific JS -->
+<script src="assets/plugins/smoothscroll.min.js"></script>
+<script src="assets/js/highlight.min.js"></script>
+<script src="assets/js/highlight-custom.js"></script>
+<script src="assets/plugins/simplelightbox/simple-lightbox.min.js"></script>
+<script src="assets/plugins/gumshoe/gumshoe.polyfills.min.js"></script>
+<script src="assets/js/docs.js"></script>
  </html>
 </div>
