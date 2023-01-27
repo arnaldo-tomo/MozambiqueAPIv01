@@ -1,5 +1,5 @@
 <div>
-    <div class="container">
+{{-- <div class="container">
         <div class="row">
             <div class="col-md-5 mx-auto">
                 <div id="first">
@@ -11,21 +11,24 @@
                         </div>
                         @if (session('status'))
                         <div class="alert alert-primary" role="alert">
-                          {{ session('status') }}
+{{ session('status') }}
                         </div>
-                            
+
                         @endif
                         <form wire:submit.prevent="login">
                             <div class="form-group">
 
                                 <label for="exampleInputEmail1">Email {{ $email }}</label>
-                                <input type="email" wire:model="email" class="form-control" aria-describedby="emailHelp"
-                                    placeholder="Eemail">
+<input type="text" wire:model="email" class="form-control" placeholder="Eemail">
+@error('email')
+<span class="text-danger">{{ $message }}</span>
+@enderror
                             </div>
                             <div class="form-group">
                                 <label for="exampleInputEmail1">Password</label>
-                                <input type="password" wire:model="password" class="form-control"
-                                    aria-describedby="emailHelp" placeholder="****************">
+<input type="password" wire:model="password" class="form-control" @error('password') placeholder="****************">
+<span class="text-danger">{{ $message }}</span>
+@enderror
                             </div>
 
                             <div class="col-md-12 text-center ">
@@ -55,4 +58,34 @@
 
             </div>
         </div>
+</div> --}}
+
+<div class="row justify-content-center">
+    <div class="col-4">
+        <div class="card">
+            <div class="card-header ">
+                <h2>Autenticacao</h2>
+                <p>brow aqui e para vc informar suas credencias "admin"</p>
+                <div class="form-group">
+                    <label class="form-label">Email:*</label>
+                    <input id="my-input" class="form-control" placeholder="enforme o email" type="text" name="">
+                </div>
+                <div class="form-group">
+                    <label class="form-label">Passoword:*</label>
+                    <input id="my-input" class="form-control" type="text" placeholder="*******" name="">
+                </div>
+
+                <div class="row">
+                    <div class="col-6">
+                        <button type="submit" class="btn btn-success btn-block btn-sm">Conectar</button>
+                    </div>
+                    <div class="col-6">
+                        <button type="submit" class="btn btn-success btn-block btn-sm">Conectar</button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
+</div>
+</div>
