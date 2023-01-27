@@ -6,48 +6,67 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>{{ config('app.name') }}</title>
-        <link rel="stylesheet" href="assets/css/estilo.css">
-        <link href='https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css' rel='stylesheet'>
-        <link href='https://use.fontawesome.com/releases/v5.7.2/css/all.css' rel='stylesheet'>
-    </head>
+        <title>Document</title>
 
+        <link rel="stylesheet" href="assets/css/estilo.css">
+        <link rel="stylesheet" href="assets/js/js.js">
+        <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet" >
+        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" 
+    </head>
     <body>
         <div class="container">
             <div class="row">
-                <div class="offset-md-2 col-lg-5 col-md-7 offset-lg-4 offset-md-3">
-                    <div class="panel border bg-white">
-                        <div class="panel-heading">
-                            <h3 class="pt-4 font-weight-medium">{{ config('app.name') }}</h3>
-                        </div>
-                        <div class="panel-body p-3">
-                            <form action="login_script.php" method="POST">
-                                <div class="form-group py-2">
-                                    <div class="input-field"> <span class="far fa-user p-2"></span> <input
-                                            type="text" placeholder="Email" required> </div>
+                <div class="col-md-5 mx-auto">
+                    <div id="first">
+                        <div class="myform form ">
+                            <div class="logo mb-3">
+                                <div class="col-md-12 text-center">
+                                    <h1>{{ config('app.name') }}</h1>
                                 </div>
-                                <div class="form-group py-1 pb-2">
-                                    <div class="input-field"> <span class="fas fa-lock px-2"></span> <input
-                                            type="password" placeholder="Password" required> <button
-                                            class="btn bg-white text-muted"> <span class="far fa-eye-slash"></span>
-                                        </button> </div>
+                            </div>
+                            <form action="" method="post" name="login">
+                                <div class="form-group">
+                                    <label for="exampleInputEmail1">Email </label>
+                                    <input type="email"  class="form-control" 
+                                        aria-describedby="emailHelp" placeholder="Eemail">
                                 </div>
-                                <div class="form-inline"> <input type="checkbox" name="remember" id="remember"> <label
-                                        for="remember" class="text-muted">Remember me</label> <a href="#"
-                                        id="forgot" class="font-weight-bold">Forgot password?</a> </div>
-                                <div class="btn btn-primary btn-block mt-3">Login</div>
-                            
+                                <div class="form-group">
+                                    <label for="exampleInputEmail1">Password</label>
+                                    <input type="password" class="form-control"
+                                        aria-describedby="emailHelp" placeholder="****************">
+                                </div>
+                               
+                                <div class="col-md-12 text-center ">
+                                    <button type="submit"
+                                        class=" btn btn-block mybtn btn-primary tx-tfm">Login</button>
+                                </div>
+                                <div class="col-md-12 ">
+                                    <div class="login-or">
+                                        <hr class="hr-or">
+                                        <span class="span-or">or</span>
+                                    </div>
+                                </div>
+                                <div class="col-md-12 mb-3">
+                                    <p class="text-center">
+                                        <a href="javascript:void();" class="google btn mybtn"><i
+                                                class="fa fa-google-plus">
+                                            </i> Signup using Google
+                                        </a>
+                                    </p>
+                                </div>
+                                <div class="form-group">
+                                    <p class="text-center">Don't have account? <a href="#" id="signup">Sign up
+                                            here</a></p>
+                                </div>
                             </form>
+
                         </div>
                     </div>
+
                 </div>
             </div>
-        </div>
-        <script type='text/javascript' src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
-        <script type='text/javascript' src='https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js'></script>
-        <script type='text/javascript' src='https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js'></script>
+            <script src="//maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+            <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     </body>
-
-    </html>
-
+</html>
 </div>
