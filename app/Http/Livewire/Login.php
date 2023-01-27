@@ -16,8 +16,13 @@ class Login extends Component
     }
 
     protected $rules = [
-        'email' => 'required',
-        'password' => 'required',
+        'email' => 'required|email|min:4',
+        'password' => 'required|min:4|max:16',
+    ];
+
+    protected $messages = [
+        'email.required' => 'O email e obrigatorio',
+        'email.min' => 'O email e dve eter no minio 4 caraeer',
     ];
 
     public function login()
@@ -33,7 +38,7 @@ class Login extends Component
         }
 
         //    Verificar se a senha corresponde ao que na DB
-        if (Hash::check($this->password, $this->password)) {
+        if (!Hash::check($this->password, $this->password)) {
             return redirect()->back()->with('status', 'Palavra-passe Incorreta.');
         }
 
