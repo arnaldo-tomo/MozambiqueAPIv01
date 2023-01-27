@@ -16,15 +16,11 @@ class Login extends Component
     }
 
     protected $rules = [
-        'email' => 'required|email|min:4',
+        'email' => 'required|email',
         'password' => 'required|',
     ];
 
-    protected $messages = [
-        'email.required' => 'O email e obrigatorio',
-        'password.required' => 'O email e obrigatorio',
-    ];
-
+  
     public function login()
     {
         $this->validate();
