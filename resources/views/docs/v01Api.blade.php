@@ -19,7 +19,6 @@
 
 		<!-- FontAwesome JS-->
 		<script defer src="assets/fontawesome/js/all.min.js"></script>
-
 		<!-- Plugins CSS -->
 		<link rel="stylesheet"
 			href="assets/highlight.js/9.15.2/styles/atom-one-dark.min.css">
