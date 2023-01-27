@@ -8,6 +8,6 @@ class ManagerApi extends Component
 {
     public function render()
     {
-        return view('livewire.manager-api');
+        return view('livewire.manager-api')->layout('livewire.app');
     }
 }
