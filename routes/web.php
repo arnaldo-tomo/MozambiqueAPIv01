@@ -5,4 +5,4 @@ use App\Http\Livewire\Login;
 use Illuminate\Support\Facades\Route;
 
 route::get('/', [Controller::class, 'PaginaInicial']);
-route::get('cpainel', [Login::class, 'render']);
+route::get('cpainel', Login::class);
