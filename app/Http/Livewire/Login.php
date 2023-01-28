@@ -40,7 +40,15 @@ class Login extends Component
 
         Session::put('logado', 'sim');
         Session::put('usuario', $query_ru->name);
-        return redirect()->route('manegerapi')->with('status', 'Logado com sucessos');
+
+        if (session('logado')) {
+            # code...
+            return redirect()->route('manegerapi')->with('status', 'Logado com sucessos');
+        } else {
+            # code...
+            return redirect()->back()->with('status', 'Usuário não existe ');
+        }
+        
     }
 
 
