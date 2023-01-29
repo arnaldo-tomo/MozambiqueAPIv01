@@ -184,14 +184,14 @@
                         <!--//docs-intro-->
 
                         <h5> <code
-                                class="bg-success text-white">GET</code><code>https://mocambiqueApi/docs/v01/mocambique</code>
+                                class="bg-success text-white">GET</code><code>http://127.0.0.1:8000/api/v01/docs/mocambique</code>
                         </h5>
                         <div class="docs-code-block">
                             <pre class="shadow-lg rounded"><code class="json hljs">[
   {
     <span class="hljs-attr">"Moeda"</span>: <span class="hljs-string">"Metical (MZN)"</span>,
     <span class="hljs-attr">"Fuso horário"</span>: <span class="hljs-string">"UTC+2 (CAT)"</span>,
-    <span class="hljs-attr">"Formato de data"</span>: <span class="hljs-string">"dd/mm/aaaa"</span>,
+    <span class="hljs-attr">"Formato de data"</span>: <span class="hljs-string">"dd/mm/aaaa"</span>,php
     <span class="hljs-attr">"Lado de condução"</span>: <span class="hljs-string">"Esquerda"</span>,
     <span class="hljs-attr">"Código de chamada"</span>: [<span class="hljs-string">+258</span>],
     <span class="hljs-attr">"Código ISO 3166"</span>: <span class="hljs-string">MZ</span>,
@@ -229,7 +229,7 @@
                                             <span class="callout-icon-holder me-1">
                                                 <i class="fas fa-link"></i>
                                             </span>
-                                            <code><code>https://mocambiqueApi/docs/v01/bancos</code> </code>
+                                            <code><code>http://127.0.0.1:8000/api/v01/docs/bancos</code> </code>
                                             <!-- <code><code>&lt;GET&gt;</code> </code>
              ,
   {
@@ -250,13 +250,15 @@
                                     </li>
                                     <li><strong class="me-1">CSS:</strong> <code>#foo { color: red }</code></li>
                                     <li><strong class="me-1">JavaScript:</strong>
-                                        <code>console.log(&#x27;#foo\bar&#x27;);</code></li>
+                                        <code>console.log(&#x27;#foo\bar&#x27;);</code>
+                                    </li>
                                 </ul>
                             </div>
 
                             <div class="col">
                                 <h5><code class="bg-success text-white">GET</code>
-                                    <code>https://mocambiqueApi/docs/v01/bancos</code></h5>
+                                    <code>http://127.0.0.1:8000/api/v01/docs/bancos</code>
+                                </h5>
                                 <h6>Reponses samples</h6>
                                 <h5><code class="bg-primary text-white">200</code></h5>
                                 <div class="docs-code-block">
@@ -318,7 +320,8 @@
                                     </div>
                                     <div class="col py-4">
                                         <h5><code class="bg-success text-white">GET</code>
-                                            <code>https://mocambiqueApi/docs/v01/bancos{1}</code></h5>
+                                            <code>https://mocambiqueApi/docs/v01/bancos{1}</code>
+                                        </h5>
                                         <h6>Reponses samples</h6>
                                         <h5><code class="bg-info text-white">200</code> <code
                                                 class="bg-danger text-white">500</code></h5>
