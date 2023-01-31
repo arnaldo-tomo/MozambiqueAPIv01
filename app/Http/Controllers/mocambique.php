@@ -9,21 +9,21 @@ class mocambique extends Controller
 {
     public function get()
     {
-        $apiGet = ModelsMocambique::all();
-
-        if ($apiGet) {
-            return response()->json([
-                'data' => [
-                    'type' => 'activities',
-                    'message' => 'Success',
-                    'attributes' => $apiGet
-                ]
-            ], 200);
-        } else {
-            return response()->json([
-                'type' => 'activities',
-                'message' => 'Not Found'
-            ], 404);
-        }
+        // $apiGet = ModelsMocambique::all();
+        // dd($apiGet);
+        // if ($apiGet) {
+        //     return response()->json([
+        //         'data' => [
+        //             'type' => 'activities',
+        //             'message' => 'Success',
+        //             'attributes' => $apiGet
+        //         ]
+        //     ], 200);
+        // } else {
+        //     return response()->json([
+        //         'type' => 'activities',
+        //         'message' => 'Not Found'
+        //     ], 404);
+        // }
     }
 }
