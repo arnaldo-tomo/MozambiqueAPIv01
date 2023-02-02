@@ -530,25 +530,224 @@
 
                 <article class="docs-article" id="section-3">
                     <header class="docs-header">
-                        <h1 class="docs-heading">APIs</h1>
+                        <h4 class="docs-heading">Geografia de Moçambique</h1>
                         <section class="docs-intro">
-                            <p>Section intro goes here. Lorem ipsum dolor sit amet, consectetur
-                                adipiscing elit. Quisque finibus condimentum nisl id vulputate.
-                                Praesent aliquet varius eros interdum suscipit. Donec eu purus sed
-                                nibh convallis bibendum quis vitae turpis. Duis vestibulum diam lorem,
-                                vitae dapibus nibh facilisis a. Fusce in malesuada odio.</p>
+                            <p>Moçambique é um país da costa oriental da África Austral que tem como limites: a norte, a Tanzânia; a noroeste, o Malawi e a Zâmbia; a oeste, o Zimbábwe, a África do Sul e a Suazilândia; a sul, a África do Sul; a leste, a secção do Oceano Índico designada por Canal de Moçambique.</p>
+No Canal de Moçambique, os vizinhos são Madagáscar e as Comores (incluindo a possessão francesa de Mayotte). No Oceano Índico, para leste da grande ilha de Madagáscar, situam-se as dependências de Reunião, Juan de Nova e Ilha Europa. No Canal de Moçambique, sensivelmente a meia distância entre o continente e Madagáscar, o atol de Bassas da Índia, igualmente possessão francesa.
+</p>
+A capital de Moçambique é Maputo ( foi chamada por Lourenço Marques durante a dominação portuguesa).
+</p>
+A metade norte (a norte do rio Zambeze) é um grande planalto, com uma pequena planície costeira bordejada de recifes de coral, limitando no interior com maciços montanhosos pertencentes ao sistema do Grande Vale do Rift. A metade sul é caracterizada por uma larga planície costeira de aluvião, coberta por savanas e cortada pelos vales de vários rios, o mais importante dos quais é o rio Limpopo.</p>
                         </section>
                         <!--//docs-intro-->
                     </header>
                     <section class="docs-section" id="item-3-1">
-                        <h2 class="section-heading">Section Item 3.1</h2>
-                        <p>Vivamus efficitur fringilla ullamcorper. Cras condimentum condimentum
-                            mauris, vitae facilisis leo. Aliquam sagittis purus nisi, at commodo
-                            augue convallis id. Sed interdum turpis quis felis bibendum imperdiet.
-                            Mauris pellentesque urna eu leo gravida iaculis. In fringilla odio in
-                            felis ultricies porttitor. Donec at purus libero. Vestibulum libero
-                            orci, commodo nec arcu sit amet, commodo sollicitudin est. Vestibulum
-                            ultricies malesuada tempor.</p>
+                        <div class="row">
+                            <div class="col">
+                                <h2 class="section-heading">Bancos</h2>
+                                <div class="callout-block callout-block-info">
+                                    <div class="content">
+                                        <h4 class="callout-title">
+                                            <span class="callout-icon-holder me-1">
+                                                <i class="fas fa-link"></i>
+                                            </span>
+                                            <code><code>http://127.0.0.1:8000/api/v01/docs/bancos</code> </code>
+                                            <!-- <code><code>&lt;GET&gt;</code> </code>
+             ,
+  {
+    <span class="hljs-attr">"title"</span>: <span class="hljs-string">"oranges"</span>,
+    <span class="hljs-attr">"title"</span>: <span class="hljs-string">"oranges"</span>,
+    <span class="hljs-attr">"count"</span>: [<span class="hljs-number">17500</span>, <span class="hljs-literal">null</span>],
+    <span class="hljs-attr">"description"</span>: {<span class="hljs-attr">"text"</span>: <span class="hljs-string">"..."</span>, <span class="hljs-attr">"sensitive"</span>: <span class="hljs-literal">false</span>}
+  }
+            -->
+                                        </h4>
+                                    </div>
+                                </div>
+                                <p>Retona informações de todos os bancos de moçambique</p>
+                                <p>Code Example: <code>npm install &lt;package&gt;</code></p>
+                                <h5>Unordered List Examples:</h5>
+                                <ul>
+                                    <li><strong class="me-1">HTML5:</strong> <code>&lt;div id="foo"&gt;</code>
+                                    </li>
+                                    <li><strong class="me-1">CSS:</strong> <code>#foo { color: red }</code></li>
+                                    <li><strong class="me-1">JavaScript:</strong>
+                                        <code>console.log(&#x27;#foo\bar&#x27;);</code>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <div class="col">
+                                <h5><code class="bg-success text-white">GET</code>
+                                    <code>http://127.0.0.1:8000/api/v01/docs/bancos</code>
+                                </h5>
+                                <h6>Reponses samples</h6>
+                                <h5><code class="bg-primary text-white">200</code></h5>
+                                <div class="docs-code-block">
+                                    <pre class="shadow-lg rounded"><code class="json hljs">[
+  {
+    <span class="hljs-attr">"nome"</span>: <span class="hljs-string">"Maputo"</span>,
+    <span class="hljs-attr">"provincia"</span>: <span class="hljs-string">Maputo</span>,
+    <span class="hljs-attr">"populacao"</span>: [<span class="hljs-number">1,080,277</span>],
+  },
+  {
+    <span class="hljs-attr">"nome"</span>: <span class="hljs-string">"Matola"</span>,
+    <span class="hljs-attr">"provincia"</span>: <span class="hljs-string">Maputo</span>,
+    <span class="hljs-attr">"populacao"</span>: [<span class="hljs-number">1,032,197</span>],
+  },
+  {
+    <span class="hljs-attr">"nome"</span>: <span class="hljs-string">"Nampula"</span>,
+    <span class="hljs-attr">"provincia"</span>: <span class="hljs-string">Nampula</span>,
+    <span class="hljs-attr">"populacao"</span>: [<span class="hljs-number">663,212</span>],
+  }
+]</code></pre>
+                                </div>
+                            </div>
+                            <Strong class="me-1">Responses samples</Strong>
+                            <div class="accordion accordion-flush" id="accordionFlushExample">
+                                <div class="accordion-item ">
+                                    <h2 class="accordion-header" id="flush-headingOne">
+
+                                        <button class="accordion-button bg-success collapse-white text-white collapsed"
+                                            type="button" data-bs-toggle="collapse"
+                                            data-bs-target="#flush-collapseOne" aria-expanded="false"
+                                            aria-controls="flush-collapseOne">
+                                            200 sucessos
+                                        </button>
+
+                                    </h2>
+                                    <div id="flush-collapseOne" class="accordion-collapse collapse"
+                                        aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                                        <div class="accordion-body">Placeholder content for this accordion, which is
+                                            intended to demonstrate the <code>.accordion-flush</code> class. This is the
+                                            first item's accordion body.</div>
+                                    </div>
+                                </div>
+
+                                <div class="row ">
+                                    <div class="col mb-4">
+                                        <h2 class="section-heading">Bancos</h2>
+                                        <div class="callout-block callout-block-info">
+                                            <div class="content">
+                                                <h4 class="callout-title">
+                                                    <span class="callout-icon-holder me-1">
+                                                        <i class="fas fa-link"></i>
+                                                    </span>
+                                                    <code><code>https://mocambiqueApi/docs/v01/bancos{code}</code>
+                                                    </code>
+                                                </h4>
+                                            </div>
+                                        </div>
+                                        <p>Busaca as informações de um banco a partir de um codigo.</p>
+                                    </div>
+                                    <div class="col py-4">
+                                        <h5><code class="bg-success text-white">GET</code>
+                                            <code>https://mocambiqueApi/docs/v01/bancos{1}</code>
+                                        </h5>
+                                        <h6>Reponses samples</h6>
+                                        <h5><code class="bg-info text-white">200</code> <code
+                                                class="bg-danger text-white">500</code></h5>
+                                        <div class="docs-code-block">
+                                            <pre class="shadow-lg rounded"><code class="json hljs">[
+  {
+    <span class="hljs-attr">"code"</span>: <span class="hljs-number">1</span>,
+    <span class="hljs-attr">"nome"</span>: <span class="hljs-string">"ABSA"</span>,
+    <span class="hljs-attr">"FullName"</span>: <span class="hljs-string">"Bank Mozambique SA"</span>,
+  },
+]</code></pre>
+                                        </div>
+                                    </div>
+                                    <Strong class="me-1">Responses samples</Strong>
+                                    <div class="accordion accordion-flush" id="accordionFlushExample">
+                                        <div class="accordion-item ">
+                                            <h2 class="accordion-header" id="flush-headingOne">
+
+                                                <button
+                                                    class="accordion-button bg-success collapse-white text-white collapsed"
+                                                    type="button" data-bs-toggle="collapse"
+                                                    data-bs-target="#flush-collapseOne" aria-expanded="false"
+                                                    aria-controls="flush-collapseOne">
+                                                    200 sucessos
+                                                </button>
+
+                                            </h2>
+                                            <div id="flush-collapseOne" class="accordion-collapse collapse"
+                                                aria-labelledby="flush-headingOne"
+                                                data-bs-parent="#accordionFlushExample">
+                                                <div class="">
+                                                    RESPONSES SCHEMA: application/json
+                                                    <pre><code > Array () [
+        <span class="hljs-attr">nome</span>:                                      <span class="hljs-string">string</span>
+        <span class="hljs-attr">provincia</span>:                                 <span class="hljs-string">string</span>
+        <span class="hljs-attr">populacao</span>:                                 <span class="hljs-number">integer &lt;int32&gt;</span>
+]</code></pre>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header" id="flush-headingTwo">
+                                                <button class="accordion-button bg-danger text-white collapsed"
+                                                    type="button" data-bs-toggle="collapse"
+                                                    data-bs-target="#flush-collapseTwo" aria-expanded="false"
+                                                    aria-controls="flush-collapseTwo">
+                                                    400 code Invalido
+                                                </button>
+                                            </h2>
+                                            <div id="flush-collapseTwo" class="accordion-collapse collapse"
+                                                aria-labelledby="flush-headingTwo"
+                                                data-bs-parent="#accordionFlushExample">
+                                                <div class="accordion-body">Placeholder content for this accordion,
+                                                    which is intended to demonstrate the <code>.accordion-flush</code>
+                                                    class. This is the second item's accordion body. Let's imagine this
+                                                    being filled with some actual content.</div>
+                                            </div>
+                                        </div>
+
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header" id="flush-headingThree">
+                                                <button class="accordion-button bg-danger text-white collapsed"
+                                                    type="button" data-bs-toggle="collapse"
+                                                    data-bs-target="#flush-collapseThree" aria-expanded="false"
+                                                    aria-controls="flush-collapseThree">
+                                                    404 nao encontrado
+                                                </button>
+                                            </h2>
+                                            <div id="flush-collapseThree" class="accordion-collapse collapse"
+                                                aria-labelledby="flush-headingThree"
+                                                data-bs-parent="#accordionFlushExample">
+                                                <div class="accordion-body">Placeholder content for this accordion,
+                                                    which is intended to demonstrate the <code>.accordion-flush</code>
+                                                    class. This is the third item's accordion body. Nothing more
+                                                    exciting happening here in terms of content, but just filling up the
+                                                    space to make it look, at least at first glance, a bit more
+                                                    representative of how this would look in a real-world application.
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div class="accordion-item">
+                                            <h2 class="accordion-header" id="flush-headingfoo">
+                                                <button class="accordion-button collapsed bg-danger text-white"
+                                                    type="button" data-bs-toggle="collapse"
+                                                    data-bs-target="#flush-collapsefoo" aria-expanded="false"
+                                                    aria-controls="flush-collapsefoo">
+                                                    500 todos os servicos de retornaram erros
+                                                </button>
+                                            </h2>
+                                            <div id="flush-collapsefoo" class="accordion-collapse collapse"
+                                                aria-labelledby="flush-headingfoo"
+                                                data-bs-parent="#accordionfooExample">
+                                                <div class="accordion-body">Placeholder content for this accordion,
+                                                    which is intended to demonstrate the <code>.accordion-flush</code>
+                                                    class. This is the third item's accordion body. Nothing more
+                                                    exciting happening here in terms of content, but just filling up the
+                                                    space to make it look, at least at first glance, a bit more
+                                                    representative of how this would look in a real-world application.
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
                     </section>
                     <!--//section-->
 
