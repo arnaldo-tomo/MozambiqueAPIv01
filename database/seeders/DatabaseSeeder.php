@@ -46,14 +46,23 @@ class DatabaseSeeder extends Seeder
             'Outras_Provincias' => '(Norte) (Centro) (Sul',
         ]);
 
-        DB::table('liguas')->insert([
-            ['outrasLinguas'=>'cena','mocambique_id'=>1],
-            ['outrasLinguas'=>'Ndao','mocambique_id'=>1],
-            ['outrasLinguas'=>'Macute','mocambique_id'=>1],
-            ['outrasLinguas'=>'ceChihhhna','mocambique_id'=>1],
-            ['outrasLinguas'=>'cehhhjjjna','mocambique_id'=>1],
-            ['outrasLinguas'=>'cehhjhjna','mocambique_id'=>1],
-            ['outrasLinguas'=>'cejjnjknkna','mocambique_id'=>1],
+        DB::table('inflaxaos')->insert([
+            ['Mes'=>'ABril','Valor'=>1.22],
+            ['Mes'=>'Maio','Valor'=>1.01],
+            ['Mes'=>'Junho','Valor'=>-0.12],
+            ['Mes'=>'Julho','Valor'=>0.21],
+            ['Mes'=>'Agosto','Valor'=>0.52],
+        ]);
+        DB::table('feriados')->insert([
+            ['Data'=>'1 de Janeiro','Motivo'=>'Ano Novo','Observacoes'=>'Ano Novo'],
+            ['Data'=>'3 de Fevereiro','Motivo'=>'Dia dos Heróis Moçambicanos','Observacoes'=>'Em homenagem a Eduardo Mondlane'],
+            ['Data'=>'7 de Abril','Motivo'=>'Dia da Mulher Moçambicana','Observacoes'=>'Em homenagem a Josina Machel'],
+            ['Data'=>'1º de Maio','Motivo'=>'Dia Internacional dos Trabalhadores','Observacoes'=>''],
+            ['Data'=>'25 de Junho','Motivo'=>'Dia da Independência Nacional','Observacoes'=>''],
+            ['Data'=>'07 de Setembro','Motivo'=>'Dia da Vitória','Observacoes'=>'Em homenagem à assinatura dos Acordos de Lusaka'],
+            ['Data'=>'25 de Setembro','Motivo'=>'Dia das Forças Armadas','Observacoes'=>'Em homenagem ao início da Luta Armada de Libertação Nacional'],
+            ['Data'=>'4 de Outubro','Motivo'=>'Dia da Paz e Reconciliação','Observacoes'=>'Em homenagem ao Acordo Geral de Paz'],
+            ['Data'=>'25 de Dezembro','Motivo'=>'Dia da Família','Observacoes'=>''],
         ]);
 
 
