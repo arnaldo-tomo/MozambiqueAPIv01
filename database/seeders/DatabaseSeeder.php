@@ -46,15 +46,40 @@ class DatabaseSeeder extends Seeder
             'Outras_Provincias' => '(Norte) (Centro) (Sul',
         ]);
 
-        DB::table('inflaxaos')->insert([
-            ['Mes'=>'ABril','Valor'=>1.22],
-            ['Mes'=>'Maio','Valor'=>1.01],
-            ['Mes'=>'Junho','Valor'=>-0.12],
-            ['Mes'=>'Julho','Valor'=>0.21],
-            ['Mes'=>'Agosto','Valor'=>0.52],
-        ]);
         DB::table('provincias')->insert([
-            ['CodigoCidade'=>'ABril','Localidade'=>'0','Provincia'=>'0','Populacao'=>0],
+            ['CodigoProvincia'=>1, 'nome'=>'Niassa', 'Populacao'=>'1810794',  'Regiao'=>'Norte'],
+            ['CodigoProvincia'=>2,'nome'=>'Cabo Delgado','Populacao'=>'2320261','Regiao'=>'Norte'],
+            ['CodigoProvincia'=>3,'nome'=>'Nampula','Populacao'=>'5758920','Regiao'=>'Norte'],
+            ['CodigoProvincia'=>4,'nome'=>'Zambézia','Populacao'=>'5164732','Regiao'=>'Centro'],
+            ['CodigoProvincia'=>5,'nome'=>'Tete','Populacao'=>'2648941','Regiao'=>'Norte'],
+            ['CodigoProvincia'=>6,'nome'=>'Manica','Populacao'=>'1945994','Regiao'=>'Centro'],
+            ['CodigoProvincia'=>7,'nome'=>'Sofala','Populacao'=>'2259248','Regiao'=>'Centro'],
+            ['CodigoProvincia'=>9,'nome'=>'Gaza','Populacao'=>'1422460','Regiao'=>'Sul'],
+            ['CodigoProvincia'=>10,'nome'=>'Maputo','Populacao'=>'1968906','Regiao'=>'Sul'],
+            ['CodigoProvincia'=>11,'nome'=>'Maputo (cidade)','Populacao'=>'1120867','Regiao'=>'Sul'],
+        ]);
+
+        DB::table('cidades')->insert([
+            ['CodigoCidade'=>'1','Localidade'=>'Maputo','Provincia'=>'Cidade de Maputo','Populacao'=>1178.116],
+            ['CodigoCidade'=>'2','Localidade'=>'Matola','Provincia'=>'Maputo','Populacao'=>671.556],
+            ['CodigoCidade'=>'3','Localidade'=>'Beira','Provincia'=>'Sofala','Populacao'=>431.583],
+            ['CodigoCidade'=>'4','Localidade'=>'Nampula','Provincia'=>'	Nampula','Populacao'=>388.526],
+            ['CodigoCidade'=>'5','Localidade'=>'Chimoio','Provincia'=>'Manica','Populacao'=>256.992],
+            ['CodigoCidade'=>'6','Localidade'=>'Nacala Porto','Provincia'=>'Nampula','Populacao'=>224.553],
+            ['CodigoCidade'=>'7','Localidade'=>'Quelimane','Provincia'=>'Zambézia','Populacao'=>188.964],
+            ['CodigoCidade'=>'8','Localidade'=>'Mocuba','Provincia'=>'Zambézia','Populacao'=>136.393],
+            ['CodigoCidade'=>'9','Localidade'=>'Tete','Provincia'=>'Tete','Populacao'=>129.316],
+            ['CodigoCidade'=>'10','Localidade'=>'Xai-Xai','Provincia'=>'Gaza','Populacao'=>127.366],
+            ['CodigoCidade'=>'11','Localidade'=>'Gurué','Provincia'=>'Zambézia','Populacao'=>125.042],
+            ['CodigoCidade'=>'13','Localidade'=>'Maxixe','Provincia'=>'Inhambane','Populacao'=>119.868],
+            ['CodigoCidade'=>'14','Localidade'=>'Lichinga','Provincia'=>'Niassa','Populacao'=>109.839],
+            ['CodigoCidade'=>'15','Localidade'=>'Pemba','Provincia'=>'Cabo Delgado','Populacao'=>108.737],
+            ['CodigoCidade'=>'16','Localidade'=>'Angoche','Provincia'=>'Nampula','Populacao'=>93.777],
+            ['CodigoCidade'=>'17','Localidade'=>'Dondo','Provincia'=>'Sofala','Populacao'=>78.648],
+            ['CodigoCidade'=>'18','Localidade'=>'Cuamba','Niassa'=>'8','Populacao'=>73.268],
+            ['CodigoCidade'=>'19','Localidade'=>'Montepuez','Provincia'=>'Cabo Delgado','Populacao'=>72.279],
+            ['CodigoCidade'=>'20','Localidade'=>'Chócue','Provincia'=>'Gaza','Populacao'=>63.695],
+            ['CodigoCidade'=>'21','Localidade'=>'Chibuto','Provincia'=>'Gaza','Populacao'=>59.165],
         ]);
 
         DB::table('feriados')->insert([
