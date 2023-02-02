@@ -15,7 +15,9 @@ return new class extends Migration
     {
         Schema::create('feriados', function (Blueprint $table) {
             // $table->id();
-            $table->$_COOKIE
+            $table->string('Data');
+            $table->string('Motivo');
+            $table->integer('Observacoes')->nullable();
             // $table->timestamps();
         });
     }
