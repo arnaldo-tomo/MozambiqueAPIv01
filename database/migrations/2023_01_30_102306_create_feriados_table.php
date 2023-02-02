@@ -17,7 +17,7 @@ return new class extends Migration
             // $table->id();
             $table->string('Data');
             $table->string('Motivo');
-            $table->integer('Observacoes')->nullable();
+            $table->string('Observacoes');
             // $table->timestamps();
         });
     }
