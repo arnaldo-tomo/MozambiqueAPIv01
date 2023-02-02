@@ -58,35 +58,35 @@ class DatabaseSeeder extends Seeder
 
 
         DB::table('bancos')->insert([
-            ['nome'=>'Absa Bank Moçambique','codigoBanco'=>1,'nuit'=>0,'Contacto_Nacional'=>'1223','Contacto_Internacional'=>'+258 21 344 400','email'=>'linhacliente@absa.africa','website'=>'https://www.absa.co.mz'],
+            ['nome'=>'Absa Bank Moçambique','codigoBanco'=>1,'Telemóvel'=>'1223','Telefone'=>'+258 21 344 400','email'=>'linhacliente@absa.africa','website'=>'https://www.absa.co.mz'],
 
-            ['nome'=>'BancABC Moçambique ','codigoBanco'=>2,'nuit'=>0,'Contacto_Nacional'=>'92264','Contacto_Internacional'=>'+258 21 48 199','email'=>'mz_callcenter@bancabc.com','website'=>'https://www.bancabc.co.mz/'],
+            ['nome'=>'BancABC Moçambique ','codigoBanco'=>2,'Telemóvel'=>'92264','Telefone'=>'+258 21 48 199','email'=>'mz_callcenter@bancabc.com','website'=>'https://www.bancabc.co.mz/'],
 
-            ['nome'=>'Access Bank Mozambique SA','codigoBanco'=>3,'nuit'=>0,'Contacto_Nacional'=>'0','Contacto_Internacional'=>'0','email'=>'contactcenter.moz@accessbankplc.com','website'=>'mozambique.accessbankplc.com'],
+            ['nome'=>'Access Bank Mozambique SA','codigoBanco'=>3,'Telemóvel'=>'0','Telefone'=>'0','email'=>'contactcenter.moz@accessbankplc.com','website'=>'mozambique.accessbankplc.com'],
 
-            ['nome'=>'BCI','codigoBanco'=>1,'nuit'=>0,'nuit'=>0,'Contacto_Nacional'=>' +258 21353700','Contacto_Internacional'=>'0','email'=>'bci@bci.co.mz','website'=>'www.bci.co.mz'],
+            ['nome'=>'BCI','codigoBanco'=>1,'Telemóvel'=>' +258 21353700','Telefone'=>'0','email'=>'bci@bci.co.mz','website'=>'www.bci.co.mz'],
 
-            ['nome'=>'First Capital Bank SA ','codigoBanco'=>4,'nuit'=>0,'Contacto_Nacional'=>'0','Contacto_Internacional'=>'0','email'=>'0','website'=>'0'],
+            ['nome'=>'First Capital Bank SA ','codigoBanco'=>4,'Telemóvel'=>'258 84 3117 680','Telefone'=>'+ 258 21 320 760','email'=>'suporte.ao.cliente@firstcapitalbank.co.mz','website'=>'www.firstcapitalbank.co.mz'],
 
-            ['nome'=>'FNB','codigoBanco'=>5,'nuit'=>0,'nuit'=>0,'Contacto_Nacional'=>'0','Contacto_Internacional'=>'0','email'=>'0','website'=>'0'],
+            ['nome'=>'FNB','codigoBanco'=>5,'Telemóvel'=>'0','Telefone'=>'+258 21 355 999','email'=>'call.center@fnb.co.mz','website'=>'https://www.fnb.co.mz/'],
 
-            ['nome'=>'Letshego','codigoBanco'=>6,'nuit'=>0,'nuit'=>0,'Contacto_Nacional'=>'0','Contacto_Internacional'=>'0','email'=>'0','website'=>'0'],
+            ['nome'=>'Letshego','codigoBanco'=>6,'Telemóvel'=>'0','Telefone'=>'+267 3643300','email'=>'info@letshego.com','website'=>' https://www.letshego.com/mozambique'],
 
-            ['nome'=>'Banco Mais','codigoBanco'=>7,'nuit'=>0,'nuit'=>0,'Contacto_Nacional'=>'0','Contacto_Internacional'=>'0','email'=>'0','website'=>'0'],
+            ['nome'=>'Banco Mais','codigoBanco'=>7,'Telemóvel'=>'82 30 58 130','Telefone'=>'0','email'=>'info@bancomais.co.mz','website'=>'www.bancomais.co.mz'],
 
-            ['nome'=>'Millennium bim','codigoBanco'=>8,'nuit'=>0,'nuit'=>0,'Contacto_Nacional'=>'0','Contacto_Internacional'=>'0','email'=>'0','website'=>'0'],
+            ['nome'=>'Millennium bim','codigoBanco'=>8,'Telemóvel'=>'82 20 20, 84 20 20','Telefone'=>' 258 21 342 000','email'=>'https://millenniumbim.co.mz','website'=>'www.millenniumbim.co.mz'],
 
-            ['nome'=>'Mozabanco','codigoBanco'=>9,'nuit'=>0,'nuit'=>0,'Contacto_Nacional'=>'0','Contacto_Internacional'=>'0','email'=>'0','website'=>'0'],
+            ['nome'=>'Mozabanco','codigoBanco'=>9,'Telemóvel'=>'+258 843987695 / +258 823058710','Telefone'=>'+258 21 499 543','email'=>'0','website'=>'www.mozabanco.co.mz'],
 
-            ['nome'=>'Socremo','codigoBanco'=>10,'nuit'=>0,'nuit'=>0,'Contacto_Nacional'=>'0','Contacto_Internacional'=>'0','email'=>'0','website'=>'0'],
+            ['nome'=>'Socremo','codigoBanco'=>10,'Telemóvel'=>'+258 843987695 / +258 823058710','Telefone'=>'+258 21 499 543','email'=>'secretariado@socremo.com','website'=>'http://www.socremo.com/'],
 
-            ['nome'=>'Societe Generale','codigoBanco'=>11,'nuit'=>0,'nuit'=>0,'Contacto_Nacional'=>'0','Contacto_Internacional'=>'0','email'=>'0','website'=>'0'],
+            ['nome'=>'Societe Generale','codigoBanco'=>11,'Telemóvel'=>'+25821313222 ou +25882 22 40 224/82 024','Telefone'=>'+25821 481 900','email'=>'https://societegenerale.co.mz','website'=>'https://societegenerale.co.mz'],
 
-            ['nome'=>'Standard Bank','codigoBanco'=>12,'nuit'=>0,'nuit'=>0,'Contacto_Nacional'=>'0','Contacto_Internacional'=>'0','email'=>'0','website'=>'0'],
+            ['nome'=>'Standard Bank','codigoBanco'=>12,'Telemóvel'=>'800 412 412','Telefone'=>'+258 21 329777','email'=>'linhadocliente@standardbank.co.mz','website'=>'https://www.standardbank.co.mz'],
 
-            ['nome'=>'UBA','codigoBanco'=>13,'nuit'=>0,'nuit'=>0,'Contacto_Nacional'=>'0','Contacto_Internacional'=>'0','email'=>'0','website'=>'0'],
+            ['nome'=>'UBA','codigoBanco'=>13,'Telemóvel'=>'+258 800 300 555','Telefone'=>'0','email'=>'cfcmozambique@ubagroup.com','website'=>'www.ubamozambique.com'],
 
-            ['nome'=>'Banco Único','codigoBanco'=>14,'nuit'=>0,'nuit'=>0,'Contacto_Nacional'=>'0','Contacto_Internacional'=>'0','email'=>'0','website'=>'0'],
+            ['nome'=>'Banco Único','codigoBanco'=>14,'Telemóvel'=>'0','Telefone'=>'0','email'=>'comunicacao@bancounico.co.mz','website'=>'http://www.bancounico.co.mz/'],
         ]);
     }
 }
