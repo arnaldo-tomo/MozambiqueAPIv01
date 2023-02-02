@@ -17,9 +17,8 @@ return new class extends Migration
             // $table->id();
             $table->integer('codigoBanco');
             $table->string('nome');
-            $table->integer('Nuit')->nullable();
-            $table->string('Contacto_Nacional');
-            $table->string('Contacto_Internacional');
+            $table->string('Telemóvel');
+            $table->string('Telefone');
             $table->string('email');
             $table->string('website');
 
