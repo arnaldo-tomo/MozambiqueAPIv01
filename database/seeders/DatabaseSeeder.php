@@ -53,6 +53,10 @@ class DatabaseSeeder extends Seeder
             ['Mes'=>'Julho','Valor'=>0.21],
             ['Mes'=>'Agosto','Valor'=>0.52],
         ]);
+        DB::table('provincias')->insert([
+            ['CodigoCidade'=>'ABril','Localidade'=>'0','Provincia'=>'0','Populacao'=>0],
+        ]);
+
         DB::table('feriados')->insert([
             ['Data'=>'1 de Janeiro','Motivo'=>'Ano Novo','Observacoes'=>'Ano Novo'],
             ['Data'=>'3 de Fevereiro','Motivo'=>'Dia dos Heróis Moçambicanos','Observacoes'=>'Em homenagem a Eduardo Mondlane'],
