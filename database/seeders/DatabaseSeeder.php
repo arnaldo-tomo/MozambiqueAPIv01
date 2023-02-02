@@ -55,5 +55,38 @@ class DatabaseSeeder extends Seeder
             ['outrasLinguas'=>'cehhjhjna','mocambique_id'=>1],
             ['outrasLinguas'=>'cejjnjknkna','mocambique_id'=>1],
         ]);
+
+
+        DB::table('bancos')->insert([
+            ['nome'=>'Absa Bank Moçambique','codigoBanco'=>1,'nuit'=>0,'Contacto_Nacional'=>'1223','Contacto_Internacional'=>'+258 21 344 400','email'=>'linhacliente@absa.africa','website'=>'https://www.absa.co.mz'],
+
+            ['nome'=>'BancABC Moçambique ','codigoBanco'=>2,'nuit'=>0,'Contacto_Nacional'=>'92264','Contacto_Internacional'=>'+258 21 48 199','email'=>'mz_callcenter@bancabc.com','website'=>'https://www.bancabc.co.mz/'],
+
+            ['nome'=>'Access Bank Mozambique SA','codigoBanco'=>3,'nuit'=>0,'Contacto_Nacional'=>'0','Contacto_Internacional'=>'0','email'=>'contactcenter.moz@accessbankplc.com','website'=>'mozambique.accessbankplc.com'],
+
+            ['nome'=>'BCI','codigoBanco'=>1,'nuit'=>0,'nuit'=>0,'Contacto_Nacional'=>' +258 21353700','Contacto_Internacional'=>'0','email'=>'bci@bci.co.mz','website'=>'www.bci.co.mz'],
+
+            ['nome'=>'First Capital Bank SA ','codigoBanco'=>4,'nuit'=>0,'Contacto_Nacional'=>'0','Contacto_Internacional'=>'0','email'=>'0','website'=>'0'],
+
+            ['nome'=>'FNB','codigoBanco'=>5,'nuit'=>0,'nuit'=>0,'Contacto_Nacional'=>'0','Contacto_Internacional'=>'0','email'=>'0','website'=>'0'],
+
+            ['nome'=>'Letshego','codigoBanco'=>6,'nuit'=>0,'nuit'=>0,'Contacto_Nacional'=>'0','Contacto_Internacional'=>'0','email'=>'0','website'=>'0'],
+
+            ['nome'=>'Banco Mais','codigoBanco'=>7,'nuit'=>0,'nuit'=>0,'Contacto_Nacional'=>'0','Contacto_Internacional'=>'0','email'=>'0','website'=>'0'],
+
+            ['nome'=>'Millennium bim','codigoBanco'=>8,'nuit'=>0,'nuit'=>0,'Contacto_Nacional'=>'0','Contacto_Internacional'=>'0','email'=>'0','website'=>'0'],
+
+            ['nome'=>'Mozabanco','codigoBanco'=>9,'nuit'=>0,'nuit'=>0,'Contacto_Nacional'=>'0','Contacto_Internacional'=>'0','email'=>'0','website'=>'0'],
+
+            ['nome'=>'Socremo','codigoBanco'=>10,'nuit'=>0,'nuit'=>0,'Contacto_Nacional'=>'0','Contacto_Internacional'=>'0','email'=>'0','website'=>'0'],
+
+            ['nome'=>'Societe Generale','codigoBanco'=>11,'nuit'=>0,'nuit'=>0,'Contacto_Nacional'=>'0','Contacto_Internacional'=>'0','email'=>'0','website'=>'0'],
+
+            ['nome'=>'Standard Bank','codigoBanco'=>12,'nuit'=>0,'nuit'=>0,'Contacto_Nacional'=>'0','Contacto_Internacional'=>'0','email'=>'0','website'=>'0'],
+
+            ['nome'=>'UBA','codigoBanco'=>13,'nuit'=>0,'nuit'=>0,'Contacto_Nacional'=>'0','Contacto_Internacional'=>'0','email'=>'0','website'=>'0'],
+
+            ['nome'=>'Banco Único','codigoBanco'=>14,'nuit'=>0,'nuit'=>0,'Contacto_Nacional'=>'0','Contacto_Internacional'=>'0','email'=>'0','website'=>'0'],
+        ]);
     }
 }
