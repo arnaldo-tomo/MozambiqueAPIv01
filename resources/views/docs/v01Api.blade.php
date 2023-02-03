@@ -102,7 +102,8 @@
                                 class="theme-icon-holder me-2"><i
                                     class="fas
 										fa-globe"></i></span>Regiões</a></li>
-                    <li class="nav-item"><a class="nav-link scrollto" href="#item-3-1">Províncias</a></li>
+                    <li class="nav-item"><a class="nav-link scrollto" href="#item-3-1"> <code
+                                class="bg-success text-white">GET</code> Províncias</a></li>
                     <li class="nav-item"><a class="nav-link scrollto" href="#item-3-2">Municípios</a></li>
                     <li class="nav-item"><a class="nav-link scrollto" href="#item-3-3">Cidades</a></li>
                     <li class="nav-item section-title mt-3"><a class="nav-link scrollto" href="#section-4"><span
@@ -531,74 +532,70 @@
                 <article class="docs-article" id="section-3">
                     <header class="docs-header">
                         <h4 class="docs-heading">Geografia de Moçambique</h1>
-                        <section class="docs-intro">
-                            <p>Moçambique é um país da costa oriental da África Austral que tem como limites: a norte, a Tanzânia; a noroeste, o Malawi e a Zâmbia; a oeste, o Zimbábwe, a África do Sul e a Suazilândia; a sul, a África do Sul; a leste, a secção do Oceano Índico designada por Canal de Moçambique.</p>
-No Canal de Moçambique, os vizinhos são Madagáscar e as Comores (incluindo a possessão francesa de Mayotte). No Oceano Índico, para leste da grande ilha de Madagáscar, situam-se as dependências de Reunião, Juan de Nova e Ilha Europa. No Canal de Moçambique, sensivelmente a meia distância entre o continente e Madagáscar, o atol de Bassas da Índia, igualmente possessão francesa.
-</p>
-A capital de Moçambique é Maputo ( foi chamada por Lourenço Marques durante a dominação portuguesa).
-</p>
-A metade norte (a norte do rio Zambeze) é um grande planalto, com uma pequena planície costeira bordejada de recifes de coral, limitando no interior com maciços montanhosos pertencentes ao sistema do Grande Vale do Rift. A metade sul é caracterizada por uma larga planície costeira de aluvião, coberta por savanas e cortada pelos vales de vários rios, o mais importante dos quais é o rio Limpopo.</p>
-                        </section>
-                        <!--//docs-intro-->
+                            <section class="docs-intro">
+                                <p>Moçambique é um país da costa oriental da África Austral que tem como limites: a
+                                    norte, a Tanzânia; a noroeste, o Malawi e a Zâmbia; a oeste, o Zimbábwe, a África do
+                                    Sul e a Suazilândia; a sul, a África do Sul; a leste, a secção do Oceano Índico
+                                    designada por Canal de Moçambique.</p>
+                                No Canal de Moçambique, os vizinhos são Madagáscar e as Comores (incluindo a possessão
+                                francesa de Mayotte). No Oceano Índico, para leste da grande ilha de Madagáscar,
+                                situam-se as dependências de Reunião, Juan de Nova e Ilha Europa. No Canal de
+                                Moçambique, sensivelmente a meia distância entre o continente e Madagáscar, o atol de
+                                Bassas da Índia, igualmente possessão francesa.
+                                </p>
+                                A capital de Moçambique é Maputo ( foi chamada por Lourenço Marques durante a dominação
+                                portuguesa).
+                                </p>
+                                A metade norte (a norte do rio Zambeze) é um grande planalto, com uma pequena planície
+                                costeira bordejada de recifes de coral, limitando no interior com maciços montanhosos
+                                pertencentes ao sistema do Grande Vale do Rift. A metade sul é caracterizada por uma
+                                larga planície costeira de aluvião, coberta por savanas e cortada pelos vales de vários
+                                rios, o mais importante dos quais é o rio Limpopo.</p>
+                            </section>
+                            <!--//docs-intro-->
                     </header>
                     <section class="docs-section" id="item-3-1">
                         <div class="row">
                             <div class="col">
-                                <h2 class="section-heading">Bancos</h2>
+                                <h2 class="section-heading">Províncias</h2>
                                 <div class="callout-block callout-block-info">
                                     <div class="content">
                                         <h4 class="callout-title">
                                             <span class="callout-icon-holder me-1">
                                                 <i class="fas fa-link"></i>
                                             </span>
-                                            <code><code>http://127.0.0.1:8000/api/v01/docs/bancos</code> </code>
-                                            <!-- <code><code>&lt;GET&gt;</code> </code>
-             ,
-  {
-    <span class="hljs-attr">"title"</span>: <span class="hljs-string">"oranges"</span>,
-    <span class="hljs-attr">"title"</span>: <span class="hljs-string">"oranges"</span>,
-    <span class="hljs-attr">"count"</span>: [<span class="hljs-number">17500</span>, <span class="hljs-literal">null</span>],
-    <span class="hljs-attr">"description"</span>: {<span class="hljs-attr">"text"</span>: <span class="hljs-string">"..."</span>, <span class="hljs-attr">"sensitive"</span>: <span class="hljs-literal">false</span>}
-  }
-            -->
+                                            <code><code>http://127.0.0.1:8000/api/v01/docs/provincias</code> </code>
                                         </h4>
                                     </div>
                                 </div>
-                                <p>Retona informações de todos os bancos de moçambique</p>
-                                <p>Code Example: <code>npm install &lt;package&gt;</code></p>
-                                <h5>Unordered List Examples:</h5>
-                                <ul>
-                                    <li><strong class="me-1">HTML5:</strong> <code>&lt;div id="foo"&gt;</code>
-                                    </li>
-                                    <li><strong class="me-1">CSS:</strong> <code>#foo { color: red }</code></li>
-                                    <li><strong class="me-1">JavaScript:</strong>
-                                        <code>console.log(&#x27;#foo\bar&#x27;);</code>
-                                    </li>
-                                </ul>
+                                <p>Este endpoint retorna a lista de províncias do território nacional.</p>
                             </div>
 
                             <div class="col">
                                 <h5><code class="bg-success text-white">GET</code>
-                                    <code>http://127.0.0.1:8000/api/v01/docs/bancos</code>
+                                    <code>http://127.0.0.1:8000/api/v01/docs/provincias</code>
                                 </h5>
                                 <h6>Reponses samples</h6>
                                 <h5><code class="bg-primary text-white">200</code></h5>
                                 <div class="docs-code-block">
                                     <pre class="shadow-lg rounded"><code class="json hljs">[
   {
-    <span class="hljs-attr">"nome"</span>: <span class="hljs-string">"Maputo"</span>,
-    <span class="hljs-attr">"provincia"</span>: <span class="hljs-string">Maputo</span>,
-    <span class="hljs-attr">"populacao"</span>: [<span class="hljs-number">1,080,277</span>],
+    <span class="hljs-attr">"CodigoCidade"</span>: <span class="hljs-number">1</span>,
+    <span class="hljs-attr">"Localidade"</span>: <span class="hljs-string">"Maputo"</span>,
+    <span class="hljs-attr">"Provincia"</span>: <span class="hljs-string">Cidade de Maputo</span>,
+    <span class="hljs-attr">"populacao"</span>: <span class="hljs-number">672</span>,
   },
   {
-    <span class="hljs-attr">"nome"</span>: <span class="hljs-string">"Matola"</span>,
-    <span class="hljs-attr">"provincia"</span>: <span class="hljs-string">Maputo</span>,
-    <span class="hljs-attr">"populacao"</span>: [<span class="hljs-number">1,032,197</span>],
+    <span class="hljs-attr">"CodigoCidade"</span>: <span class="hljs-number">2</span>,
+    <span class="hljs-attr">"Localidade"</span>: <span class="hljs-string">"Matola"</span>,
+    <span class="hljs-attr">"Provincia"</span>: <span class="hljs-string">Maputo</span>,
+    <span class="hljs-attr">"populacao"</span>: <span class="hljs-number">1178</span>,
   },
   {
-    <span class="hljs-attr">"nome"</span>: <span class="hljs-string">"Nampula"</span>,
-    <span class="hljs-attr">"provincia"</span>: <span class="hljs-string">Nampula</span>,
-    <span class="hljs-attr">"populacao"</span>: [<span class="hljs-number">663,212</span>],
+    <span class="hljs-attr">"CodigoCidade"</span>: <span class="hljs-number">1</span>,
+    <span class="hljs-attr">"Localidade"</span>: <span class="hljs-string">"Beira"</span>,
+    <span class="hljs-attr">"Provincia"</span>: <span class="hljs-string">Sofala</span>,
+    <span class="hljs-attr">"populacao"</span>: <span class="hljs-number">432</span>,
   }
 ]</code></pre>
                                 </div>
@@ -626,7 +623,7 @@ A metade norte (a norte do rio Zambeze) é um grande planalto, com uma pequena p
 
                                 <div class="row ">
                                     <div class="col mb-4">
-                                        <h2 class="section-heading">Bancos</h2>
+                                        <h2 class="section-heading mb-2">Cidades</h2>
                                         <div class="callout-block callout-block-info">
                                             <div class="content">
                                                 <h4 class="callout-title">
@@ -638,11 +635,12 @@ A metade norte (a norte do rio Zambeze) é um grande planalto, com uma pequena p
                                                 </h4>
                                             </div>
                                         </div>
-                                        <p>Busaca as informações de um banco a partir de um codigo.</p>
+                                        <p>Este endpoint retorna a lista de províncias do
+                                            território nacional ou apenas uma província se o ID for informado.</p>
                                     </div>
                                     <div class="col py-4">
                                         <h5><code class="bg-success text-white">GET</code>
-                                            <code>https://mocambiqueApi/docs/v01/bancos{1}</code>
+                                            <code>https://mocambiqueApi/docs/v01/provincias{10}</code>
                                         </h5>
                                         <h6>Reponses samples</h6>
                                         <h5><code class="bg-info text-white">200</code> <code
@@ -650,9 +648,10 @@ A metade norte (a norte do rio Zambeze) é um grande planalto, com uma pequena p
                                         <div class="docs-code-block">
                                             <pre class="shadow-lg rounded"><code class="json hljs">[
   {
-    <span class="hljs-attr">"code"</span>: <span class="hljs-number">1</span>,
-    <span class="hljs-attr">"nome"</span>: <span class="hljs-string">"ABSA"</span>,
-    <span class="hljs-attr">"FullName"</span>: <span class="hljs-string">"Bank Mozambique SA"</span>,
+    <span class="hljs-attr">"CodigoCidade"</span>: <span class="hljs-number">10</span>,
+    <span class="hljs-attr">"Localidade"</span>: <span class="hljs-string">"Xai-Xai"</span>,
+    <span class="hljs-attr">"Provincia"</span>: <span class="hljs-string">Gaza</span>,
+    <span class="hljs-attr">"populacao"</span>: <span class="hljs-number">127</span>,
   },
 ]</code></pre>
                                         </div>
